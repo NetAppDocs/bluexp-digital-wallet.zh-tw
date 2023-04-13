@@ -1,0 +1,70 @@
+---
+settings:
+  name: BlueXP digital wallet
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr
+sidebar:
+  entries:
+  - title: BlueXP 數位錢包文件
+    url: "/index.html"
+  - title: 版本資訊
+    url: "/whats-new.html"
+  - title: 開始使用
+    entries:
+    - title: 瞭解 BlueXP 數位錢包
+      url: "/concept-digital-wallet.html"
+  - title: 使用 BlueXP 數位錢包
+    entries:
+    - title: 管理 Cloud Volumes ONTAP 的授權
+      entries:
+      - title: 容量型授權
+        url: "/task-manage-capacity-licenses.html"
+      - title: 節點型授權
+        url: "/task-manage-node-based-licenses.html"
+    - title: 管理 BlueXP 資料服務的授權
+      url: "/task-manage-data-services-licenses.html"
+    - title: 管理PAYGO訂閱與合約
+      url: "/task-manage-subscriptions.html"
+    - title: 管理 Keystone Flex 訂閱
+      url: "/task-manage-keystone.html"
+    - title: 管理內部部署 ONTAP 叢集的授權
+      url: "/task-manage-on-prem-clusters.html"
+  - title: 知識與支援
+    entries:
+    - title: 註冊以取得支援
+      url: "/task-support-registration.html"
+    - title: 取得協助
+      url: "/task-get-help.html"
+  - title: 法律聲明
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: 開始使用
+    links:
+    - title: 瞭解 BlueXP 數位錢包
+      url: concept-digital-wallet.html
+  - title: 管理您的授權
+    links:
+    - title: 管理 Cloud Volumes ONTAP 的容量型授權
+      url: task-manage-capacity-licenses.html
+    - title: 管理 BlueXP 資料服務的授權
+      url: task-manage-data-services-licenses.html
+    - title: 管理PAYGO訂閱與合約
+      url: task-manage-subscriptions.html
+  - title: 部落格與社群
+    links:
+    - title: NetApp社群
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP部落格
+      url: https://bluexp.netapp.com/blog
+    - title: 雲端網路研討會
+      url: https://bluexp.netapp.com/events
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: 所有BlueXP文件

@@ -1,0 +1,90 @@
+---
+sidebar: sidebar 
+permalink: task-manage-on-prem-clusters.html 
+keywords: digital wallet, cluster, on-prem ontap cluster, onprem cluster, contract, licensing, ontap licensing, ontap contract 
+summary: BlueXP 數位錢包可讓您檢視每個內部部署 ONTAP 叢集的合約詳細資料。如果您尚未在 BlueXP 中發現叢集、也可以從數位錢包中找到叢集。 
+---
+= 管理內部部署 ONTAP 叢集的授權
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP 數位錢包可讓您檢視每個內部部署 ONTAP 叢集的合約詳細資料。如果您尚未在 BlueXP 中發現叢集、也可以從數位錢包中探索叢集。
+
+.開始之前
+BlueXP 數位錢包會顯示內部部署 ONTAP 叢集的詳細資料、這些叢集是您在工作環境中發現的、或是與您新增至 BlueXP 的 NetApp 支援網站 帳戶相關聯的叢集。
+
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["瞭解如何探索內部部署 ONTAP 叢集"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["瞭解如何管理與 BlueXP 帳戶相關的 NSS 認證"^]
+
+
+
+
+== 檢視叢集資訊和合約詳細資料
+
+檢視內部部署 ONTAP 叢集的硬體和軟體合約狀態、以便在合約到期前進行續約。
+
+.步驟
+. 從BlueXP導覽功能表中、選取*管理>數位錢包*。
+. 選取*內部部署ONTAP 的S--。
++
+每個叢集的軟體合約和硬體合約到期日均會顯示在行上。
+
++
+如果系統提示您先輸入 NetApp 支援網站 （ NSS ）帳戶認證、請選取 * 新增 NSS 帳戶 * 。新增帳戶後、會出現與該 NSS 帳戶相關聯的叢集。
+
+. 如果合約已接近到期日或已過期、您可以按一下 BlueXP 主控台右下角的聊天圖示、要求延長合約期限。
+. 若要檢視更多詳細資料、請按一下 image:button_down_caret.png["一個脫機圖示"] 以展開叢集資訊。
++
+image:screenshot_digital_wallet_license_info.png["擴充叢集詳細資料的快照、以便您檢視叢集授權資訊。"]
+
+
+
+
+
+== 探索叢集
+
+如果您尚未發現內部部署的 ONTAP 叢集是工作環境、您可以從 BlueXP 數位錢包中進行。一旦發現叢集、就能在 BlueXP 中作為工作環境使用、以便您管理它。
+
+.開始之前
+您應該瞭解探索和管理選項（使用 Connector 進行探索或不使用 Connector 進行直接探索）、以及探索需求。
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["瞭解探索選項和需求"^]。
+
+.步驟
+. 從BlueXP導覽功能表中、選取*管理>數位錢包*。
+. 選取*內部部署ONTAP 的S--。
++
+image:screenshot_digital_wallet_onprem_main.png["「數位錢包」頁面的快照、適用於內部部署ONTAP 的叢集。"]
+
++
+您的 ONTAP 叢集會顯示其狀態、說明它們是否已在 BlueXP 中被發現。
+
++
+如果系統提示您先輸入 NetApp 支援網站 （ NSS ）帳戶認證、請選取 * 新增 NSS 帳戶 * 。新增帳戶後、會出現與該 NSS 帳戶相關聯的叢集。
+
+. 按一下* Discover（探索）*以瞭解您要透過BlueXP管理的叢集。
+. 在_探索ONTAP 更新叢集_頁面上、輸入管理員使用者帳戶的密碼、然後按一下*探索*。
++
+image:screenshot_discover_ontap_wallet.png["快照顯示 ONTAP 「叢集管理詳細資料」頁面的範例：叢集管理 IP 位址、使用者名稱和密碼。"]
+
++
+請注意、叢集管理 IP 位址會根據 NetApp 支援網站 帳戶的資訊填入。
+
+
+
+.結果
+BlueXP 會探索叢集、並將其新增為 Canvas 的工作環境。叢集的狀態會在「內部部署ONTAP 」（_on－en——內部部署）頁面中變成*已探索*。請注意、工作環境名稱是叢集的名稱。
+
+image:screenshot_onprem_cluster.png["畫版中內部的叢集快照ONTAP 。"]
+
+您現在可以開始管理叢集。
+
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-connector.html["瞭解如何管理透過Connector探索到的叢集"^]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["瞭解如何直接管理探索到的叢集"^]
+

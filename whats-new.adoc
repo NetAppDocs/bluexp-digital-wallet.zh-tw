@@ -1,0 +1,113 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
+summary: 瞭解 BlueXP 數位錢包的新功能。 
+---
+= 新功能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+瞭解 BlueXP 數位錢包的新功能。
+
+
+
+== 2023年4月3日
+
+
+
+=== 電子郵件通知
+
+數位錢包現在支援電子郵件通知。
+
+如果您設定通知設定、您可以在BYOL授權即將過期（「警告」通知）或已過期（「錯誤」通知）時收到電子郵件通知。
+
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["瞭解如何設定電子郵件通知"^]
+
+
+
+=== 授權的市場訂閱容量
+
+在檢視 Cloud Volumes ONTAP 的容量型授權時、數位錢包現在會顯示您購買的市場私有優惠授權容量。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["瞭解如何檢視您帳戶中的已用容量"]。
+
+
+
+== 2022年11月6日
+
+
+
+=== 訂閱與年度合約
+
+您的PAYGO訂閱和BlueXP年度合約現已可供檢視及管理、請參閱Digital Wallet。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-subscriptions.html["瞭解如何管理您的訂閱"]。
+
+
+
+== 2022年9月18日
+
+
+
+=== 最佳化的 I/O 和 WORM 容量
+
+數位錢包現在會顯示最佳化I/O授權套件的摘要、以及Cloud Volumes ONTAP 整個帳戶中針對各個系統所配置的WORM容量。
+
+這些詳細資料可協助您更深入瞭解如何收取費用、以及是否需要購買額外容量。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["瞭解如何檢視您帳戶中的已用容量"]。
+
+
+
+== 2022年7月31日
+
+
+
+=== 變更充電方法
+
+您現在可以變更Cloud Volumes ONTAP 使用容量型授權的功能、以供選用的功能。例如、如果您部署Cloud Volumes ONTAP 的是含有Essentials套件的功能完善的系統、則當您的業務需求改變時、可以將其變更為Professional套件。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["瞭解如何變更充電方法"]。
+
+
+
+== 2022年7月3日
+
+
+
+=== 已用容量
+
+數位錢包現在會顯示您帳戶的總使用容量、以及授權套件的使用容量。這有助於瞭解您的收費方式、以及您是否需要購買額外容量。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["顯示容量型授權的「Digital Wallet」頁面的快照。此頁面概述您帳戶中的已用容量、然後依照授權套件細分已用容量。"]
+
+
+
+== 2022年2月27日
+
+
+
+=== 內部部署 ONTAP 叢集的授權
+
+您現在可以檢視內部部署 ONTAP 叢集的詳細目錄、以及其硬體和服務合約到期日。此外也提供叢集的其他詳細資料。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["瞭解如何管理內部部署 ONTAP 叢集的授權"]。
+
+
+
+== 2022年1月2日
+
+
+
+=== 授權條款會自動更新
+
+如果您變更任何授權的容量或期限、授權條款現在會自動更新至 Digital Wallet 。您不需要自行手動更新授權。
+
+自動授權更新適用於所有類型的 Cloud Volumes ONTAP 授權和所有資料服務授權。
