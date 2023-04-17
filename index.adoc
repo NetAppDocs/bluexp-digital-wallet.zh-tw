@@ -5,7 +5,7 @@ permalink: index.html
 lead: The BlueXP digital wallet provides centralized management and monitoring of your licenses and subscriptions. 
 summary: BlueXP 數位錢包可集中管理及監控您的授權與訂閱。 
 ---
-= BlueXP 數位錢包
+= BlueXP 數位錢包文件
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
