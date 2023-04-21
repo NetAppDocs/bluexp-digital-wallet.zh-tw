@@ -74,14 +74,9 @@
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
   <block id="012ae05db65bea80da7b7050b5d96f9e" category="list-text">管理 Cloud Volumes ONTAP 的容量型和節點型授權</block>
   <block id="62d9aca3bac1caa2d9cff120588c3e35" category="list-text">新增及管理 BlueXP 資料服務的授權</block>
-  <block id="94c8d5dbc233a7f83819d5552acfe787" category="list-text">管理 PAYGO 的訂閱、以及與 BlueXP 帳戶和 Astra 相關的年度合約</block>
   <block id="68893f701c3397a3a6f6ae5a965a7ef6" category="list-text">管理 Keystone Flex 訂閱以搭配 Cloud Volumes ONTAP 使用、並要求變更提交容量</block>
   <block id="385b7e85ac73053263ffe4f49784da13" category="list-text">檢視內部部署 ONTAP 叢集的硬體和軟體合約狀態資訊</block>
   <block id="ea22f9957523103248d84695e98b17ba" category="section-title">支援的服務</block>
-  <block id="0cf6e0b36272b906da65f6af3ab672b0" category="paragraph">BlueXP 數位錢包可讓您管理下列 BlueXP 服務的授權：</block>
-  <block id="dad57e95fc9a5390302ad830888cbdb9" category="list-text">雲端備份</block>
-  <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="list-text">雲端資料感測</block>
-  <block id="92d2b6aba6afa3f690540cf3dba9b633" category="list-text">雲端分層</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="list-text">Cloud Volumes ONTAP</block>
   <block id="d0f1687c68ee0f0d9bac765716d18923" category="list-text">內部 ONTAP 部署的叢集</block>
   <block id="a4f0f752cbc0651ce6551bad053b1ae6" category="summary">BlueXP 數位錢包可集中管理及監控您的授權與訂閱。</block>
@@ -240,15 +235,8 @@
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*結案案例*：提供結案原因的詳細資料、然後按一下*結案案例*。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">螢幕擷取畫面、顯示您在表格最後一欄選取功能表後可以採取的動作。</block>
   <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4dc97d13f8afbf15e0936287290445d1" category="summary">BlueXP 數位錢包可讓您管理直接從 NetApp （ BYOL ）購買的授權、以搭配 Cloud Backup 、 Cloud Data Sense 和 Cloud Tiering 使用。您可以檢視已用的授權容量、剩餘的可用容量、如果達到容量上限或到期日、就會看到通知。</block>
   <block id="e9598339aeb07702e2b24ef63fca36cc" category="doc">管理 BlueXP 資料服務的授權</block>
   <block id="9733849463a86c6a043ab58c8ddf1ac4" category="paragraph">本頁上的指示提供適用於每項服務的資訊。如需這些服務授權的詳細資訊、請參閱下列頁面：</block>
-  <block id="854a5b181af5166b0412d0786c77db0b" category="inline-link">設定雲端備份授權</block>
-  <block id="b984bca5aec62e5640849a3ce56f3a6c" category="list-text"><block ref="b984bca5aec62e5640849a3ce56f3a6c" category="inline-link-rx"></block></block>
-  <block id="0ed0a0ad5aadf8f8ef3ea382b8f4a106" category="inline-link">設定Cloud Data Sense授權</block>
-  <block id="b3b23402aeecfc18bdb1d8932564085d" category="list-text"><block ref="b3b23402aeecfc18bdb1d8932564085d" category="inline-link-rx"></block></block>
-  <block id="4b75686c0a14158ec6b99e93fbf1828b" category="inline-link">設定雲端分層授權</block>
-  <block id="f896a045834fbc7eb21af1d43d98136b" category="list-text"><block ref="f896a045834fbc7eb21af1d43d98136b" category="inline-link-rx"></block></block>
   <block id="73acd586df3bf9938d39f0e738d5c161" category="section-title">取得授權檔案</block>
   <block id="f11bf973a6c8039ecfd0152979db21be" category="paragraph">購買授權後、您可以在 BlueXP 中輸入序號和 NSS 帳戶、或上傳 NetApp 授權檔案（ NLF ）來啟動授權。下列步驟說明如果您打算使用NLF授權檔案、該如何取得該檔案。</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 支援網站</block>
@@ -269,15 +257,10 @@
   <block id="bae190eec3db4a0dd635ae72756acde8" category="inline-link">將新增至BlueXP的NSS帳戶</block>
   <block id="3a7d2aab6d3f158a52978777da89804f" category="paragraph">如果下拉式清單中沒有您的 NetApp 支援網站帳戶，<block ref="6d9745cd4f1d60b55f06aef4c5cb6ec4" category="inline-link-rx"></block></block>
   <block id="6e2573cea3af840a0c24f94975047370" category="list-text">如果您有授權檔案（在私有模式下使用 BlueXP 時需要）、請選取 * 上傳授權檔案 * 選項、然後依照提示附加檔案。</block>
-  <block id="b91c77235ab93af32b475ca05ffa1ab2" category="inline-image-macro">顯示新增Cloud Backup BYOL授權頁面的快照。</block>
-  <block id="78364824176e311173787bc994b841d4" category="paragraph"><block ref="78364824176e311173787bc994b841d4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9f7100a1f5980a935ee73427b4e84228" category="paragraph">BlueXP 新增授權。</block>
   <block id="6c1c5737355a8b30e87ad5d7c6da9553" category="section-title">更新授權</block>
-  <block id="f2325e725df0937d64ac12917b15a3b3" category="paragraph">如果您的授權期限即將到期、或是您的授權容量已達到上限、數位錢包將會通知您。您可以在授權到期前更新授權、以避免您使用 BlueXP 資料服務的能力中斷。</block>
   <block id="89ec6475bcd2a52ce9ca1c8fa843339e" category="inline-image-macro">顯示「Digital Wallet」頁面即將到期授權的快照。</block>
   <block id="b16535eaa5694c59eb7ff71777c5cd59" category="paragraph"><block ref="b16535eaa5694c59eb7ff71777c5cd59" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bb99d6c3efadbec99aeab8b89922e30d" category="list-text">按一下 BlueXP 右下角的聊天圖示、或聯絡支援部門、要求延長您的期限、或要求額外的授權容量以取得特定序號。</block>
-  <block id="8061535eb5e8bab52c4a8a0fdc119d14" category="paragraph">在您支付授權費用並向NetApp 支援網站 《The》（《The》）註冊之後、BlueXP會自動更新「Digital Wallet」（數位錢包）中的授權、而「Data Services Licenses」（資料服務授權）頁面將會在5到10分鐘內反映變更。</block>
   <block id="b74318cb9e5cf2bae938953860aade06" category="list-text">如果 BlueXP 無法自動更新授權（例如、在私有模式中使用 BlueXP ）、則您需要手動上傳授權檔案。</block>
   <block id="b2b168bd64a341a85c749cb61bba40cb" category="inline-xref">從 NetApp 支援網站取得授權檔案</block>
   <block id="5281a9b97c306047dc796d618670919d" category="list-text">您可以 <block ref="2ee9df93e68c4a0ffa870dc00950ab97" category="inline-xref-macro-rx"></block>。</block>
@@ -324,22 +307,18 @@
   <block id="490414e0366b091220802d406e52c076" category="doc">新功能</block>
   <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023年4月3日</block>
   <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">電子郵件通知</block>
-  <block id="a08572617e25a61e8569807ac103ab07" category="paragraph">數位錢包現在支援電子郵件通知。</block>
   <block id="380d0a0b2cec998dcd9f52b91b24304c" category="paragraph">如果您設定通知設定、您可以在BYOL授權即將過期（「警告」通知）或已過期（「錯誤」通知）時收到電子郵件通知。</block>
   <block id="335e7f21f0fdfecbe9c04540dcb8cdd6" category="inline-link">瞭解如何設定電子郵件通知</block>
   <block id="497d867daded8927a3cf934337006373" category="paragraph"><block ref="497d867daded8927a3cf934337006373" category="inline-link-rx"></block></block>
   <block id="164bf9dea8d8396a2e7501258b908616" category="section-title">授權的市場訂閱容量</block>
-  <block id="1b8d4ee3ff5e577bc8524d6a5e73790e" category="paragraph">在檢視 Cloud Volumes ONTAP 的容量型授權時、數位錢包現在會顯示您購買的市場私有優惠授權容量。</block>
   <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">瞭解如何檢視您帳戶中的已用容量</block>
   <block id="1e9f781ad3dabc2f942313854ce94883" category="paragraph"><block ref="bcd8bf14da5e102dbc4b48dd0870869e" category="inline-link-rx"></block>。</block>
   <block id="5a4346a01828d72104a6540080377b25" category="section-title">2022年11月6日</block>
   <block id="36e33f823d687cad39366d44fd0b326d" category="section-title">訂閱與年度合約</block>
-  <block id="a7dad5ac7e311dedf2a82e4bb5a713dd" category="paragraph">您的PAYGO訂閱和BlueXP年度合約現已可供檢視及管理、請參閱Digital Wallet。</block>
   <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">瞭解如何管理您的訂閱</block>
   <block id="02a7eedc354fe91b04b9ff906dc9c760" category="paragraph"><block ref="dcb08a7187e62f8d5d6c3eba08ea6b8f" category="inline-link-rx"></block>。</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="b269d65b4fd592fc59288f3c9c3917b9" category="section-title">最佳化的 I/O 和 WORM 容量</block>
-  <block id="e1de90a0937196074c7abb9f8b5e5edf" category="paragraph">數位錢包現在會顯示最佳化I/O授權套件的摘要、以及Cloud Volumes ONTAP 整個帳戶中針對各個系統所配置的WORM容量。</block>
   <block id="c3304f9cf1f523f219fc4a936bde8242" category="paragraph">這些詳細資料可協助您更深入瞭解如何收取費用、以及是否需要購買額外容量。</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="b69737a8aa6d54e160fd215ef53825b5" category="section-title">變更充電方法</block>
@@ -348,9 +327,6 @@
   <block id="8c8503ff8c21813561363b608190163e" category="paragraph"><block ref="24cab88ee4e7cc87558a54f6745deabe" category="inline-link-rx"></block>。</block>
   <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">2022年7月3日</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">已用容量</block>
-  <block id="d5503d6062daaaa4326462970164cbac" category="paragraph">數位錢包現在會顯示您帳戶的總使用容量、以及授權套件的使用容量。這有助於瞭解您的收費方式、以及您是否需要購買額外容量。</block>
-  <block id="232ac716fdabb7e9b9ba7c3a108574a7" category="inline-image-macro">顯示容量型授權的「Digital Wallet」頁面的快照。此頁面概述您帳戶中的已用容量、然後依照授權套件細分已用容量。</block>
-  <block id="998e6cc07bc5c3b4a2329ad21093316c" category="paragraph"><block ref="998e6cc07bc5c3b4a2329ad21093316c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022年2月27日</block>
   <block id="ad542dc76a1c13d716648648c7052561" category="section-title">內部部署 ONTAP 叢集的授權</block>
   <block id="cc6992a66b9fc6bd5f23a20beff49e2a" category="paragraph">您現在可以檢視內部部署 ONTAP 叢集的詳細目錄、以及其硬體和服務合約到期日。此外也提供叢集的其他詳細資料。</block>
@@ -358,7 +334,6 @@
   <block id="770294ba582707dbf5d21f7add8b531e" category="paragraph"><block ref="d28003d0743d6fc8a920f6982b9bd603" category="inline-link-rx"></block>。</block>
   <block id="586301717819197e24001cac47efdaaa" category="section-title">2022年1月2日</block>
   <block id="d5ce756f503ae6211b9ef6c827e757be" category="section-title">授權條款會自動更新</block>
-  <block id="310c945b52669c8754bf13907cbb5859" category="paragraph">如果您變更任何授權的容量或期限、授權條款現在會自動更新至 Digital Wallet 。您不需要自行手動更新授權。</block>
   <block id="b2d68f8e07e0e6ca8d81ba9d15e96e7e" category="paragraph">自動授權更新適用於所有類型的 Cloud Volumes ONTAP 授權和所有資料服務授權。</block>
   <block id="94fd71e366753efc2c71fcdd0fc3afd4" category="summary">BlueXP 數位錢包可讓您檢視每個內部部署 ONTAP 叢集的合約詳細資料。如果您尚未在 BlueXP 中發現叢集、也可以從數位錢包中找到叢集。</block>
   <block id="dc8526e1d318113e071717b2a8bb27b7" category="doc">管理內部部署 ONTAP 叢集的授權</block>
@@ -400,16 +375,12 @@
   <block id="2b3c797a98693bc95eb014beb60621b8" category="list-text"><block ref="2b3c797a98693bc95eb014beb60621b8" category="inline-link-rx"></block></block>
   <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link">瞭解如何直接管理探索到的叢集</block>
   <block id="99d7f3ff9fb7308bda3abc7d58891657" category="list-text"><block ref="99d7f3ff9fb7308bda3abc7d58891657" category="inline-link-rx"></block></block>
-  <block id="4d17b7f0d1f8c0ae69c0ec8d32fea349" category="summary">當您從雲端供應商的市場訂閱BlueXP時、系統會將您重新導向至BlueXP網站、您需要在其中儲存訂閱內容、並將其與特定帳戶建立關聯。訂閱之後、即可從Digital Wallet管理每份訂閱。</block>
   <block id="b01b1be092b95233172f870dc729234b" category="doc">管理PAYGO訂閱與合約</block>
   <block id="e858f445394700e621aa67dd8e3fe958" category="section-title">檢視您的訂閱內容</block>
-  <block id="9c1b3fb5f48f73ce89025933ec931382" category="paragraph">Digital Wallet提供每份PAYGO訂閱的詳細資料、以及與您的BlueXP帳戶和Astra（Astra使用BlueXP的收費服務）相關的年度合約。</block>
   <block id="8c3682e85d7f4dbe8a46485082335dec" category="list-text">選擇*訂閱*。</block>
   <block id="1422eb9c77ef6c74d6abe35beedc5d64" category="paragraph">您只會看到與您目前檢視的帳戶相關聯的訂閱內容。</block>
   <block id="572e470335e0a6d55da05c732a01aed3" category="list-text">當您檢視訂閱的相關資訊時、您可以與表格中的詳細資料互動、如下所示：</block>
   <block id="6a1de13d318f22872902849cd26467b4" category="list-text">展開一列以檢視更多詳細資料。</block>
-  <block id="d61aec883b403c61da2d8d8e19d78473" category="inline-image-macro">數位錢包中「訂閱」索引標籤的快照、您可以在其中選取列末端的箭頭加以展開。</block>
-  <block id="3a9d2caf2b3b63f1b3ab7d00e469b158" category="paragraph"><block ref="3a9d2caf2b3b63f1b3ab7d00e469b158" category="inline-image-macro-rx" type="image"></block></block>
   <block id="56594b7222b35921f9fe676eadf6bbdf" category="inline-image-macro">表格標題結尾的加號圖示</block>
   <block id="33d90cc16eaedf37738a3faf06f00f36" category="list-text">選取 <block ref="98b11313fea6c4106e5a3c018f0ffbc9" category="inline-image-macro-rx" type="image"></block> 可選擇表格中顯示的列。</block>
   <block id="c090ce3dc0b8ea780bfa95c666328c67" category="paragraph">請注意、「字詞」和「自動更新」欄預設不會出現。「自動更新」欄僅顯示Azure合約的續約資訊。</block>
@@ -419,11 +390,8 @@
   <block id="382b0f5185773fa0f67a8ed8056c7759" category="list-text">不適用</block>
   <block id="716e98867696fbbeed00e3dcd1f76758" category="list-text">如果您在表格中看到N/A、目前無法從雲端供應商的API取得資訊。</block>
   <block id="cd494d76449d5dfe0c0adfb2f3447761" category="list-text">合約</block>
-  <block id="8090b542b799e2f0268fddd048d44eda" category="list-text">如果您擴充合約的詳細資料、Digital Wallet會顯示目前計畫的可用項目：合約選項和單位（容量或節點數）。</block>
-  <block id="7f96d1365390f4c6a7c1befe0b068769" category="list-text">數位錢包會識別終止日期、以及合約是否即將續約、即將結束、或是否已結束。</block>
   <block id="def1d5f1d4a6db4b59f941bed287221d" category="list-text">如果您有 AWS 合約、而且在開始日期之後變更了任何合約選項、請務必從 AWS Marketplace 驗證您的合約選項。</block>
   <block id="6942b724002d90bb0f705f478cdd6bf3" category="section-title">管理您的訂閱</block>
-  <block id="ac3dad7b0d90a8896f44e77f84726619" category="paragraph">您可以重新命名訂閱、並選擇與訂閱相關的帳戶、從Digital Wallet管理訂閱內容。</block>
   <block id="0c3ef8839b737ed6600351348aace81b" category="paragraph">例如、假設您有兩個帳戶、每個帳戶都是透過個別的訂閱付費。您可能會取消訂閱與其中一個帳戶的關聯、因此該帳戶的使用者在建立 Cloud Volumes ONTAP 工作環境時、不會意外選擇錯誤的訂閱。</block>
   <block id="e97d1d1134e32a84fb4d6d796e3e56a9" category="list-text">選取您要管理之訂閱的對應列中的動作功能表。</block>
   <block id="1dea06c0cd8c3b77e4597670a860c155" category="inline-image-macro">訂閱的動作功能表快照。</block>
@@ -431,7 +399,6 @@
   <block id="1201c1bd99e40a424aee33ac62838b92" category="list-text">選擇重新命名訂閱、或管理與訂閱相關的 BlueXP 帳戶。</block>
   <block id="7e3a4c0ec1aee45acf094839bb9c449f" category="summary">在Digital Wallet中管理您的節點型授權、確保每Cloud Volumes ONTAP 個版本都擁有有效的授權、並具備所需的容量。</block>
   <block id="de94398a333e3b7bdafad2ddf3232331" category="doc">管理節點型授權</block>
-  <block id="15d021d83ccb68dbaf63683ce6741fee" category="paragraph">在Digital Wallet中管理節點型授權、以確保每Cloud Volumes ONTAP 個版本均具有有效的授權、並具有所需的容量。</block>
   <block id="4627bd080634e9380c75a1cc04a09486" category="paragraph">_Node型授權_是前一代授權模式（不適用於新客戶）：</block>
   <block id="81f9d97336a30fb7be6f8d770fee25eb" category="list-text">向NetApp購買BYOL授權</block>
   <block id="17ac9e85cf5b6f7b77acf61fb7721242" category="list-text">從雲端供應商的市場訂閱每小時隨付（PAYGO）</block>
@@ -549,4 +516,37 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="49f326995814ee311b340478f99f992f" category="doc">BlueXP 數位錢包文件</block>
+  <block id="d73d2254cb7a33ffdc126efbce99e623" category="list-text">管理 PAYGO 的訂閱、以及與 BlueXP 帳戶和 Astra Control 相關的年度合約</block>
+  <block id="bf4700247951934a88713e31aa00a0a6" category="paragraph">BlueXP 數位錢包可讓您管理下列項目的授權：</block>
+  <block id="be062cdcabbb3055334e8f19b4bdf378" category="list-text">備份與還原</block>
+  <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="list-text">分類</block>
+  <block id="337c62c6b6eb7319bae58701105e889c" category="list-text">分層</block>
+  <block id="fd75ff71faa02dfc85d4684cc9a98740" category="summary">BlueXP 數位錢包可讓您管理直接從 NetApp （ BYOL ）購買的授權、以搭配 BlueXP 備份與還原、分類及分層使用。您可以檢視已用的授權容量、剩餘的可用容量、如果達到容量上限或到期日、就會看到通知。</block>
+  <block id="f4b04af639ebf32754e26b928989f33f" category="inline-link">設定 BlueXP 備份與還原的授權</block>
+  <block id="10ec558978234bae716554274b27c5bc" category="list-text"><block ref="10ec558978234bae716554274b27c5bc" category="inline-link-rx"></block></block>
+  <block id="6212c283c0695ee1a154f1a6cdde74ef" category="inline-link">設定 BlueXP 分類的授權</block>
+  <block id="393acb1dea64f92d858ed4b9c5d6deda" category="list-text"><block ref="393acb1dea64f92d858ed4b9c5d6deda" category="inline-link-rx"></block></block>
+  <block id="8202299929ccdfe388049a03c2c36d60" category="inline-link">設定 BlueXP 分層授權</block>
+  <block id="7446ed3e56afcef7894742c01a3465b0" category="list-text"><block ref="7446ed3e56afcef7894742c01a3465b0" category="inline-link-rx"></block></block>
+  <block id="f5b39d30a98c93c6a597de76a3901496" category="inline-image-macro">顯示頁面以新增 BYOL 授權的螢幕快照。</block>
+  <block id="2ab8c9555cb0a7278c9c119126d09972" category="paragraph"><block ref="2ab8c9555cb0a7278c9c119126d09972" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8d16d75f7a68c03867a9fa6a0c1e8e53" category="paragraph">如果您的授權期限即將到期、或是您的授權容量已達到上限、您將會在 BlueXP 數位錢包中收到通知。您可以在授權到期前更新授權、以避免您使用 BlueXP 資料服務的能力中斷。</block>
+  <block id="2778ca24e217e309a35a740dcd70d977" category="list-text">按一下 BlueXP 右下角的聊天圖示、或聯絡支援人員、要求延長您的期限、或要求額外的授權容量以取得特定序號。</block>
+  <block id="1b87732cda1ee77b5952013e06e1ac10" category="paragraph">在您支付授權費用並向 NetApp 支援網站 註冊之後、 BlueXP 會自動更新數位錢包中的授權、而「資料服務授權」頁面會在 5 到 10 分鐘內反映變更。</block>
+  <block id="d128bda2634e1051cc984231da065144" category="paragraph">BlueXP 數位電子錢包現在支援電子郵件通知。</block>
+  <block id="016c818ed3128119f94a31cbec32bf1f" category="paragraph">在檢視 Cloud Volumes ONTAP 的容量型授權時、 BlueXP 數位錢包現在會顯示您購買的市場私有優惠授權容量。</block>
+  <block id="b3e680bd6b6b80e2fd4f5bd19f3ad015" category="paragraph">您的 PAYGO 訂閱和 BlueXP 年度合約現在可從 BlueXP 數位錢包檢視和管理。</block>
+  <block id="dfc3d3012360c41f119ce032ebb3ed8b" category="paragraph">BlueXP 數位錢包現在會顯示最佳化 I/O 授權套件的摘要、以及您帳戶中 Cloud Volumes ONTAP 系統的隨需 WORM 容量。</block>
+  <block id="290fbe7a9d91cd4191566b8d26837eb2" category="paragraph">現在顯示您帳戶的總使用容量、以及授權套件所耗用的容量。這有助於瞭解您的收費方式、以及您是否需要購買額外容量。</block>
+  <block id="61589f40a840f6f60d0d36160690dc0e" category="inline-image-macro">顯示容量型授權頁面的螢幕擷取畫面。此頁面概述您帳戶中的已用容量、然後依照授權套件細分已用容量。</block>
+  <block id="ec263309aca016e16fe4380d1c571c9e" category="paragraph"><block ref="ec263309aca016e16fe4380d1c571c9e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ccb04438d71ca79f2a97704ba47b5adf" category="paragraph">如果您變更任何授權的容量或期限，授權條款現在會在中自動更新。您不需要自行手動更新授權。</block>
+  <block id="682e041ff00069faf1e43f1e418221a6" category="summary">當您從雲端供應商的市場訂閱BlueXP時、系統會將您重新導向至BlueXP網站、您需要在其中儲存訂閱內容、並將其與特定帳戶建立關聯。訂閱後、每筆訂閱都可從 BlueXP 數位錢包進行管理。</block>
+  <block id="65459c618528464246bc4dd16dea72ba" category="paragraph">BlueXP 數位錢包提供每份 PAYGO 訂閱及與 BlueXP 帳戶和 Astra Control （ Astra Control 使用 BlueXP 的收費服務）相關的年度合約的詳細資料。</block>
+  <block id="69cda14c45037fc1c766e6b7626c706b" category="inline-image-macro">數位電子錢包中「訂閱」索引標籤的螢幕擷取畫面、您可以在其中選取列尾端的箭頭來展開。</block>
+  <block id="d6e80e5ccdacdc912b76ab91b58f6023" category="paragraph"><block ref="d6e80e5ccdacdc912b76ab91b58f6023" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="41f51117bfa13081af4c8a2db1a7ab58" category="list-text">如果您展開合約的詳細資料、 BlueXP 數位錢包會顯示目前方案的可用項目：合約選項和單位（容量或節點數）。</block>
+  <block id="25b3c421a2199fb638256d316af13699" category="list-text">BlueXP 數位錢包會識別結束日期、以及合約是否即將續約、即將結束、或合約是否已結束。</block>
+  <block id="c2e2efadf42aef45b4e8e6b176f32df0" category="paragraph">您可以重新命名訂閱、並選擇與訂閱相關的帳戶、以從 BlueXP 數位錢包管理訂閱。</block>
+  <block id="5a91158751eaabe4d195cd633fa37db6" category="paragraph">管理數位錢包中的節點型授權、確保每個 Cloud Volumes ONTAP 系統都擁有具有所需容量的有效授權。</block>
 </blocks>

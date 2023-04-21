@@ -14,7 +14,7 @@ summary: 在Digital Wallet中管理您的節點型授權、確保每Cloud Volume
 
 
 [role="lead"]
-在Digital Wallet中管理節點型授權、以確保每Cloud Volumes ONTAP 個版本均具有有效的授權、並具有所需的容量。
+管理數位錢包中的節點型授權、確保每個 Cloud Volumes ONTAP 系統都擁有具有所需容量的有效授權。
 
 _Node型授權_是前一代授權模式（不適用於新客戶）：
 

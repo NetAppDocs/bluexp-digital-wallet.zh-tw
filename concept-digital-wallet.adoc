@@ -10,7 +10,7 @@ summary: BlueXP 數位錢包可讓您管理及監控從 NetApp （ BYOL ）購�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -22,7 +22,7 @@ BlueXP 數位錢包可讓您管理及監控從 NetApp （ BYOL ）購買的 Blue
 
 * 管理 Cloud Volumes ONTAP 的容量型和節點型授權
 * 新增及管理 BlueXP 資料服務的授權
-* 管理 PAYGO 的訂閱、以及與 BlueXP 帳戶和 Astra 相關的年度合約
+* 管理 PAYGO 的訂閱、以及與 BlueXP 帳戶和 Astra Control 相關的年度合約
 * 管理 Keystone Flex 訂閱以搭配 Cloud Volumes ONTAP 使用、並要求變更提交容量
 * 檢視內部部署 ONTAP 叢集的硬體和軟體合約狀態資訊
 
@@ -31,11 +31,11 @@ BlueXP 數位錢包可讓您管理及監控從 NetApp （ BYOL ）購買的 Blue
 
 == 支援的服務
 
-BlueXP 數位錢包可讓您管理下列 BlueXP 服務的授權：
+BlueXP 數位錢包可讓您管理下列項目的授權：
 
-* 雲端備份
-* 雲端資料感測
-* 雲端分層
+* 備份與還原
+* 分類
 * Cloud Volumes ONTAP
 * 內部 ONTAP 部署的叢集
+* 分層
 
