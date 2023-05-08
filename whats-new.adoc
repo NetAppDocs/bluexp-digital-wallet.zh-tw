@@ -18,6 +18,30 @@ summary: 瞭解 BlueXP 數位錢包的新功能。
 
 
 
+== 2023 年 5 月 7 日
+
+
+
+=== Google Cloud 私有優惠
+
+BlueXP 數位電子錢包現在會識別與私有方案相關的 Google Cloud Marketplace 訂閱、並顯示訂閱的結束日期和期限。這項增強功能可讓您確認您已成功接受私人優惠、並驗證其條款。
+
+
+
+=== 充電使用量明細
+
+現在、您可以瞭解訂閱容量型授權時所需支付的費用。以下類型的使用報告可從 BlueXP 數位錢包下載。使用報告會提供您訂閱的容量詳細資料、並告訴您如何為 Cloud Volumes ONTAP 訂閱中的資源收取費用。可下載的報告可輕鬆與他人共用。
+
+* Cloud Volumes ONTAP 套件使用率
+* 高階使用率
+* 儲存 VM 使用率
+* Volume 使用量
+
+
+如需詳細資訊、請參閱 link:https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["管理容量型授權"]。
+
+
+
 == 2023年4月3日
 
 

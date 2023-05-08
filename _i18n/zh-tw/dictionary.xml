@@ -549,4 +549,18 @@
   <block id="25b3c421a2199fb638256d316af13699" category="list-text">BlueXP 數位錢包會識別結束日期、以及合約是否即將續約、即將結束、或合約是否已結束。</block>
   <block id="c2e2efadf42aef45b4e8e6b176f32df0" category="paragraph">您可以重新命名訂閱、並選擇與訂閱相關的帳戶、以從 BlueXP 數位錢包管理訂閱。</block>
   <block id="5a91158751eaabe4d195cd633fa37db6" category="paragraph">管理數位錢包中的節點型授權、確保每個 Cloud Volumes ONTAP 系統都擁有具有所需容量的有效授權。</block>
+  <block id="71bff2737bdd059023a4784358e71a64" category="section-title">2023 年 5 月 7 日</block>
+  <block id="060a6559f6065c5058aca6b22d897bce" category="section-title">Google Cloud 私有優惠</block>
+  <block id="bfe876190faa5e7a4cd6d5029395b658" category="paragraph">BlueXP 數位電子錢包現在會識別與私有方案相關的 Google Cloud Marketplace 訂閱、並顯示訂閱的結束日期和期限。這項增強功能可讓您確認您已成功接受私人優惠、並驗證其條款。</block>
+  <block id="2cd5985150a2728c0c6295c5162b2b1d" category="section-title">充電使用量明細</block>
+  <block id="d0f5a029263e80e902caf444fa5e9080" category="paragraph">現在、您可以瞭解訂閱容量型授權時所需支付的費用。以下類型的使用報告可從 BlueXP 數位錢包下載。使用報告會提供您訂閱的容量詳細資料、並告訴您如何為 Cloud Volumes ONTAP 訂閱中的資源收取費用。可下載的報告可輕鬆與他人共用。</block>
+  <block id="ed54fb55b53f11e61f612ff99520f4bc" category="list-text">Cloud Volumes ONTAP 套件使用率</block>
+  <block id="160ba974abba347f5e939a1a0acd5982" category="list-text">高階使用率</block>
+  <block id="bf951096cc9eea5fae867ec94f06dfa3" category="list-text">儲存 VM 使用率</block>
+  <block id="3c5979c173a0a4fe3ff27e0e6185a693" category="list-text">Volume 使用量</block>
+  <block id="8156321649d649dc3e16c2849d8aa212" category="paragraph">如需詳細資訊、請參閱 <block ref="862b3811f42dd37621050f0605c0d301" category="inline-link-macro-rx"></block>。</block>
+  <block id="76631958e748db22b905b65fb2cba5d2" category="paragraph">對於 Google Cloud 、您也可以識別與私有方案相關的市場訂閱、以驗證您是否已成功接受此方案。</block>
+  <block id="cf5f3091e30dee6597885d8c0e0c357f" category="list-text">期限</block>
+  <block id="314c4a4eeddb6d1cd1f813b95714f7a2" category="list-text">如果您的 Google Cloud 訂閱與私有優惠相關聯、且該私有優惠在建立並接受後已修改、則該條款會顯示 N/A在此案例中、我們從 Google Cloud Marketplace 收到的 API 回應並不包含詞彙相關資訊。</block>
+  <block id="3b3f3f7253f4c57a7eb145d69d119e28" category="list-text">如果您有 Google Cloud 私有優惠、則無法使用合約選項。</block>
 </blocks>
