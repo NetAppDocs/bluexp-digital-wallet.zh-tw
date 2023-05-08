@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-keystone.html 
-keywords: license, licensing, install, keystone, requst capacity, link subscription, add keystone subscription, keystone subscription 
-summary: 「Digital Wallet」頁面可讓您從Cloud Volumes ONTAP 單一位置管理for eWe的授權。您可以新增授權並更新現有授權。 
+keywords: license, licensing, install, keystone, request capacity, link subscription, add keystone subscription, keystone subscription 
+summary: 透過啟用與 Cloud Volumes ONTAP 搭配使用的訂閱功能、從數位錢包管理 Keystone 訂閱服務。您也可以要求變更已提交的容量、也可以取消訂閱連結。 
 ---
-= 管理 Keystone Flex 訂閱
+= 管理 Keystone 訂閱服務
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

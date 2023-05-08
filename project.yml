@@ -30,7 +30,7 @@ sidebar:
       url: "/task-manage-data-services-licenses.html"
     - title: 管理PAYGO訂閱與合約
       url: "/task-manage-subscriptions.html"
-    - title: 管理 Keystone Flex 訂閱
+    - title: 管理 Keystone 訂閱服務
       url: "/task-manage-keystone.html"
     - title: 管理內部部署 ONTAP 叢集的授權
       url: "/task-manage-on-prem-clusters.html"
