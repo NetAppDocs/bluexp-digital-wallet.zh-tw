@@ -14,7 +14,7 @@ summary: 在Digital Wallet中管理您的節點型授權、確保每Cloud Volume
 
 
 [role="lead"]
-管理數位錢包中的節點型授權、確保每個 Cloud Volumes ONTAP 系統都擁有具有所需容量的有效授權。
+在 BlueXP 數位錢包中管理節點型授權、以確保每個 Cloud Volumes ONTAP 系統都擁有具有所需容量的有效授權。
 
 _Node型授權_是前一代授權模式（不適用於新客戶）：
 
@@ -22,7 +22,7 @@ _Node型授權_是前一代授權模式（不適用於新客戶）：
 * 從雲端供應商的市場訂閱每小時隨付（PAYGO）
 
 
-「_數位錢包_」可讓您從Cloud Volumes ONTAP 單一位置管理用於支援的授權。您可以新增授權並更新現有授權。
+_BlueXP 數位錢包 _ 可讓您從單一位置管理 Cloud Volumes ONTAP 的授權。您可以新增授權並更新現有授權。
 
 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["深入瞭Cloud Volumes ONTAP 解不知如何取得授權"]。
 
@@ -30,7 +30,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 == 管理PAYGO授權
 
-「Digital Wallet」頁面可讓您檢視每Cloud Volumes ONTAP 個PAYGO更新系統的詳細資料、包括序號和PAYGO授權類型。
+BlueXP 數位錢包頁面可讓您檢視每個 PAYGO Cloud Volumes ONTAP 系統的詳細資料、包括序號和 PAYGO 授權類型。
 
 .步驟
 . 從BlueXP導覽功能表中、選取*管理>數位錢包*。
@@ -38,7 +38,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 . 按一下* PAYGO*。
 . 請在表格中檢視每個PAYGO授權的詳細資料。
 +
-image:screenshot_paygo_licenses.png["一張螢幕快照、顯示「數位錢包」頁面中的表格、其中包含三份Paygo授權。每一列都會顯示名稱、系統類型、序號、套件、以及管理授權的連結。"]
+image:screenshot_paygo_licenses.png["此螢幕擷取畫面顯示 BlueXP 數位電子錢包頁面中的表格、內含三個 Paygo 授權。每一列都會顯示名稱、系統類型、序號、套件、以及管理授權的連結。"]
 
 . 如有需要、請按一下*管理PAYGO授權*以變更PAYGO授權或變更執行個體類型。
 
@@ -53,7 +53,7 @@ image:screenshot_paygo_licenses.png["一張螢幕快照、顯示「數位錢包�
 
 === 新增未指派的授權
 
-將節點型授權新增至Digital Wallet、以便在建立新Cloud Volumes ONTAP 的作業系統時選取授權。數位錢包會將這些授權識別為_未指派_。
+將節點型授權新增至 BlueXP 數位錢包、以便在建立新的 Cloud Volumes ONTAP 系統時選取授權。數位錢包會將這些授權識別為 _disally_.
 
 .步驟
 . 從BlueXP導覽功能表中、選取*管理>數位錢包*。
@@ -68,13 +68,13 @@ image:screenshot_paygo_licenses.png["一張螢幕快照、顯示「數位錢包�
 
 
 .結果
-BlueXP會將授權新增至Digital Wallet。授權將被識別為未指派、直到您將其與新Cloud Volumes ONTAP 的一套系統關聯為止。之後、授權會移至「數位錢包」中的「* BYOL*」索引標籤。
+BlueXP 將授權新增至數位錢包。授權將被識別為未指派、直到您將其與新Cloud Volumes ONTAP 的一套系統關聯為止。之後、授權便會移至數位錢包中的 * BYOL* 標籤。
 
 
 
 === Exchange未指派的節點型授權
 
-如果Cloud Volumes ONTAP 您擁有尚未使用的未指派節點型支援功能、您可以將授權轉換為Cloud Backup授權、Cloud Data Sense授權或Cloud Tiering授權、以交換授權。
+如果您尚未使用未指派的 Cloud Volumes ONTAP 節點型授權、則可將授權轉換為 BlueXP 備份與還原授權、 BlueXP 分類授權或 BlueXP 分層授權、以交換授權。
 
 交換授權會撤銷Cloud Volumes ONTAP 該服務的不含美元的授權、並為該服務建立相當於美元的授權：
 

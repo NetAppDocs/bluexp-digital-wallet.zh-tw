@@ -3,26 +3,17 @@
   <block id="3346762ff8f7a33c4ab0e7fa6f5ae4bf" category="summary">從Digital Wallet管理容量型授權、確保您的NetApp帳戶擁有足夠的容量來容納Cloud Volumes ONTAP 您的系統。</block>
   <block id="56a50532d8da2bebb09d6190c126140c" category="doc">管理容量型授權</block>
   <block id="93ed65a89f306426be7980ddc22595e8" category="paragraph">_容量型授權_可讓您針對Cloud Volumes ONTAP 每個TiB的容量付費。</block>
-  <block id="d9bf30eba2f9818a8ee777ae42a8f9f5" category="paragraph">「_數位錢包_」可讓您從Cloud Volumes ONTAP 單一位置管理用於支援的授權。您可以新增授權並更新現有授權。</block>
   <block id="8caaaa4afae93c31b741be21eed669cc" category="inline-link">深入瞭Cloud Volumes ONTAP 解不知如何取得授權</block>
   <block id="6e987a799bff743a20629c6963efee7e" category="paragraph"><block ref="88e663ceca138a2ba6bdf07d4cbe79f1" category="inline-link-rx"></block>。</block>
-  <block id="331320477ecac4cca1b63e686d99f8d3" category="section-title">如何將授權新增至Digital Wallet</block>
   <block id="792eeb7f686f2ad37b664f6478d40bed" category="paragraph">向NetApp銷售代表購買授權後、NetApp會寄送一封電子郵件給您、附上序號和其他授權詳細資料。</block>
-  <block id="b6bc1ae4ef8c82767b9ae039ea083da2" category="paragraph">在此期間、BlueXP會自動查詢NetApp的授權服務、以取得NetApp 支援網站 與您的帳戶相關之授權的詳細資料。如果沒有錯誤、BlueXP會自動將授權新增至Digital Wallet。</block>
   <block id="ad0be4bc913a8026a3f5e42fc7656d23" category="inline-xref">瞭解如何將購買的授權新增至您的帳戶</block>
-  <block id="e71139eb9146e38a7b8cdb5f435f8ed1" category="paragraph">如果BlueXP無法新增授權、您必須自行手動將其新增至Digital Wallet。例如、如果Connector安裝在無法存取網際網路的位置、您就必須自行新增授權。 <block ref="2b377ff52574668221716136185f8476" category="inline-xref-macro-rx"></block>。</block>
   <block id="03021ab228ad1d1c921bbf536e2913a4" category="section-title">檢視您帳戶中的已用容量</block>
-  <block id="e54d493645f297f788982c1215f721bf" category="paragraph">數位錢包會顯示您帳戶的總使用容量、以及授權套件的使用容量。這有助於瞭解您的收費方式、以及您是否需要購買額外容量。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
   <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">從BlueXP導覽功能表中、選取*管理&gt;數位錢包*。</block>
   <block id="e83a5b2754cd537ac6467dc025115726" category="list-text">在 * Cloud Volumes ONTAP * 標籤上、選取 * 容量型授權 * 。</block>
   <block id="2bd469c6a2a1a44818909050205d416b" category="list-text">檢視套件摘要、其中會顯示您已耗用的容量、預先認可的總容量和 PAYGO 總容量。</block>
   <block id="29f9c9781f75b695cb6c7c93910280cd" category="list-text">_總使用容量_是Cloud Volumes ONTAP NetApp帳戶中所有供應系統的總容量。無論磁碟區內的本機、已用、已儲存或有效空間為何、充電都是根據每個磁碟區的已配置大小而計算。</block>
   <block id="def968f0e18d0f7aed6421ac81039272" category="list-text">_Total preconted capacity_ 是您從 NetApp 購買的總授權容量（ BYOL 或 Marketplace Contract ）。</block>
-  <block id="4cca90046112da5c5d3a703dafebbb7e" category="list-text">_Total PAYGO_是使用雲端市場訂閱的已配置總容量。只有當耗用容量高於授權容量、或數位錢包中沒有BYOL授權時、才會使用透過PAYGO充電。</block>
-  <block id="6805f1cb53971ab8cf6263bd093c5d20" category="paragraph">以下是數位錢包中 Cloud Volumes ONTAP 套件摘要的範例：</block>
-  <block id="e9132fa20985cf4b3d5004a6a371ecab" category="inline-image-macro">螢幕擷取畫面顯示 Cloud Volumes ONTAP 套件摘要、包括總使用容量、總預先承諾容量（ BYOL 和 Marketplace Contracts ）、以及數位錢包中的 PAYGO 總容量或已配置容量。</block>
-  <block id="68519fd40c76d6220d905ceda4e0956b" category="paragraph"><block ref="68519fd40c76d6220d905ceda4e0956b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea7c202c277e5ccf92e08be29b4a64e9" category="list-text">在摘要下、檢視每個授權套件的耗用容量。</block>
   <block id="af61e314a8c2484dfcfef0afc2e5b8b9" category="list-text">耗用容量 _ 顯示該套件的磁碟區容量。如需特定套件的詳細資料、請將滑鼠游標移到工具提示上。</block>
   <block id="d30bc4bd5cee7ac23a1df54311d1f4b3" category="inline-link">瞭解如何為Essentials套裝方案充電</block>
@@ -35,7 +26,6 @@
   <block id="b0980f4f35d961e95a685e0af8bda7e4" category="inline-image-macro">螢幕擷取畫面顯示基本功能和專業套件的耗用容量、預先配置容量和 PAYGO 或已配置容量。</block>
   <block id="71b669d4d19df676d975ef4911ded7af" category="paragraph"><block ref="71b669d4d19df676d975ef4911ded7af" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b2dfe525c9a6bec7392826fba889fe07" category="section-title">將購買的授權新增至您的帳戶</block>
-  <block id="e3562c1adf2604137baf3d2df3c68ecd" category="paragraph">如果您在Digital Wallet中沒有看到您購買的授權、您必須將授權新增至BlueXP、才能讓容量Cloud Volumes ONTAP 可供使用。</block>
   <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">您需要的產品</block>
   <block id="160caa44a14b9421593597c51ec2a7e8" category="list-text">您需要提供BlueXP授權或授權檔案的序號。</block>
   <block id="04b14ae402c3ab4f87916eed6238424b" category="inline-link">將NetApp 支援網站 您的不更新帳戶新增至藍圖XP</block>
@@ -45,7 +35,6 @@
   <block id="204d2b4625a88f2700ea6c08a4f85014" category="paragraph">如果您輸入了序號，您也需要選取獲授權存取該序號的 NetApp 支援網站帳戶。</block>
   <block id="ea9a2b9ac34c9aab133f21aa5b67976e" category="list-text">按一下「 * 新增授權 * 」。</block>
   <block id="89046e28df67df094886562aac624243" category="section-title">更新容量型授權</block>
-  <block id="97a02c1884b510883e586382d384fb61" category="paragraph">如果您購買額外容量或延長授權期限、BlueXP會自動更新Digital Wallet中的授權。您無需做任何事。</block>
   <block id="2144c137b123de98ab20d5bfa9677b33" category="paragraph">不過、如果您在無法存取網際網路的位置部署了BlueXP、則需要手動更新BlueXP中的授權。</block>
   <block id="e02250fabfba9f2d7325403663479a43" category="paragraph">授權檔案（如果您有HA配對、則為_file_）。</block>
   <block id="ecdf6ba3b837de5910abdabc360df552" category="list-text">在* Cloud Volumes ONTAP 《*》索引標籤上、按一下授權旁的動作功能表、然後選取*更新授權*。</block>
@@ -56,15 +45,12 @@
   <block id="86f463a1f0f0879749d1274dc94305d9" category="paragraph-title">重要注意事項</block>
   <block id="cfdb32f80009b1e5c5c0468dda9f013d" category="paragraph">如果您有來自雲端供應商市場的私人優惠或合約、改用未包含在合約中的收費方法、將會導致依BYOL（如果您向NetApp購買授權）或PAYGO收取費用。</block>
   <block id="3397777d22d2d5f746157ca31f0d8460" category="list-text">在* Cloud Volumes ONTAP 《*》索引標籤上、按一下「*變更充電方法*」。</block>
-  <block id="731d5463e4c6962d26d5b5d4b345930e" category="inline-image-macro">數位錢包中的「更新收費方法」按鈕位於Cloud Volumes ONTAP 表格上方的「資訊」頁面快照。</block>
-  <block id="e98a6fb0343d664e817b1f922b7a92f1" category="paragraph"><block ref="e98a6fb0343d664e817b1f922b7a92f1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="de4b4e176958ea7181911ce715504321" category="list-text">選取工作環境、選擇新的充電方法、然後確認您瞭解變更套件類型將會影響服務費用。</block>
   <block id="b0d246ceb3cd290ace3abd509e982f73" category="inline-image-macro">「變更充電方法」對話方塊的快照、可讓您為Cloud Volumes ONTAP 運作中的環境選擇新的充電方法。</block>
   <block id="6e594f7cd72195c88515a50fcfc2397e" category="paragraph"><block ref="6e594f7cd72195c88515a50fcfc2397e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5331b4ea3bd1ef32d06c003e7e8f1c3d" category="list-text">按一下*變更收費方法*。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
   <block id="a3f83af733570f5c2a5b63c7087e6164" category="paragraph">BlueXP改變Cloud Volumes ONTAP 了這個系統的充電方法。</block>
-  <block id="41687868b5d65bd96b455ce93a771517" category="paragraph">您可能也會注意到、Digital Wallet會重新整理每種套件類型的耗用容量、以因應您剛做的變更。</block>
   <block id="8f79a5bc1b9725ce4036eb2d94c60de9" category="section-title">移除容量型授權</block>
   <block id="78a946dc090d511b993ffbe9803dff06" category="paragraph">如果容量型授權過期且不再使用、您可以隨時將其移除。</block>
   <block id="5ca97f84ee577fbacf355fc75d23921d" category="list-text">在* Cloud Volumes ONTAP 《*》索引標籤上、按一下授權旁的動作功能表、然後選取*移除授權*。</block>
@@ -269,20 +255,13 @@
   <block id="9d37072f5a1b76b16e647a14826ade70" category="paragraph"><block ref="9d37072f5a1b76b16e647a14826ade70" category="inline-image-macro-rx" type="image"></block></block>
   <block id="41e921305ae1b027e5d364af4a2a9df2" category="list-text">在「更新授權」頁面上傳授權檔案、然後按一下「*更新授權*」。</block>
   <block id="34674441113c2bf2e8f3d38a0e8276bb" category="paragraph">BlueXP 會更新授權。</block>
-  <block id="541be6e1dda8fc9678c974d148e15469" category="paragraph">啟用訂閱功能以搭配Cloud Volumes ONTAP 使用、從Digital Wallet管理Keystone Flex訂閱。您也可以要求變更已提交的容量、也可以取消訂閱連結。</block>
-  <block id="144db5f18aa0a48a9fe63c8b55bd0275" category="paragraph">_Keystone Flex訂購_是NetApp提供的隨需付費儲存服務。</block>
   <block id="4edb70089cdbc18de22fa9ead5189bc8" category="section-title">授權您的帳戶</block>
-  <block id="5187c95ccaa9cce754eff51fdf83a80b" category="paragraph">在使用及管理BlueXP中的Keystone Flex訂閱之前、您必須先聯絡NetApp、以利用Keystone Flex訂閱來授權您的BlueXP使用者帳戶。</block>
   <block id="492847bcbc9ec0bd3075b612aa43e4a7" category="list-text">選取 * Keystone * 。</block>
   <block id="daf4ae396784c74ec2cbf002eaaa25f4" category="list-text">如果您看到*歡迎使用NetApp Keystone S不到*頁面、請傳送電子郵件至頁面上所列的地址。</block>
   <block id="16692c26ca4528e651bbb36d93c465c7" category="paragraph">NetApp代表將授權您的使用者帳戶存取訂閱、以處理您的申請。</block>
-  <block id="ed53b278164ebd0a6b2a2a8f63581c09" category="list-text">請返回* Keystone Flex訂購*以檢視您的訂閱內容。</block>
-  <block id="7aca1d09047c08c604b14d2916222137" category="inline-image-macro">顯示Keystone Flex訂閱清單的快照。</block>
-  <block id="9eb7d5bfc7310c477d520b7308dcb502" category="paragraph"><block ref="9eb7d5bfc7310c477d520b7308dcb502" category="inline-image-macro-rx" type="image"></block></block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">接下來呢？</block>
   <block id="18dea2097f201a1ab3eb6d3305d42f0a" category="paragraph">連結您要搭配Cloud Volumes ONTAP 使用的訂閱內容。</block>
   <block id="06f358c39bc3b4633cefd78beb67e671" category="section-title">連結訂閱</block>
-  <block id="a105e3cd0d458207c5631417eee0c8a2" category="paragraph">在NetApp授權您的帳戶之後、您必須連結Keystone Flex訂閱Cloud Volumes ONTAP 以供搭配使用。此動作可讓使用者選擇訂閱做為新Cloud Volumes ONTAP 版的功能表系統的充電方法。</block>
   <block id="b0afff19aa3343a6f86619d833dbd316" category="inline-image-macro">這是三個並排點的圖示</block>
   <block id="fc6ada65ff8f08c80e7d6167f68c89c2" category="list-text">如需您要連結的訂閱、請按一下 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 然後選取*連結*。</block>
   <block id="a71102951bc0488f4ec3cb5e52602100" category="inline-image-macro">顯示訂閱連結選項的快照。</block>
@@ -297,7 +276,6 @@
   <block id="dbae9df22f08344d5508b91cb73c6d15" category="list-text">向下捲動、輸入申請的任何其他詳細資料、然後按一下*提交*。</block>
   <block id="8f140d9c4d508c36e3d4c57102f117eb" category="paragraph">您的申請會在NetApp系統中建立Ticket以供處理。</block>
   <block id="0c0401d1e9169d6dd38462b1e0d04126" category="section-title">取消訂閱連結</block>
-  <block id="a991be6c178aa61e164f05082c15f594" category="paragraph">如果您不想再將Keystone Flex訂閱搭配新Cloud Volumes ONTAP 的功能使用、可以取消訂閱連結。請注意、您只能取消連結未附加至現有Cloud Volumes ONTAP 的訂閱內容的訂閱。</block>
   <block id="a666a430e484ea214384aefaa30da852" category="list-text">若要取消連結訂閱、請按一下 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 然後選取*取消連結*。</block>
   <block id="ae187bda8f85dfd75202915fcca6b90d" category="paragraph">訂閱內容會從您的BlueXP帳戶中取消連結、因此在建立Cloud Volumes ONTAP 運作中的環境時無法再選取。</block>
   <block id="0ba30235105c7547a3e7658745e09be4" category="summary">瞭解 BlueXP 數位錢包的新功能。</block>
@@ -400,24 +378,18 @@
   <block id="81f9d97336a30fb7be6f8d770fee25eb" category="list-text">向NetApp購買BYOL授權</block>
   <block id="17ac9e85cf5b6f7b77acf61fb7721242" category="list-text">從雲端供應商的市場訂閱每小時隨付（PAYGO）</block>
   <block id="9426b05d2fc423b761e34f9d75b4066d" category="section-title">管理PAYGO授權</block>
-  <block id="39489bc3468be0f9c30ed41b5ac89051" category="paragraph">「Digital Wallet」頁面可讓您檢視每Cloud Volumes ONTAP 個PAYGO更新系統的詳細資料、包括序號和PAYGO授權類型。</block>
   <block id="5844b24c31c1897efda5443d984702f8" category="list-text">在* Cloud Volumes ONTAP 《*》*索引標籤上、從下拉式清單中選取「*節點型授權*」。</block>
   <block id="87089bacab591352ad6ad6579e34d93e" category="list-text">按一下* PAYGO*。</block>
   <block id="82be8e06ac169a3de0fce42cd01f5760" category="list-text">請在表格中檢視每個PAYGO授權的詳細資料。</block>
-  <block id="76e10a0df08439afad301bff55b0ae58" category="inline-image-macro">一張螢幕快照、顯示「數位錢包」頁面中的表格、其中包含三份Paygo授權。每一列都會顯示名稱、系統類型、序號、套件、以及管理授權的連結。</block>
-  <block id="7488ecf8b7b85ed6fdf59249f884f829" category="paragraph"><block ref="7488ecf8b7b85ed6fdf59249f884f829" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a45c9786e45613660f519d740b30671a" category="list-text">如有需要、請按一下*管理PAYGO授權*以變更PAYGO授權或變更執行個體類型。</block>
   <block id="00b61e8d20d055a6505bd5bc88e18aeb" category="section-title">管理 BYOL 授權</block>
   <block id="33375e3f722897194d509130054856dd" category="paragraph">透過新增及移除系統授權與額外容量授權、來管理您直接向NetApp購買的授權。</block>
   <block id="4742f5b0c38f7c105542ecb15a214212" category="section-title">新增未指派的授權</block>
-  <block id="006b5d653459d707768b29d141d64d87" category="paragraph">將節點型授權新增至Digital Wallet、以便在建立新Cloud Volumes ONTAP 的作業系統時選取授權。數位錢包會將這些授權識別為_未指派_。</block>
   <block id="9827486f8d28067db0a9918ee807f05e" category="list-text">按一下*未指派*。</block>
   <block id="7fa863d81a4b4f5f46596207ce29dc50" category="list-text">按一下「*新增未指派的授權*」。</block>
   <block id="851df848340ac5c43d036a7c8ab531e8" category="list-text">輸入授權的序號或上傳授權檔案。</block>
   <block id="bec033f0535da0f58c9f0a7ccd96e793" category="paragraph">如果您還沒有授權檔案、請參閱下列章節。</block>
-  <block id="8c97ed5bc0c7a571b8993af8c6396051" category="paragraph">BlueXP會將授權新增至Digital Wallet。授權將被識別為未指派、直到您將其與新Cloud Volumes ONTAP 的一套系統關聯為止。之後、授權會移至「數位錢包」中的「* BYOL*」索引標籤。</block>
   <block id="df5b9d272738b4adaa43e7eb4949a0e5" category="section-title">Exchange未指派的節點型授權</block>
-  <block id="6527032302a12c0fbe0e9a93494d253b" category="paragraph">如果Cloud Volumes ONTAP 您擁有尚未使用的未指派節點型支援功能、您可以將授權轉換為Cloud Backup授權、Cloud Data Sense授權或Cloud Tiering授權、以交換授權。</block>
   <block id="82330159ba1b86113008185841af38f9" category="paragraph">交換授權會撤銷Cloud Volumes ONTAP 該服務的不含美元的授權、並為該服務建立相當於美元的授權：</block>
   <block id="9df8e0785445964e646ecf922e67b378" category="list-text">針對某個不符合需求的HA配對授權Cloud Volumes ONTAP 會轉換為51 TiB資料服務授權</block>
   <block id="fc9771c21d913259d9cc1605db9e67fc" category="list-text">針對單一節點的授權Cloud Volumes ONTAP 會轉換為32 TiB資料服務授權</block>
@@ -544,7 +516,6 @@
   <block id="41f51117bfa13081af4c8a2db1a7ab58" category="list-text">如果您展開合約的詳細資料、 BlueXP 數位錢包會顯示目前方案的可用項目：合約選項和單位（容量或節點數）。</block>
   <block id="25b3c421a2199fb638256d316af13699" category="list-text">BlueXP 數位錢包會識別結束日期、以及合約是否即將續約、即將結束、或合約是否已結束。</block>
   <block id="c2e2efadf42aef45b4e8e6b176f32df0" category="paragraph">您可以重新命名訂閱、並選擇與訂閱相關的帳戶、以從 BlueXP 數位錢包管理訂閱。</block>
-  <block id="5a91158751eaabe4d195cd633fa37db6" category="paragraph">管理數位錢包中的節點型授權、確保每個 Cloud Volumes ONTAP 系統都擁有具有所需容量的有效授權。</block>
   <block id="71bff2737bdd059023a4784358e71a64" category="section-title">2023 年 5 月 7 日</block>
   <block id="060a6559f6065c5058aca6b22d897bce" category="section-title">Google Cloud 私有優惠</block>
   <block id="bfe876190faa5e7a4cd6d5029395b658" category="paragraph">BlueXP 數位電子錢包現在會識別與私有方案相關的 Google Cloud Marketplace 訂閱、並顯示訂閱的結束日期和期限。這項增強功能可讓您確認您已成功接受私人優惠、並驗證其條款。</block>
@@ -562,4 +533,67 @@
   <block id="885ce97feb1a2410a348b3f3764dee9d" category="list-text">管理 Keystone Subscription 服務以搭配 Cloud Volumes ONTAP 使用、並要求變更已認可容量</block>
   <block id="e29dbbc5408d2fe6da0ae9249031fad5" category="summary">透過啟用與 Cloud Volumes ONTAP 搭配使用的訂閱功能、從數位錢包管理 Keystone 訂閱服務。您也可以要求變更已提交的容量、也可以取消訂閱連結。</block>
   <block id="8cd29d21eeca72789ed2e573a1032dbd" category="doc">管理 Keystone 訂閱服務</block>
+  <block id="4112533811706ae9c45d956e68299f46" category="paragraph">從 BlueXP 數位錢包管理容量型授權、以確保您的 NetApp 帳戶擁有足夠的容量供 Cloud Volumes ONTAP 系統使用。</block>
+  <block id="b37ea3f4c93245969c515634c741e9bf" category="paragraph">_BlueXP 數位錢包 _ 可讓您從單一位置管理 Cloud Volumes ONTAP 的授權。您可以新增授權並更新現有授權。</block>
+  <block id="03fc5be3f1d32a032f3da42181c0e6ed" category="section-title">如何將授權新增至 BlueXP 數位錢包</block>
+  <block id="472179c55c070df5bcb6f6fd708c412f" category="paragraph">在此期間、BlueXP會自動查詢NetApp的授權服務、以取得NetApp 支援網站 與您的帳戶相關之授權的詳細資料。如果沒有錯誤、 BlueXP 會自動將授權新增至數位錢包。</block>
+  <block id="c713a53d9b2831d188de3225e90ebdee" category="paragraph">如果 BlueXP 無法新增授權、您必須自行手動將授權新增至數位錢包。例如、如果Connector安裝在無法存取網際網路的位置、您就必須自行新增授權。 <block ref="2b377ff52574668221716136185f8476" category="inline-xref-macro-rx"></block>。</block>
+  <block id="70998cc9a7ddc4592ecb1e8fc59e0b63" category="paragraph">BlueXP 數位錢包可顯示您帳戶的總使用容量、以及授權套件所耗用的容量。這有助於瞭解您的收費方式、以及您是否需要購買額外容量。</block>
+  <block id="40e697bd547f9c2f3cb7042d204e6b9b" category="list-text">_Total PAYGO_是使用雲端市場訂閱的已配置總容量。只有當使用容量高於授權容量、或 BlueXP 數位錢包中沒有 BYOL 授權時、才會使用 PAYGO 進行收費。</block>
+  <block id="34a724e7d15854ada8926f52e44a3cdb" category="paragraph">以下是 BlueXP 數位錢包中 Cloud Volumes ONTAP 套件摘要的範例：</block>
+  <block id="ef932e9542b570b1aebe25543e12d641" category="inline-image-macro">顯示 Cloud Volumes ONTAP 套件摘要的螢幕擷取畫面、包括總使用容量、總預先承諾容量（ BYOL 和 Marketplace Contracts ）、以及 BlueXP 數位錢包中的 PAYGO 總容量或已配置容量。</block>
+  <block id="7d6ebd560dc2c66d5d0db57db21f3c2e" category="paragraph"><block ref="7d6ebd560dc2c66d5d0db57db21f3c2e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="37532cd27e3c53471b1caed0ba1f90ed" category="section-title">下載使用報告</block>
+  <block id="819d4e1e06bcd4bb3249b60d928ccacc" category="paragraph">帳戶管理員可以從 BlueXP 的數位錢包下載四份使用報告。這些使用報告會提供您訂閱的容量詳細資料、並告訴您如何為 Cloud Volumes ONTAP 訂閱中的資源收取費用。可下載的報告會在某個時間點擷取資料、並可輕鬆與他人共用。</block>
+  <block id="c2b73e18a5b530a547ba48a8177d13c3" category="inline-image-macro">螢幕擷取畫面會顯示數位錢包 Cloud Volumes ONTAP 容量型授權頁面、並反白顯示使用報告按鈕。</block>
+  <block id="a1a4a48254cf8eb8962fbd995f5e7ea8" category="paragraph"><block ref="a1a4a48254cf8eb8962fbd995f5e7ea8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d11dcbec58d47bd13de1dcccfbd640ff" category="paragraph">以下報告可供下載。顯示的容量值以 TiB 為單位。</block>
+  <block id="ad73e4897304c80496a4f15e033cefa7" category="list-text">* 高階使用率 * ：此報告會清楚顯示數位錢包中「 Cloud Volumes ONTAP 套件摘要」卡的內容。其中包括下列資訊：</block>
+  <block id="c596c9291f76a11af1aefc235c262de6" category="list-text">總使用容量</block>
+  <block id="8dd7541d6c4e83402d88448119068a02" category="list-text">預認可容量總計</block>
+  <block id="b01a146aed01aa8af61e034befc116ce" category="list-text">BYOL 總容量</block>
+  <block id="109323142d354af9ccc7eb636b1dcbce" category="list-text">市場總合約容量</block>
+  <block id="baf09c6c43fd26effd8f15e252649384" category="list-text">PAYGO 總容量</block>
+  <block id="76101a2de96d735db21249323914bc6c" category="list-text">* Cloud Volumes ONTAP 套件使用 * ：此報告會清楚顯示數位錢包內的套裝卡片內容。除了最佳化的 I/O 套件外、其中包括每個套件的下列資訊：</block>
+  <block id="c01bbdbe6721d80a74779e943243486b" category="list-text">* 儲存虛擬機器使用率 * ：此報告顯示如何在 Cloud Volumes ONTAP 系統和儲存虛擬機器（ SVM ）之間分解已計費的容量。此資訊無法在數位錢包的任何畫面上取得。其中包括下列資訊：</block>
+  <block id="b16bfcaa9b0651f05b8e8894a2aebb31" category="list-text">工作環境 ID （顯示為 UUID ）</block>
+  <block id="c8e2277ecfb1427838c488c217f99466" category="list-text">雲端</block>
+  <block id="4736cd35bf5b3fe63e1b1785fb2aa664" category="list-text">NetApp 帳戶 ID</block>
+  <block id="bbfa34e8af02138b821f784c8962669b" category="list-text">工作環境組態</block>
+  <block id="203c4205822c007d08ecafe163b02ea2" category="list-text">SVM名稱</block>
+  <block id="b567847dd629376ac84ed4958fd61687" category="list-text">已配置的容量</block>
+  <block id="a09b8df9fd0007770b0a8c10f9a17d81" category="list-text">充電容量綜合報告</block>
+  <block id="671095c17b0e9e0deda06cff2fa103e6" category="list-text">市場帳單期限</block>
+  <block id="d38764d5edf26bd9b744840cd2ea3c17" category="list-text">Cloud Volumes ONTAP 套件或功能</block>
+  <block id="a016fcdfd1d7159ffd537d78d4b68f74" category="list-text">向 SaaS Marketplace 訂閱名稱收費</block>
+  <block id="fe6ac599d13d94a0ee0800482bec7e41" category="list-text">向 SaaS Marketplace 訂閱 ID 收費</block>
+  <block id="33e97335db88f16611400cab965f95af" category="list-text">* Volume 使用量 * ：此報告顯示如何在工作環境中、依磁碟區來分解收費容量。此資訊無法在數位錢包的任何畫面上取得。其中包括下列資訊：</block>
+  <block id="3edb9123c69629ec86469d96d3feb0aa" category="list-text">SVN 名稱</block>
+  <block id="cccc95b62282240886ee975a3f122adb" category="list-text">Volume ID</block>
+  <block id="fc18634852d4299cd5f8c7ad55ddefbe" category="list-text">Volume類型</block>
+  <block id="3756f66a273f440893f16ee968ce3450" category="list-text">Volume 資源配置容量</block>
+  <block id="8b3da2ed858ee5c956acde26c9ef7dd0" category="admonition">此報告不包含 FlexClone Volume 、因為這些類型的磁碟區不會產生費用。</block>
+  <block id="a4bad4f350632a2078a6d795984ee60f" category="list-text">在 * Cloud Volumes ONTAP * 標籤上、選取 * 容量型授權 * 、然後按一下 * 使用報告 * 。</block>
+  <block id="23e918e9f1c9f1bb5769dcc236489de2" category="paragraph">使用報告會下載。</block>
+  <block id="05655bb3cbd3604d6c71a1db823ad94f" category="list-text">開啟下載的檔案以存取報告。</block>
+  <block id="665d621a7dca67edde62a7208c097db9" category="paragraph">如果您在 BlueXP 數位錢包中沒有看到購買的授權、則需要將授權新增至 BlueXP 、以便 Cloud Volumes ONTAP 可以使用該容量。</block>
+  <block id="2a54172f7bcef3f83da68a9aefc194ea" category="paragraph">如果您購買額外容量或延長授權期限、 BlueXP 會自動更新數位錢包中的授權。您無需做任何事。</block>
+  <block id="325ef46eb3d6b63c4d60ef08cdd6176f" category="inline-image-macro">BlueXP 數位電子錢包中 Cloud Volumes ONTAP 頁面的螢幕擷取畫面、其中變更充電方法按鈕就在表格上方。</block>
+  <block id="bdc5814154b1b181ca8722ef08ed8a28" category="paragraph"><block ref="bdc5814154b1b181ca8722ef08ed8a28" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d592a4e1d68c1047f1f5e39639bee6bf" category="paragraph">您可能也會注意到 BlueXP 數位錢包會重新整理每個套件類型的已用容量、以因應您剛做的變更。</block>
+  <block id="16c141e06e5f6ba408b4992a97c8b45f" category="paragraph">透過啟用與 Cloud Volumes ONTAP 搭配使用的訂閱、從 BlueXP 數位錢包管理基礎概念訂閱。您也可以要求變更已提交的容量、也可以取消訂閱連結。</block>
+  <block id="a99a383ab90c9f21375613d8a38ea1c8" category="paragraph">Keystone Subscription_ 是 NetApp 提供的隨成長付費儲存服務。</block>
+  <block id="ef32689f1a32fe16e0893f8394486cba" category="paragraph">在 BlueXP 中使用和管理基礎概念訂閱之前、您必須先聯絡 NetApp 、以授權您的 BlueXP 使用者帳戶使用基礎概念訂閱。</block>
+  <block id="5da6315cfe65abaef2d0e00c90898ddc" category="list-text">返回 * Keystone Subscription* 檢視您的訂閱。</block>
+  <block id="3d6aabe991edb10f282fd60995e725ca" category="inline-image-macro">顯示 Keystone 訂閱清單的螢幕擷取畫面。</block>
+  <block id="6fd94fda3665b39867817d4700d184e8" category="paragraph"><block ref="6fd94fda3665b39867817d4700d184e8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b10dd47ec29edab7ffa21c2337ac7f5f" category="paragraph">NetApp 授權您的帳戶後、您需要連結 Keystone 訂閱以搭配 Cloud Volumes ONTAP 使用。此動作可讓使用者選擇訂閱做為新Cloud Volumes ONTAP 版的功能表系統的充電方法。</block>
+  <block id="7ec05ce6a514daa78763d92fa399d1b0" category="paragraph">如果您不再想在新的 Cloud Volumes ONTAP 系統上使用 Keystone 訂閱、您可以取消訂閱的連結。請注意、您只能取消連結未附加至現有Cloud Volumes ONTAP 的訂閱內容的訂閱。</block>
+  <block id="990d530a36683451e6ac666b1b224270" category="paragraph">在 BlueXP 數位錢包中管理節點型授權、以確保每個 Cloud Volumes ONTAP 系統都擁有具有所需容量的有效授權。</block>
+  <block id="755544cd7e451192e8f70ab60b76986b" category="paragraph">BlueXP 數位錢包頁面可讓您檢視每個 PAYGO Cloud Volumes ONTAP 系統的詳細資料、包括序號和 PAYGO 授權類型。</block>
+  <block id="0ad53d9b2c46069812124453e75f768d" category="inline-image-macro">此螢幕擷取畫面顯示 BlueXP 數位電子錢包頁面中的表格、內含三個 Paygo 授權。每一列都會顯示名稱、系統類型、序號、套件、以及管理授權的連結。</block>
+  <block id="53f70eaa2639e1c4c624cb3bcc1042c2" category="paragraph"><block ref="53f70eaa2639e1c4c624cb3bcc1042c2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b7553c7fbdeaddba3cf075caca1654ea" category="paragraph">將節點型授權新增至 BlueXP 數位錢包、以便在建立新的 Cloud Volumes ONTAP 系統時選取授權。數位錢包會將這些授權識別為 _disally_.</block>
+  <block id="5fd0d116f88accf7d18b80d146d87953" category="paragraph">BlueXP 將授權新增至數位錢包。授權將被識別為未指派、直到您將其與新Cloud Volumes ONTAP 的一套系統關聯為止。之後、授權便會移至數位錢包中的 * BYOL* 標籤。</block>
+  <block id="637413a6c4ca962adade95ae4bcc1109" category="paragraph">如果您尚未使用未指派的 Cloud Volumes ONTAP 節點型授權、則可將授權轉換為 BlueXP 備份與還原授權、 BlueXP 分類授權或 BlueXP 分層授權、以交換授權。</block>
 </blocks>
