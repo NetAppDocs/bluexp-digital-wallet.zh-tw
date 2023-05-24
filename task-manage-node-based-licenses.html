@@ -42,6 +42,7 @@
   <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/bluexp-digital-wallet/task-manage-node-based-licenses.html" />
   <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/bluexp-digital-wallet/task-manage-node-based-licenses.html" />
   <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/bluexp-digital-wallet/task-manage-node-based-licenses.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/bluexp-digital-wallet/task-manage-node-based-licenses.html" />
   <link rel='stylesheet' href='/zh-tw/bluexp-digital-wallet/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
     function addAdobeLaunch(adobeId) {
       var head = document.getElementsByTagName('head')[0];
@@ -176,7 +177,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/issues/new?body=Page%3A%20[管理節點型授權](https://docs.netapp.com/zh-tw/bluexp-digital-wallet/task-manage-node-based-licenses.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/zh-tw/bluexp-digital-wallet/images/discuss-sm.svg" alt="" class="github-icon" />要求變更文件</a><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/blob/main/task-manage-node-based-licenses.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-tw/bluexp-digital-wallet/images/edit-sm.svg" alt="" class="github-icon" />編輯此頁面</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-tw/bluexp-digital-wallet/images/article-sm.svg" alt="" class="github-icon" />瞭解如何作出貢獻</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet.zh-tw/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/zh-tw/bluexp-digital-wallet/task-manage-node-based-licenses.html&page-title=管理節點型授權" class="page-nav-contribute-link" role="button"><img src="/zh-tw/bluexp-digital-wallet/images/discuss-sm.svg" alt="" class="github-icon" />要求變更文件</a><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/blob/main/task-manage-node-based-licenses.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-tw/bluexp-digital-wallet/images/edit-sm.svg" alt="" class="github-icon" />編輯此頁面</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-tw/bluexp-digital-wallet/images/article-sm.svg" alt="" class="github-icon" />瞭解如何作出貢獻</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此頁面上</div>
@@ -269,8 +270,8 @@
           data-did-you-mean="搜尋 {suggestion}。"
           data-no-results-found-did-you-mean="找不到符合 {query} 的相關結果。您是否要找的是{suggestion}？"
           data-results-found="找到 {hitCount} 筆結果"
-          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
-          data-error-reset="Reset Search"
+          data-error-message="很抱歉，擷取結果時發生問題。請再試一次。"
+          data-error-reset="重設搜尋"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -311,6 +312,8 @@
           <a href="https://docs.netapp.com/es-es/bluexp-digital-wallet/task-manage-node-based-licenses.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
         </li><li>
           <a href="https://docs.netapp.com/fr-fr/bluexp-digital-wallet/task-manage-node-based-licenses.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/it-it/bluexp-digital-wallet/task-manage-node-based-licenses.html" target="_self"><span translate="no" class="notranslate">Italiano</span></a>
         </li></ul>
     </div>
     <!-- End Language Selector -->
@@ -688,7 +691,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-04-21 16:19:12 +0000">04/21/2023</time>
+    <time datetime="2023-05-24 00:18:56 +0000">05/24/2023</time>
     
   
 
@@ -701,7 +704,7 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>管理數位錢包中的節點型授權、確保每個 Cloud Volumes ONTAP 系統都擁有具有所需容量的有效授權。</p>
+<p>在 BlueXP 數位錢包中管理節點型授權、以確保每個 Cloud Volumes ONTAP 系統都擁有具有所需容量的有效授權。</p>
 </div>
 <div class="paragraph">
 <p>_Node型授權_是前一代授權模式（不適用於新客戶）：</p>
@@ -717,7 +720,7 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>「<em>數位錢包</em>」可讓您從Cloud Volumes ONTAP 單一位置管理用於支援的授權。您可以新增授權並更新現有授權。</p>
+<p>_BlueXP 數位錢包 _ 可讓您從單一位置管理 Cloud Volumes ONTAP 的授權。您可以新增授權並更新現有授權。</p>
 </div>
 <div class="paragraph">
 <p><a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html">"深入瞭Cloud Volumes ONTAP 解不知如何取得授權"</a>。</p>
@@ -728,7 +731,7 @@
 <h2 id="管理paygo授權">管理PAYGO授權</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>「Digital Wallet」頁面可讓您檢視每Cloud Volumes ONTAP 個PAYGO更新系統的詳細資料、包括序號和PAYGO授權類型。</p>
+<p>BlueXP 數位錢包頁面可讓您檢視每個 PAYGO Cloud Volumes ONTAP 系統的詳細資料、包括序號和 PAYGO 授權類型。</p>
 </div>
 <div class="olist arabic">
 <div class="title">步驟</div>
@@ -745,7 +748,7 @@
 <li>
 <p>請在表格中檢視每個PAYGO授權的詳細資料。</p>
 <div class="paragraph">
-<p><span class="image"><img src="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/screenshot_paygo_licenses.png" alt="一張螢幕快照、顯示「數位錢包」頁面中的表格、其中包含三份Paygo授權。每一列都會顯示名稱、系統類型、序號、套件、以及管理授權的連結。"></span></p>
+<p><span class="image"><img src="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/screenshot_paygo_licenses.png" alt="此螢幕擷取畫面顯示 BlueXP 數位電子錢包頁面中的表格、內含三個 Paygo 授權。每一列都會顯示名稱、系統類型、序號、套件、以及管理授權的連結。"></span></p>
 </div>
 </li>
 <li>
@@ -764,7 +767,7 @@
 <div class="sect2">
 <h3 id="新增未指派的授權">新增未指派的授權</h3>
 <div class="paragraph">
-<p>將節點型授權新增至Digital Wallet、以便在建立新Cloud Volumes ONTAP 的作業系統時選取授權。數位錢包會將這些授權識別為_未指派_。</p>
+<p>將節點型授權新增至 BlueXP 數位錢包、以便在建立新的 Cloud Volumes ONTAP 系統時選取授權。數位錢包會將這些授權識別為 <em>disally</em>.</p>
 </div>
 <div class="olist arabic">
 <div class="title">步驟</div>
@@ -794,13 +797,13 @@
 </div>
 <div class="paragraph">
 <div class="title">結果</div>
-<p>BlueXP會將授權新增至Digital Wallet。授權將被識別為未指派、直到您將其與新Cloud Volumes ONTAP 的一套系統關聯為止。之後、授權會移至「數位錢包」中的「* BYOL*」索引標籤。</p>
+<p>BlueXP 將授權新增至數位錢包。授權將被識別為未指派、直到您將其與新Cloud Volumes ONTAP 的一套系統關聯為止。之後、授權便會移至數位錢包中的 * BYOL* 標籤。</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="exchange未指派的節點型授權">Exchange未指派的節點型授權</h3>
 <div class="paragraph">
-<p>如果Cloud Volumes ONTAP 您擁有尚未使用的未指派節點型支援功能、您可以將授權轉換為Cloud Backup授權、Cloud Data Sense授權或Cloud Tiering授權、以交換授權。</p>
+<p>如果您尚未使用未指派的 Cloud Volumes ONTAP 節點型授權、則可將授權轉換為 BlueXP 備份與還原授權、 BlueXP 分類授權或 BlueXP 分層授權、以交換授權。</p>
 </div>
 <div class="paragraph">
 <p>交換授權會撤銷Cloud Volumes ONTAP 該服務的不含美元的授權、並為該服務建立相當於美元的授權：</p>

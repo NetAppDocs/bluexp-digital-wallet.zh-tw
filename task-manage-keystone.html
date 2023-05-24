@@ -42,6 +42,7 @@
   <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/bluexp-digital-wallet/task-manage-keystone.html" />
   <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/bluexp-digital-wallet/task-manage-keystone.html" />
   <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/bluexp-digital-wallet/task-manage-keystone.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/bluexp-digital-wallet/task-manage-keystone.html" />
   <link rel='stylesheet' href='/zh-tw/bluexp-digital-wallet/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
     function addAdobeLaunch(adobeId) {
       var head = document.getElementsByTagName('head')[0];
@@ -176,7 +177,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/issues/new?body=Page%3A%20[管理 Keystone 訂閱服務](https://docs.netapp.com/zh-tw/bluexp-digital-wallet/task-manage-keystone.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/zh-tw/bluexp-digital-wallet/images/discuss-sm.svg" alt="" class="github-icon" />要求變更文件</a><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/blob/main/task-manage-keystone.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-tw/bluexp-digital-wallet/images/edit-sm.svg" alt="" class="github-icon" />編輯此頁面</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-tw/bluexp-digital-wallet/images/article-sm.svg" alt="" class="github-icon" />瞭解如何作出貢獻</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet.zh-tw/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/zh-tw/bluexp-digital-wallet/task-manage-keystone.html&page-title=管理 Keystone 訂閱服務" class="page-nav-contribute-link" role="button"><img src="/zh-tw/bluexp-digital-wallet/images/discuss-sm.svg" alt="" class="github-icon" />要求變更文件</a><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/blob/main/task-manage-keystone.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-tw/bluexp-digital-wallet/images/edit-sm.svg" alt="" class="github-icon" />編輯此頁面</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-tw/bluexp-digital-wallet/images/article-sm.svg" alt="" class="github-icon" />瞭解如何作出貢獻</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此頁面上</div>
@@ -269,8 +270,8 @@
           data-did-you-mean="搜尋 {suggestion}。"
           data-no-results-found-did-you-mean="找不到符合 {query} 的相關結果。您是否要找的是{suggestion}？"
           data-results-found="找到 {hitCount} 筆結果"
-          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
-          data-error-reset="Reset Search"
+          data-error-message="很抱歉，擷取結果時發生問題。請再試一次。"
+          data-error-reset="重設搜尋"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -311,6 +312,8 @@
           <a href="https://docs.netapp.com/es-es/bluexp-digital-wallet/task-manage-keystone.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
         </li><li>
           <a href="https://docs.netapp.com/fr-fr/bluexp-digital-wallet/task-manage-keystone.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/it-it/bluexp-digital-wallet/task-manage-keystone.html" target="_self"><span translate="no" class="notranslate">Italiano</span></a>
         </li></ul>
     </div>
     <!-- End Language Selector -->
@@ -688,7 +691,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-05-08 14:14:32 +0000">05/08/2023</time>
+    <time datetime="2023-05-24 00:18:56 +0000">05/24/2023</time>
     
   
 
@@ -701,13 +704,13 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>啟用訂閱功能以搭配Cloud Volumes ONTAP 使用、從Digital Wallet管理Keystone Flex訂閱。您也可以要求變更已提交的容量、也可以取消訂閱連結。</p>
+<p>透過啟用與 Cloud Volumes ONTAP 搭配使用的訂閱、從 BlueXP 數位錢包管理基礎概念訂閱。您也可以要求變更已提交的容量、也可以取消訂閱連結。</p>
 </div>
 <div class="paragraph">
-<p>_Keystone Flex訂購_是NetApp提供的隨需付費儲存服務。</p>
+<p>Keystone Subscription_ 是 NetApp 提供的隨成長付費儲存服務。</p>
 </div>
 <div class="paragraph">
-<p>「<em>數位錢包</em>」可讓您從Cloud Volumes ONTAP 單一位置管理用於支援的授權。您可以新增授權並更新現有授權。</p>
+<p>_BlueXP 數位錢包 _ 可讓您從單一位置管理 Cloud Volumes ONTAP 的授權。您可以新增授權並更新現有授權。</p>
 </div>
 <div class="paragraph">
 <p><a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html">"深入瞭Cloud Volumes ONTAP 解不知如何取得授權"</a>。</p>
@@ -718,7 +721,7 @@
 <h2 id="授權您的帳戶">授權您的帳戶</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>在使用及管理BlueXP中的Keystone Flex訂閱之前、您必須先聯絡NetApp、以利用Keystone Flex訂閱來授權您的BlueXP使用者帳戶。</p>
+<p>在 BlueXP 中使用和管理基礎概念訂閱之前、您必須先聯絡 NetApp 、以授權您的 BlueXP 使用者帳戶使用基礎概念訂閱。</p>
 </div>
 <div class="olist arabic">
 <div class="title">步驟</div>
@@ -736,9 +739,9 @@
 </div>
 </li>
 <li>
-<p>請返回* Keystone Flex訂購*以檢視您的訂閱內容。</p>
+<p>返回 * Keystone Subscription* 檢視您的訂閱。</p>
 <div class="paragraph">
-<p><span class="image"><img src="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/screenshot-keystone-overview.png" alt="顯示Keystone Flex訂閱清單的快照。"></span></p>
+<p><span class="image"><img src="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/screenshot-keystone-overview.png" alt="顯示 Keystone 訂閱清單的螢幕擷取畫面。"></span></p>
 </div>
 </li>
 </ol>
@@ -753,7 +756,7 @@
 <h2 id="連結訂閱">連結訂閱</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>在NetApp授權您的帳戶之後、您必須連結Keystone Flex訂閱Cloud Volumes ONTAP 以供搭配使用。此動作可讓使用者選擇訂閱做為新Cloud Volumes ONTAP 版的功能表系統的充電方法。</p>
+<p>NetApp 授權您的帳戶後、您需要連結 Keystone 訂閱以搭配 Cloud Volumes ONTAP 使用。此動作可讓使用者選擇訂閱做為新Cloud Volumes ONTAP 版的功能表系統的充電方法。</p>
 </div>
 <div class="olist arabic">
 <div class="title">步驟</div>
@@ -817,7 +820,7 @@
 <h2 id="取消訂閱連結">取消訂閱連結</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>如果您不想再將Keystone Flex訂閱搭配新Cloud Volumes ONTAP 的功能使用、可以取消訂閱連結。請注意、您只能取消連結未附加至現有Cloud Volumes ONTAP 的訂閱內容的訂閱。</p>
+<p>如果您不再想在新的 Cloud Volumes ONTAP 系統上使用 Keystone 訂閱、您可以取消訂閱的連結。請注意、您只能取消連結未附加至現有Cloud Volumes ONTAP 的訂閱內容的訂閱。</p>
 </div>
 <div class="olist arabic">
 <div class="title">步驟</div>
