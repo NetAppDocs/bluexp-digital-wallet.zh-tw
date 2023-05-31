@@ -10,7 +10,7 @@ summary: 透過啟用與 Cloud Volumes ONTAP 搭配使用的訂閱功能、從�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/
+:imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
 
 [role="lead"]
@@ -20,7 +20,7 @@ Keystone Subscription_ 是 NetApp 提供的隨成長付費儲存服務。
 
 _BlueXP 數位錢包 _ 可讓您從單一位置管理 Cloud Volumes ONTAP 的授權。您可以新增授權並更新現有授權。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["深入瞭Cloud Volumes ONTAP 解不知如何取得授權"]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["深入瞭Cloud Volumes ONTAP 解不知如何取得授權"]。
 
 
 

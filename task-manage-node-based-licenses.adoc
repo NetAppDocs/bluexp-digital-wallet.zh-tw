@@ -10,7 +10,7 @@ summary: 在Digital Wallet中管理您的節點型授權、確保每Cloud Volume
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/
+:imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
 
 [role="lead"]
@@ -24,7 +24,7 @@ _Node型授權_是前一代授權模式（不適用於新客戶）：
 
 _BlueXP 數位錢包 _ 可讓您從單一位置管理 Cloud Volumes ONTAP 的授權。您可以新增授權並更新現有授權。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["深入瞭Cloud Volumes ONTAP 解不知如何取得授權"]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["深入瞭Cloud Volumes ONTAP 解不知如何取得授權"]。
 
 
 
@@ -224,10 +224,10 @@ BlueXP開始轉換程序。此程序會自動重新啟動。Cloud Volumes ONTAP�
 . 打造全新 Cloud Volumes ONTAP 的運作環境。
 . 針對您需要複寫的每個磁碟區、在系統之間設定一次性資料複寫。
 +
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["瞭解如何在系統之間複寫資料"^]
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭解如何在系統之間複寫資料"^]
 
 . 刪除原始工作環境、終止Cloud Volumes ONTAP 不再需要的功能。
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deleting-working-env.html["瞭解如何刪除Cloud Volumes ONTAP 功能不正常的工作環境"]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deleting-working-env.html["瞭解如何刪除Cloud Volumes ONTAP 功能不正常的工作環境"]。
 
 

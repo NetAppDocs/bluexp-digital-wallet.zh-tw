@@ -19,8 +19,8 @@ BlueXP 數位錢包可讓您檢視每個內部部署 ONTAP 叢集的合約詳細
 .開始之前
 BlueXP 數位錢包會顯示內部部署 ONTAP 叢集的詳細資料、這些叢集是您在工作環境中發現的、或是與您新增至 BlueXP 的 NetApp 支援網站 帳戶相關聯的叢集。
 
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["瞭解如何探索內部部署 ONTAP 叢集"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["瞭解如何管理與 BlueXP 帳戶相關的 NSS 認證"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["瞭解如何探索內部部署 ONTAP 叢集"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["瞭解如何管理與 BlueXP 帳戶相關的 NSS 認證"^]
 
 
 
@@ -54,7 +54,7 @@ image:screenshot_digital_wallet_license_info.png["擴充叢集詳細資料的快
 .開始之前
 您應該瞭解探索和管理選項（使用 Connector 進行探索或不使用 Connector 進行直接探索）、以及探索需求。
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["瞭解探索選項和需求"^]。
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["瞭解探索選項和需求"^]。
 
 .步驟
 . 從BlueXP導覽功能表中、選取*管理>數位錢包*。
@@ -85,6 +85,6 @@ image:screenshot_onprem_cluster.png["畫版中內部的叢集快照ONTAP 。"]
 
 您現在可以開始管理叢集。
 
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-connector.html["瞭解如何管理透過Connector探索到的叢集"^]
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["瞭解如何直接管理探索到的叢集"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-connector.html["瞭解如何管理透過Connector探索到的叢集"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["瞭解如何直接管理探索到的叢集"^]
 
