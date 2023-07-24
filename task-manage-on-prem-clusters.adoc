@@ -38,8 +38,8 @@ BlueXP 數位錢包會顯示內部部署 ONTAP 叢集的詳細資料、這些叢
 +
 如果系統提示您先輸入 NetApp 支援網站 （ NSS ）帳戶認證、請選取 * 新增 NSS 帳戶 * 。新增帳戶後、會出現與該 NSS 帳戶相關聯的叢集。
 
-. 如果合約已接近到期日或已過期、您可以按一下 BlueXP 主控台右下角的聊天圖示、要求延長合約期限。
-. 若要檢視更多詳細資料、請按一下 image:button_down_caret.png["一個脫機圖示"] 以展開叢集資訊。
+. 如果合約已接近到期日或已過期、您可以選取 BlueXP 主控台右下角的聊天圖示、以申請合約延期。
+. 若要檢視更多詳細資料、請選取 image:button_down_caret.png["一個脫機圖示"] 以展開叢集資訊。
 +
 image:screenshot_digital_wallet_license_info.png["擴充叢集詳細資料的快照、以便您檢視叢集授權資訊。"]
 
@@ -68,8 +68,8 @@ image:screenshot_digital_wallet_onprem_main.png["「數位錢包」頁面的快�
 +
 如果系統提示您先輸入 NetApp 支援網站 （ NSS ）帳戶認證、請選取 * 新增 NSS 帳戶 * 。新增帳戶後、會出現與該 NSS 帳戶相關聯的叢集。
 
-. 按一下* Discover（探索）*以瞭解您要透過BlueXP管理的叢集。
-. 在_探索ONTAP 更新叢集_頁面上、輸入管理員使用者帳戶的密碼、然後按一下*探索*。
+. 針對您要透過 BlueXP 管理的叢集、選取 * Discover （探索） * 。
+. 在 _ 探索 ONTAP 叢集 _ 頁面上、輸入管理使用者帳戶的密碼、然後選取 * 探索 * 。
 +
 image:screenshot_discover_ontap_wallet.png["快照顯示 ONTAP 「叢集管理詳細資料」頁面的範例：叢集管理 IP 位址、使用者名稱和密碼。"]
 
