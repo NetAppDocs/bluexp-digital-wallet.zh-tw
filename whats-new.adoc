@@ -34,7 +34,7 @@ Cloud Volumes ONTAP 使用率報告現在有幾項改善功能：
 * Volume 類型 _secondary_ 現在標示為 _Secondary （ DP ） _ 。
 
 
-如需使用報告的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html#download-usage-reports["下載使用報告"^]
+如需使用報告的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["下載使用報告"]。
 
 
 
@@ -58,7 +58,7 @@ BlueXP 數位電子錢包現在會識別與私有方案相關的 Google Cloud Ma
 * Volume 使用量
 
 
-如需詳細資訊、請參閱 link:https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["管理容量型授權"]。
+如需使用報告的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["下載使用報告"]。
 
 
 

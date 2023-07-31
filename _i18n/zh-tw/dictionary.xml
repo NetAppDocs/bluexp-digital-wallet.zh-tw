@@ -442,7 +442,6 @@
   <block id="160ba974abba347f5e939a1a0acd5982" category="list-text">高階使用率</block>
   <block id="bf951096cc9eea5fae867ec94f06dfa3" category="list-text">儲存 VM 使用率</block>
   <block id="3c5979c173a0a4fe3ff27e0e6185a693" category="list-text">Volume 使用量</block>
-  <block id="8156321649d649dc3e16c2849d8aa212" category="paragraph">如需詳細資訊、請參閱 <block ref="862b3811f42dd37621050f0605c0d301" category="inline-link-macro-rx"></block>。</block>
   <block id="76631958e748db22b905b65fb2cba5d2" category="paragraph">對於 Google Cloud 、您也可以識別與私有方案相關的市場訂閱、以驗證您是否已成功接受此方案。</block>
   <block id="cf5f3091e30dee6597885d8c0e0c357f" category="list-text">期限</block>
   <block id="314c4a4eeddb6d1cd1f813b95714f7a2" category="list-text">如果您的 Google Cloud 訂閱與私有優惠相關聯、且該私有優惠在建立並接受後已修改、則該條款會顯示 N/A在此案例中、我們從 Google Cloud Marketplace 收到的 API 回應並不包含詞彙相關資訊。</block>
@@ -607,7 +606,7 @@
   <block id="9f02e3f417792785e27aead6a388ce7b" category="list-text">工作環境名稱現在已包含在儲存 VM 和 Volume 使用量報告中。</block>
   <block id="001f2392fde5e9977a349af817fa07e9" category="list-text">現在、磁碟區類型 _file_ 會標示為 _ 主要（讀取 / 寫入） _ 。</block>
   <block id="af30dca925032347d49fd49d710f0164" category="list-text">Volume 類型 _secondary_ 現在標示為 _Secondary （ DP ） _ 。</block>
-  <block id="2bb2d72e1ff09fcf49ad52f3b153b014" category="paragraph">如需使用報告的詳細資訊、請參閱<block ref="8b82f3e29419f7f039b88f8e9f60bf47" category="inline-link-rx"></block></block>
   <block id="4a9ebfe4f0e3302083955176f47a9519" category="list-text">工作環境 ID 和名稱（顯示為 UUID ）</block>
   <block id="427af860f9733f0c5427a1408195bb2b" category="list-text">工作負載類型</block>
+  <block id="7cc7b7a6d80d31d0e4806abd9de3d8f3" category="paragraph">如需使用報告的詳細資訊、請參閱<block ref="a7d17f594b62c1bde4179fc580d7da6f" category="inline-link-rx"></block>。</block>
 </blocks>
