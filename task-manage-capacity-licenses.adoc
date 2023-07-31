@@ -107,7 +107,7 @@ image:screenshot-digital-wallet-usage-report.png["螢幕擷取畫面會顯示數
 
 * * 儲存虛擬機器使用率 * ：此報告顯示如何在 Cloud Volumes ONTAP 系統和儲存虛擬機器（ SVM ）之間分解已計費的容量。此資訊無法在數位錢包的任何畫面上取得。其中包括下列資訊：
 +
-** 工作環境 ID （顯示為 UUID ）
+** 工作環境 ID 和名稱（顯示為 UUID ）
 ** 雲端
 ** NetApp 帳戶 ID
 ** 工作環境組態
@@ -118,11 +118,12 @@ image:screenshot-digital-wallet-usage-report.png["螢幕擷取畫面會顯示數
 ** Cloud Volumes ONTAP 套件或功能
 ** 向 SaaS Marketplace 訂閱名稱收費
 ** 向 SaaS Marketplace 訂閱 ID 收費
+** 工作負載類型
 
 
 * * Volume 使用量 * ：此報告顯示如何在工作環境中、依磁碟區來分解收費容量。此資訊無法在數位錢包的任何畫面上取得。其中包括下列資訊：
 +
-** 工作環境 ID （顯示為 UUID ）
+** 工作環境 ID 和名稱（顯示為 UUID ）
 ** SVN 名稱
 ** Volume ID
 ** Volume類型

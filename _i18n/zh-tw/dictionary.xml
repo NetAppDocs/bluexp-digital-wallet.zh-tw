@@ -473,7 +473,6 @@
   <block id="baf09c6c43fd26effd8f15e252649384" category="list-text">PAYGO 總容量</block>
   <block id="76101a2de96d735db21249323914bc6c" category="list-text">* Cloud Volumes ONTAP 套件使用 * ：此報告會清楚顯示數位錢包內的套裝卡片內容。除了最佳化的 I/O 套件外、其中包括每個套件的下列資訊：</block>
   <block id="c01bbdbe6721d80a74779e943243486b" category="list-text">* 儲存虛擬機器使用率 * ：此報告顯示如何在 Cloud Volumes ONTAP 系統和儲存虛擬機器（ SVM ）之間分解已計費的容量。此資訊無法在數位錢包的任何畫面上取得。其中包括下列資訊：</block>
-  <block id="b16bfcaa9b0651f05b8e8894a2aebb31" category="list-text">工作環境 ID （顯示為 UUID ）</block>
   <block id="c8e2277ecfb1427838c488c217f99466" category="list-text">雲端</block>
   <block id="4736cd35bf5b3fe63e1b1785fb2aa664" category="list-text">NetApp 帳戶 ID</block>
   <block id="bbfa34e8af02138b821f784c8962669b" category="list-text">工作環境組態</block>
@@ -599,4 +598,16 @@
   <block id="093ebe6e7f093a5d0ba33d387ce15bd0" category="list-text">若要檢視更多詳細資料、請選取 <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> 以展開叢集資訊。</block>
   <block id="dd7c2502d7fdbd07b536ab7c70be2609" category="list-text">針對您要透過 BlueXP 管理的叢集、選取 * Discover （探索） * 。</block>
   <block id="65fd12713cafdbaee90c518b8e719b8a" category="list-text">在 _ 探索 ONTAP 叢集 _ 頁面上、輸入管理使用者帳戶的密碼、然後選取 * 探索 * 。</block>
+  <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">2023 年 7 月 30 日</block>
+  <block id="ee4272223579f1299444d14f2d185eb5" category="section-title">使用報告增強功能</block>
+  <block id="c1ab40aac4724ff5a3b9540c19eed579" category="paragraph">Cloud Volumes ONTAP 使用率報告現在有幾項改善功能：</block>
+  <block id="4c63050f1e33aa32db50cc80b682e805" category="list-text">TiB 單元現在已包含在欄名稱中。</block>
+  <block id="c352c835cf612ee328fb7dba772bce4d" category="list-text">現在包含序號的新 _ 節點 _ 欄位。</block>
+  <block id="f949b800c66bf942c10c1e2b5847f5cf" category="list-text">儲存 VM 使用量報告中現在包含新的 _ 工作負載類型 _ 欄。</block>
+  <block id="9f02e3f417792785e27aead6a388ce7b" category="list-text">工作環境名稱現在已包含在儲存 VM 和 Volume 使用量報告中。</block>
+  <block id="001f2392fde5e9977a349af817fa07e9" category="list-text">現在、磁碟區類型 _file_ 會標示為 _ 主要（讀取 / 寫入） _ 。</block>
+  <block id="af30dca925032347d49fd49d710f0164" category="list-text">Volume 類型 _secondary_ 現在標示為 _Secondary （ DP ） _ 。</block>
+  <block id="2bb2d72e1ff09fcf49ad52f3b153b014" category="paragraph">如需使用報告的詳細資訊、請參閱<block ref="8b82f3e29419f7f039b88f8e9f60bf47" category="inline-link-rx"></block></block>
+  <block id="4a9ebfe4f0e3302083955176f47a9519" category="list-text">工作環境 ID 和名稱（顯示為 UUID ）</block>
+  <block id="427af860f9733f0c5427a1408195bb2b" category="list-text">工作負載類型</block>
 </blocks>

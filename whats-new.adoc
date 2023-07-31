@@ -18,6 +18,26 @@ summary: 瞭解 BlueXP 數位錢包的新功能。
 
 
 
+== 2023 年 7 月 30 日
+
+
+
+=== 使用報告增強功能
+
+Cloud Volumes ONTAP 使用率報告現在有幾項改善功能：
+
+* TiB 單元現在已包含在欄名稱中。
+* 現在包含序號的新 _ 節點 _ 欄位。
+* 儲存 VM 使用量報告中現在包含新的 _ 工作負載類型 _ 欄。
+* 工作環境名稱現在已包含在儲存 VM 和 Volume 使用量報告中。
+* 現在、磁碟區類型 _file_ 會標示為 _ 主要（讀取 / 寫入） _ 。
+* Volume 類型 _secondary_ 現在標示為 _Secondary （ DP ） _ 。
+
+
+如需使用報告的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html#download-usage-reports["下載使用報告"^]
+
+
+
 == 2023 年 5 月 7 日
 
 
