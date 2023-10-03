@@ -13,7 +13,7 @@ summary: 從Digital Wallet管理容量型授權、確保您的NetApp帳戶擁有
 :imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
 
-[role="lead"]
+[role="lead lead"]
 從 BlueXP 數位錢包管理容量型授權、以確保您的 NetApp 帳戶擁有足夠的容量供 Cloud Volumes ONTAP 系統使用。
 
 _容量型授權_可讓您針對Cloud Volumes ONTAP 每個TiB的容量付費。

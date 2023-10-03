@@ -13,7 +13,7 @@ summary: 透過啟用與 Cloud Volumes ONTAP 搭配使用的訂閱功能、從�
 :imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
 
-[role="lead"]
+[role="lead lead"]
 透過啟用與 Cloud Volumes ONTAP 搭配使用的訂閱、從 BlueXP 數位錢包管理基礎概念訂閱。您也可以要求變更已提交的容量、也可以取消訂閱連結。
 
 Keystone Subscription_ 是 NetApp 提供的隨成長付費儲存服務。
