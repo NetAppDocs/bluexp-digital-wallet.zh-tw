@@ -13,7 +13,9 @@ sidebar:
   - title: BlueXP 數位錢包文件
     url: "/index.html"
   - title: 版本資訊
-    url: "/whats-new.html"
+    entries:
+    - title: 新增功能
+      url: "/whats-new.html"
   - title: 開始使用
     entries:
     - title: 瞭解 BlueXP 數位錢包
@@ -30,7 +32,7 @@ sidebar:
       url: "/task-manage-data-services-licenses.html"
     - title: 管理PAYGO訂閱與合約
       url: "/task-manage-subscriptions.html"
-    - title: 管理 Keystone 訂閱服務
+    - title: 管理 Keystone 訂閱
       url: "/task-manage-keystone.html"
     - title: 管理內部部署 ONTAP 叢集的授權
       url: "/task-manage-on-prem-clusters.html"

@@ -16,6 +16,10 @@ summary: 當您從雲端供應商的市場訂閱BlueXP時、系統會將您重�
 [role="lead"]
 當您從雲端供應商的市場訂閱BlueXP時、系統會將您重新導向至BlueXP網站、您需要在其中儲存訂閱內容、並將其與特定帳戶建立關聯。訂閱後、每筆訂閱都可從 BlueXP 數位錢包進行管理。
 
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html["瞭解如何訂閱 BlueXP （標準模式）"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html["瞭解如何訂閱 BlueXP （受限模式）"^]
+
+
 
 
 == 檢視您的訂閱內容
