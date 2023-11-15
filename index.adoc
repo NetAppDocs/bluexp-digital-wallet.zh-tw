@@ -1,5 +1,5 @@
 ---
-layout: astra 
+layout: landing-page 
 sidebar: sidebar 
 permalink: index.html 
 lead: The BlueXP digital wallet provides centralized management and monitoring of your licenses and subscriptions. 
