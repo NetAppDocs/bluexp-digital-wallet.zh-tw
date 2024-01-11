@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-data-services-licenses.html 
-keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license 
+keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, digital wallet, bluexp digital wallet, classification, bluexp classification, bluexp tiering, tiering, bluexp backup and recovery, backup and recovery 
 summary: BlueXP 數位錢包可讓您管理直接從 NetApp （ BYOL ）購買的授權、以搭配 BlueXP 備份與還原、分類及分層使用。您可以檢視已用的授權容量、剩餘的可用容量、如果達到容量上限或到期日、就會看到通知。 
 ---
 = 管理 BlueXP 資料服務的授權
