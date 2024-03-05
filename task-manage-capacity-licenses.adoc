@@ -188,10 +188,17 @@ NOTE: 此報告不包含 FlexClone Volume 、因為這些類型的磁碟區不�
 
 == 變更充電方法
 
-您可以變更Cloud Volumes ONTAP 使用容量型授權的一套適用於整個系統的充電方法。例如、如果您部署Cloud Volumes ONTAP 的是含有Essentials套件的功能完善的系統、則當您的業務需求改變時、可以將其變更為Professional套件。
+容量型授權的形式為_package_。建立 Cloud Volumes ONTAP 工作環境時、您可以根據業務需求、從多個授權套件中選擇。如果您在建立工作環境之後需要變更、您可以隨時變更套件。例如、您可以將 Essentials 套件變更為專業版套件。
 
-.重要注意事項
-如果您有來自雲端供應商市場的私人優惠或合約、改用未包含在合約中的收費方法、將會導致依BYOL（如果您向NetApp購買授權）或PAYGO收取費用。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["深入瞭解容量型授權套件"]。
+
+.關於這項工作
+* 變更收費方式並不會影響您是透過從 NetApp （ BYOL ）購買的授權或雲端供應商的市場（隨用付費）收取費用。
++
+BlueXP 一律會先嘗試根據授權收費。如果沒有可用的授權、就會根據市場訂閱收費。BYOL 不需要「轉換」即可訂閱市場、反之亦然。
+
+* 如果您有來自雲端供應商市場的私人優惠或合約、改用未包含在合約中的收費方法、將會導致依BYOL（如果您向NetApp購買授權）或PAYGO收取費用。
+
 
 .步驟
 . 從BlueXP導覽功能表中、選取*管理>數位錢包*。

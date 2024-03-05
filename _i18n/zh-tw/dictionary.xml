@@ -38,8 +38,6 @@
   <block id="f591dbc4232b149ea0792178559405f9" category="list-text">上傳授權檔案。</block>
   <block id="034f6db5181ab87d962e69b9b7b5a995" category="list-text">按一下*上傳授權*。</block>
   <block id="662442d32a5fd91298fcf8b6391fdf17" category="section-title">變更充電方法</block>
-  <block id="a117b4a94f6f90aef089573b1f002d26" category="paragraph">您可以變更Cloud Volumes ONTAP 使用容量型授權的一套適用於整個系統的充電方法。例如、如果您部署Cloud Volumes ONTAP 的是含有Essentials套件的功能完善的系統、則當您的業務需求改變時、可以將其變更為Professional套件。</block>
-  <block id="86f463a1f0f0879749d1274dc94305d9" category="paragraph-title">重要注意事項</block>
   <block id="cfdb32f80009b1e5c5c0468dda9f013d" category="paragraph">如果您有來自雲端供應商市場的私人優惠或合約、改用未包含在合約中的收費方法、將會導致依BYOL（如果您向NetApp購買授權）或PAYGO收取費用。</block>
   <block id="3397777d22d2d5f746157ca31f0d8460" category="list-text">在* Cloud Volumes ONTAP 《*》索引標籤上、按一下「*變更充電方法*」。</block>
   <block id="de4b4e176958ea7181911ce715504321" category="list-text">選取工作環境、選擇新的充電方法、然後確認您瞭解變更套件類型將會影響服務費用。</block>
@@ -628,4 +626,10 @@
   <block id="1804830d648adf9126d51f4a827ca950" category="paragraph">BlueXP 數位錢包現在可讓您管理 BlueXP 災難恢復的授權。您可以新增授權、更新授權、以及檢視授權容量的詳細資料。</block>
   <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">瞭解如何管理 BlueXP 資料服務的授權</block>
   <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
+  <block id="970af11c442d109ac4d016f7c57f63fb" category="paragraph">容量型授權的形式為_package_。建立 Cloud Volumes ONTAP 工作環境時、您可以根據業務需求、從多個授權套件中選擇。如果您在建立工作環境之後需要變更、您可以隨時變更套件。例如、您可以將 Essentials 套件變更為專業版套件。</block>
+  <block id="58dcfad3183b701a8f1b8781a5644d09" category="inline-link">深入瞭解容量型授權套件</block>
+  <block id="8e8751cb9b796773a6b79b4d5c3dc7b2" category="paragraph"><block ref="0205926668933cbb2cb5f56900594078" category="inline-link-rx"></block>。</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">關於這項工作</block>
+  <block id="3e4729f0b91cf008c10b8ab719ea9e99" category="list-text">變更收費方式並不會影響您是透過從 NetApp （ BYOL ）購買的授權或雲端供應商的市場（隨用付費）收取費用。</block>
+  <block id="07456d1e170e8be27eaff1e39e1ccdf6" category="paragraph">BlueXP 一律會先嘗試根據授權收費。如果沒有可用的授權、就會根據市場訂閱收費。BYOL 不需要「轉換」即可訂閱市場、反之亦然。</block>
 </blocks>
