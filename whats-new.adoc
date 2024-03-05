@@ -18,6 +18,18 @@ summary: 瞭解 BlueXP 數位錢包的新功能。
 
 
 
+== 2024 年 3 月 5 日
+
+
+
+=== BlueXP 災難恢復
+
+BlueXP 數位錢包現在可讓您管理 BlueXP 災難恢復的授權。您可以新增授權、更新授權、以及檢視授權容量的詳細資料。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["瞭解如何管理 BlueXP 資料服務的授權"]
+
+
+
 == 2023 年 7 月 30 日
 
 

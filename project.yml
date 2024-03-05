@@ -44,28 +44,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 法律聲明
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 開始使用
-    links:
-    - title: 瞭解 BlueXP 數位錢包
-      url: concept-digital-wallet.html
-  - title: 管理您的授權
-    links:
-    - title: 管理 Cloud Volumes ONTAP 的容量型授權
-      url: task-manage-capacity-licenses.html
-    - title: 管理 BlueXP 資料服務的授權
-      url: task-manage-data-services-licenses.html
-    - title: 管理PAYGO訂閱與合約
-      url: task-manage-subscriptions.html
-  - title: 部落格與社群
-    links:
-    - title: NetApp社群
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXP部落格
-      url: https://bluexp.netapp.com/blog
-    - title: 雲端網路研討會
-      url: https://bluexp.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family
