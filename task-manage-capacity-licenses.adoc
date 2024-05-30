@@ -20,6 +20,9 @@ _容量型授權_可讓您針對Cloud Volumes ONTAP 每個TiB的容量付費。
 
 _BlueXP 數位錢包 _ 可讓您從單一位置管理 Cloud Volumes ONTAP 的授權。您可以新增授權並更新現有授權。
 
+
+NOTE: 雖然 BlueXP 管理的產品和服務的實際使用量和計量都是以 GiB 和 TiB 計算、但是會交替使用「 GB/GiB 」和「 TB/TiB 」這兩個詞彙。這會反映在 Cloud Marketplace 清單、價格報價、上市說明及其他支援文件中
+
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["深入瞭Cloud Volumes ONTAP 解不知如何取得授權"]。
 
 
@@ -177,6 +180,9 @@ NOTE: 此報告不包含 FlexClone Volume 、因為這些類型的磁碟區不�
 .您需要的產品
 授權檔案（如果您有HA配對、則為_file_）。
 
+
+NOTE: 如需如何取得授權檔案的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#obtain-a-system-license-file["取得系統授權檔案"^]。
+
 .步驟
 . 從BlueXP導覽功能表中、選取*管理>數位錢包*。
 . 在* Cloud Volumes ONTAP 《*》索引標籤上、按一下授權旁的動作功能表、然後選取*更新授權*。
@@ -190,7 +196,7 @@ NOTE: 此報告不包含 FlexClone Volume 、因為這些類型的磁碟區不�
 
 容量型授權的形式為_package_。建立 Cloud Volumes ONTAP 工作環境時、您可以根據業務需求、從多個授權套件中選擇。如果您在建立工作環境之後需要變更、您可以隨時變更套件。例如、您可以將 Essentials 套件變更為專業版套件。
 
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["深入瞭解容量型授權套件"]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["深入瞭解容量型授權套件"^]。
 
 .關於這項工作
 * 變更收費方式並不會影響您是透過從 NetApp （ BYOL ）購買的授權或雲端供應商的市場（隨用付費）收取費用。
