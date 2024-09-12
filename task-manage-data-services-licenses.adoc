@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-data-services-licenses.html 
 keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, digital wallet, bluexp digital wallet, classification, bluexp classification, bluexp tiering, tiering, bluexp backup and recovery, backup and recovery, disaster recovery 
-summary: BlueXP 數位錢包可讓您管理直接從 NetApp （ BYOL ）購買的授權、以搭配 BlueXP 備份與還原、分類、災難恢復和分層使用。您可以檢視已用的授權容量、剩餘的可用容量、如果達到容量上限或到期日、就會看到通知。 
+summary: BlueXP  數位錢包可讓您管理直接從 NetApp （ BYOL ）購買的授權、以搭配 BlueXP  備份與還原、災難恢復和分層使用。您可以檢視已用的授權容量、剩餘的可用容量、如果達到容量上限或到期日、就會看到通知。 
 ---
 = 管理 BlueXP 資料服務的授權
 :hardbreaks:
@@ -14,15 +14,18 @@ summary: BlueXP 數位錢包可讓您管理直接從 NetApp （ BYOL ）購買�
 
 
 [role="lead"]
-BlueXP 數位錢包可讓您管理直接從 NetApp （ BYOL ）購買的授權、以搭配 BlueXP 備份與還原、分類、災難恢復和分層使用。您可以檢視已用的授權容量、剩餘的可用容量、如果達到容量上限或到期日、就會看到通知。
+BlueXP  數位錢包可讓您管理直接從 NetApp （ BYOL ）購買的授權、以搭配 BlueXP  備份與還原、災難恢復和分層使用。您可以檢視已用的授權容量、剩餘的可用容量、如果達到容量上限或到期日、就會看到通知。
 
 本頁上的指示提供適用於每項服務的資訊。如需這些服務授權的詳細資訊、請參閱下列頁面：
 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/task-licensing-cloud-backup.html["設定 BlueXP 備份與還原的授權"^]
-* https://docs.netapp.com/us-en/bluexp-classification/task-licensing-datasense.html["設定 BlueXP 分類的授權"^]
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["設定 BlueXP 災難恢復的授權"^]
+* https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["設定 BlueXP 勒索軟體保護授權"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["設定 BlueXP 分層授權"^]
 
+
+
+TIP: BlueXP  數位錢包也能讓您管理 BlueXP  分類的授權。不過、 BlueXP  分類現在可在 BlueXP  中作為核心功能、無需額外付費。不再需要授權或訂閱。 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["深入瞭解 BlueXP 分類"^]
 
 
 

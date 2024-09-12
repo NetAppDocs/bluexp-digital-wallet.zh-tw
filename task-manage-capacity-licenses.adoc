@@ -181,7 +181,7 @@ NOTE: 此報告不包含 FlexClone Volume 、因為這些類型的磁碟區不�
 授權檔案（如果您有HA配對、則為_file_）。
 
 
-NOTE: 如需如何取得授權檔案的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#obtain-a-system-license-file["取得系統授權檔案"^]。
+NOTE: 有關如何獲取許可證文件的詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#obtain-a-system-license-file["取得系統授權檔案"^]。
 
 .步驟
 . 從BlueXP導覽功能表中、選取*管理>數位錢包*。

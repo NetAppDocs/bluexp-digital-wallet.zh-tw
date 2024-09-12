@@ -34,9 +34,12 @@ BlueXP 數位錢包可讓您管理及監控從 NetApp （ BYOL ）購買的 Blue
 BlueXP 數位錢包可讓您管理下列服務的授權：
 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["備份與還原"^]
-* https://docs.netapp.com/us-en/bluexp-classification/index.html["分類"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/index.html["災難恢復"^] （僅 BYOL ）
+* https://docs.netapp.com/us-en/bluexp-ransomware-protection/index.html["勒索軟體保護"^]
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html["內部 ONTAP 部署的叢集"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/index.html["分層"^]
 
+
+
+TIP: BlueXP  數位錢包也能讓您管理 BlueXP  分類的授權。不過、 BlueXP  分類現在可在 BlueXP  中作為核心功能、無需額外付費。不再需要授權或訂閱。 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["深入瞭解 BlueXP 分類"^]

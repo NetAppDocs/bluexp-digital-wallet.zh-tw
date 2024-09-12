@@ -388,10 +388,8 @@
   <block id="49f326995814ee311b340478f99f992f" category="doc">BlueXP 數位錢包文件</block>
   <block id="d73d2254cb7a33ffdc126efbce99e623" category="list-text">管理 PAYGO 的訂閱、以及與 BlueXP 帳戶和 Astra Control 相關的年度合約</block>
   <block id="be062cdcabbb3055334e8f19b4bdf378" category="list-text">備份與還原</block>
-  <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="list-text">分類</block>
   <block id="337c62c6b6eb7319bae58701105e889c" category="list-text">分層</block>
   <block id="f4b04af639ebf32754e26b928989f33f" category="inline-link">設定 BlueXP 備份與還原的授權</block>
-  <block id="6212c283c0695ee1a154f1a6cdde74ef" category="inline-link">設定 BlueXP 分類的授權</block>
   <block id="8202299929ccdfe388049a03c2c36d60" category="inline-link">設定 BlueXP 分層授權</block>
   <block id="f5b39d30a98c93c6a597de76a3901496" category="inline-image-macro">顯示頁面以新增 BYOL 授權的螢幕快照。</block>
   <block id="2ab8c9555cb0a7278c9c119126d09972" category="paragraph"><block ref="2ab8c9555cb0a7278c9c119126d09972" category="inline-image-macro-rx" type="image"></block></block>
@@ -482,7 +480,6 @@
   <block id="5fd0d116f88accf7d18b80d146d87953" category="paragraph">BlueXP 將授權新增至數位錢包。授權將被識別為未指派、直到您將其與新Cloud Volumes ONTAP 的一套系統關聯為止。之後、授權便會移至數位錢包中的 * BYOL* 標籤。</block>
   <block id="637413a6c4ca962adade95ae4bcc1109" category="paragraph">如果您尚未使用未指派的 Cloud Volumes ONTAP 節點型授權、則可將授權轉換為 BlueXP 備份與還原授權、 BlueXP 分類授權或 BlueXP 分層授權、以交換授權。</block>
   <block id="0f4ae6c1e816f147fccc8581ff8c2356" category="list-text"><block ref="0f4ae6c1e816f147fccc8581ff8c2356" category="inline-link-rx"></block></block>
-  <block id="e1e4c9b6f29f234db0d1d3981bd24dab" category="list-text"><block ref="e1e4c9b6f29f234db0d1d3981bd24dab" category="inline-link-rx"></block></block>
   <block id="417c925b54c33cc7099af481238f8dde" category="list-text"><block ref="417c925b54c33cc7099af481238f8dde" category="inline-link-rx"></block></block>
   <block id="33d6a436af3ae3b14d8c7687f2687c5c" category="paragraph">如果下拉式清單中沒有您的 NetApp 支援網站帳戶，<block ref="06a3bc9d474b5d4e44d1a2733cac785a" category="inline-link-rx"></block></block>
   <block id="25e7b507c919c21847b291c84a88ba36" category="paragraph"><block ref="73e1a6a2075a5d292111b694a644abf3" category="inline-link-rx"></block>。</block>
@@ -611,14 +608,12 @@
   <block id="d0f4a98872ff48fd92ead596c5f85c7e" category="list-text">管理 Keystone 訂閱服務、以搭配 Cloud Volumes ONTAP 和內部部署 ONTAP 叢集使用、並要求變更已認可容量</block>
   <block id="7665a7ac6a94a4b78d28cc5c7fc692e6" category="paragraph">BlueXP 數位錢包可讓您管理下列服務的授權：</block>
   <block id="79ce4013f1223c98134fc4786fafb114" category="list-text"><block ref="79ce4013f1223c98134fc4786fafb114" category="inline-link-rx"></block></block>
-  <block id="20bba0563305cf02e9d03d24ebf6f41a" category="list-text"><block ref="20bba0563305cf02e9d03d24ebf6f41a" category="inline-link-rx"></block></block>
   <block id="99cd6bbb6bd6b4f32aaf030548bc8abb" category="list-text"><block ref="99cd6bbb6bd6b4f32aaf030548bc8abb" category="inline-link-rx"></block></block>
   <block id="645a84975202e30700b572b49a5ee29d" category="inline-link">災難恢復</block>
   <block id="0691bd698f71b96b0752ddbdd208c1aa" category="list-text"><block ref="8edaf8bb4e175626c9b01d0fbc3891ee" category="inline-link-rx"></block> （僅 BYOL ）</block>
   <block id="19a1ee48ff4a757e699cf87a3f0b593d" category="list-text"><block ref="19a1ee48ff4a757e699cf87a3f0b593d" category="inline-link-rx"></block></block>
   <block id="5ef4f6a3330e077263f2f73cd00474dc" category="list-text"><block ref="5ef4f6a3330e077263f2f73cd00474dc" category="inline-link-rx"></block></block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp 使用 Microsoft Entra ID 做為身分識別提供者、提供專為支援與授權所設計的驗證服務。</block>
-  <block id="7682c7f7c230bf75ef2083e67cfc7179" category="summary">BlueXP 數位錢包可讓您管理直接從 NetApp （ BYOL ）購買的授權、以搭配 BlueXP 備份與還原、分類、災難恢復和分層使用。您可以檢視已用的授權容量、剩餘的可用容量、如果達到容量上限或到期日、就會看到通知。</block>
   <block id="a7193edb26a4b1bca4b7b82254e6dd4b" category="inline-link">設定 BlueXP 災難恢復的授權</block>
   <block id="ef7f2c35c52aa249a13384e6b07d0785" category="list-text"><block ref="ef7f2c35c52aa249a13384e6b07d0785" category="inline-link-rx"></block></block>
   <block id="592997dde366d5775e7e052816854f74" category="section-title">2024 年 3 月 5 日</block>
@@ -632,7 +627,6 @@
   <block id="3e4729f0b91cf008c10b8ab719ea9e99" category="list-text">變更收費方式並不會影響您是透過從 NetApp （ BYOL ）購買的授權或雲端供應商的市場（隨用付費）收取費用。</block>
   <block id="07456d1e170e8be27eaff1e39e1ccdf6" category="paragraph">BlueXP 一律會先嘗試根據授權收費。如果沒有可用的授權、就會根據市場訂閱收費。BYOL 不需要「轉換」即可訂閱市場、反之亦然。</block>
   <block id="d5f06dc5f98a38b5ccff1592c5d20e76" category="admonition">雖然 BlueXP 管理的產品和服務的實際使用量和計量都是以 GiB 和 TiB 計算、但是會交替使用「 GB/GiB 」和「 TB/TiB 」這兩個詞彙。這會反映在 Cloud Marketplace 清單、價格報價、上市說明及其他支援文件中</block>
-  <block id="3e509b6c896c67a8b8ec2afa8f3aa8eb" category="admonition">如需如何取得授權檔案的詳細資訊、請參閱<block ref="c65aa3342130b0295e06cd938a12ad5e" category="inline-link-rx"></block>。</block>
   <block id="6b5c2460f150173d3723de8a857a4d33" category="paragraph"><block ref="179c8a3ed717f2c4de3149f0e9edf685" category="inline-link-rx"></block>。</block>
   <block id="25b1fde564bb1fc860069167d8668df6" category="sidebar">管理您的授權</block>
   <block id="7cbe4872773ca07492a76acf7d557fef" category="sidebar">管理 Cloud Volumes ONTAP 的容量型授權</block>
@@ -640,4 +634,12 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
+  <block id="7478f8f98c41fc2f5747e6f31892fe6f" category="inline-link">勒索軟體保護</block>
+  <block id="9bdf677fc647901e5d4cb4bd5587985d" category="list-text"><block ref="9bdf677fc647901e5d4cb4bd5587985d" category="inline-link-rx"></block></block>
+  <block id="726d1cad4d0527532460d1a853919ebc" category="inline-link">深入瞭解 BlueXP 分類</block>
+  <block id="4b030d95eaf018c403b947f6e8c086b2" category="admonition">BlueXP  數位錢包也能讓您管理 BlueXP  分類的授權。不過、 BlueXP  分類現在可在 BlueXP  中作為核心功能、無需額外付費。不再需要授權或訂閱。<block ref="f37549d88d23259dc9470e2f2bfbbbf0" category="inline-link-rx"></block></block>
+  <block id="5dcdcf1a61f65bad54f6365fe59bf745" category="admonition">有關如何獲取許可證文件的詳細信息，請參閱<block ref="c65aa3342130b0295e06cd938a12ad5e" category="inline-link-rx"></block>。</block>
+  <block id="a269d93abb509861d65de68891092f13" category="summary">BlueXP  數位錢包可讓您管理直接從 NetApp （ BYOL ）購買的授權、以搭配 BlueXP  備份與還原、災難恢復和分層使用。您可以檢視已用的授權容量、剩餘的可用容量、如果達到容量上限或到期日、就會看到通知。</block>
+  <block id="f8caca15ab9e55b2643391493d5c81c7" category="inline-link">設定 BlueXP 勒索軟體保護授權</block>
+  <block id="11fcd042a23eb699950bdd9edd2568bb" category="list-text"><block ref="11fcd042a23eb699950bdd9edd2568bb" category="inline-link-rx"></block></block>
 </blocks>
