@@ -20,7 +20,7 @@ BlueXP 數位錢包可讓您檢視每個內部部署 ONTAP 叢集的合約詳細
 BlueXP 數位錢包會顯示內部部署 ONTAP 叢集的詳細資料、這些叢集是您在工作環境中發現的、或是與您新增至 BlueXP 的 NetApp 支援網站 帳戶相關聯的叢集。
 
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["瞭解如何探索內部部署 ONTAP 叢集"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["瞭解如何管理與 BlueXP 帳戶相關的 NSS 認證"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["瞭解如何管理與 BlueXP  組織或帳戶相關的 NSS 認證"^]
 
 
 

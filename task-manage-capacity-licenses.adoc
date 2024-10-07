@@ -84,7 +84,7 @@ image:screenshot-digital-wallet-packages.png["螢幕擷取畫面顯示基本功�
 
 == 下載使用報告
 
-帳戶管理員可以從 BlueXP 的數位錢包下載四份使用報告。這些使用報告會提供您訂閱的容量詳細資料、並告訴您如何為 Cloud Volumes ONTAP 訂閱中的資源收取費用。可下載的報告會在某個時間點擷取資料、並可輕鬆與他人共用。
+您可以從 BlueXP  數位錢包下載四份使用報告。這些使用報告會提供您訂閱的容量詳細資料、並告訴您如何為 Cloud Volumes ONTAP 訂閱中的資源收取費用。可下載的報告會在某個時間點擷取資料、並可輕鬆與他人共用。
 
 image:screenshot-digital-wallet-usage-report.png["螢幕擷取畫面會顯示數位錢包 Cloud Volumes ONTAP 容量型授權頁面、並反白顯示使用報告按鈕。"]
 

@@ -55,7 +55,7 @@ image:screenshot-keystone-link.png["顯示訂閱連結選項的快照。"]
 
 
 .結果
-訂閱內容現已連結至您的BlueXP帳戶、可在建立Cloud Volumes ONTAP 運作環境時選擇。
+訂閱現已連結至您的 BlueXP  組織或帳戶、可在建立 Cloud Volumes ONTAP 工作環境時加以選擇。
 
 
 
@@ -98,4 +98,4 @@ https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.h
 
 
 .結果
-訂閱內容會從您的BlueXP帳戶中取消連結、因此在建立Cloud Volumes ONTAP 運作中的環境時無法再選取。
+訂閱將與您的 BlueXP  組織或帳戶解除連結、因此在建立 Cloud Volumes ONTAP 工作環境時無法再選擇。

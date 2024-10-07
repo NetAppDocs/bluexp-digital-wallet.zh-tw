@@ -24,7 +24,7 @@ summary: 當您從雲端供應商的市場訂閱BlueXP時、系統會將您重�
 
 == 檢視您的訂閱內容
 
-BlueXP 數位錢包提供每份 PAYGO 訂閱及與 BlueXP 帳戶和 Astra Control （ Astra Control 使用 BlueXP 的收費服務）相關的年度合約的詳細資料。
+BlueXP  數位錢包提供與您的 BlueXP  組織或帳戶、以及 Astra Control （ Astra Control 使用 BlueXP  的收費服務）相關的每份 PAYGO 訂閱和年度合約的詳細資料。
 
 對於 Google Cloud 、您也可以識別與私有方案相關的市場訂閱、以驗證您是否已成功接受此方案。
 
@@ -82,5 +82,5 @@ image:screenshot-subscriptions-expand.png["數位電子錢包中「訂閱」索�
 +
 image:screenshot-subscription-menu.png["訂閱的動作功能表快照。"]
 
-. 選擇重新命名訂閱、或管理與訂閱相關的 BlueXP 帳戶。
+. 選擇重新命名訂閱、或管理與訂閱相關的 BlueXP  組織或帳戶。
 
