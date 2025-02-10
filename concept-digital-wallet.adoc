@@ -14,24 +14,27 @@ summary: BlueXP 數位錢包可讓您管理及監控從 NetApp （ BYOL ）購�
 
 
 [role="lead"]
-BlueXP 數位錢包可讓您管理及監控從 NetApp （ BYOL ）購買的 BlueXP 授權、 BlueXP 市場訂閱及 NetApp Keystone 。
+BlueXP  數位錢包可讓您管理及監控從 NetApp （ BYOL ）， BlueXP  資料服務市場訂閱（包括 NetApp Cloud Volumes ONTAP ）和 NetApp Keystone 購買的 BlueXP  授權。
 
 
 
-== 功能
+== 授權與訂閱如何顯示在數位錢包中
 
-* 管理 Cloud Volumes ONTAP 的容量型和節點型授權
-* 新增及管理 BlueXP 資料服務的授權
-* 管理 PAYGO 的訂閱、以及與您的 BlueXP  組織和 Astra Control 相關的年度合約
-* 管理 Keystone 訂閱服務、以搭配 Cloud Volumes ONTAP 和內部部署 ONTAP 叢集使用、並要求變更已認可容量
-* 檢視內部部署 ONTAP 叢集的硬體和軟體合約狀態資訊
+當用於訂閱的 BlueXP  帳戶同時也是 NetApp 支援網站帳戶時，授權與訂閱都會自動顯示在數位錢包中。如果您使用的 BlueXP  帳戶未與 NetApp 支援網站（ NSS ）帳戶相關聯，則需要手動新增及更新授權，而不會看到使用量，容量及其他詳細資料變更。
 
+在此期間、BlueXP會自動查詢NetApp的授權服務、以取得NetApp 支援網站 與您的帳戶相關之授權的詳細資料。如果沒有錯誤、 BlueXP 會自動將授權新增至數位錢包。
+
+如果 BlueXP  無法新增授權，您必須自行手動將其新增至數位錢包。例如，如果您的 BlueXP  使用者帳戶未與您的 NetApp 支援網站帳戶建立關聯，您就必須自行新增授權。
+
+向 NetApp 銷售代表購買授權後， NetApp 會傳送電子郵件給您，附上序號和其他授權詳細資料。您需要該序號，才能在數位錢包中新增或更新個別授權。
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["瞭解如何將 NetApp 支援網站帳戶新增至 BlueXP  使用者認證"^]。
 
 
 
 == 支援的服務
 
-BlueXP 數位錢包可讓您管理下列服務的授權：
+BlueXP  數位錢包可讓您管理下列服務的授權與訂閱：
 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["備份與還原"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
@@ -40,6 +43,3 @@ BlueXP 數位錢包可讓您管理下列服務的授權：
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html["內部 ONTAP 部署的叢集"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/index.html["分層"^]
 
-
-
-TIP: BlueXP  數位錢包也能讓您管理 BlueXP  分類的授權。不過、 BlueXP  分類現在可在 BlueXP  中作為核心功能、無需額外付費。不再需要授權或訂閱。 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["深入瞭解 BlueXP 分類"^]

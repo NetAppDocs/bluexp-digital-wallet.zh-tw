@@ -1,0 +1,29 @@
+= 
+:allow-uri-read: 
+
+
+當與授權相關的 BlueXP  帳戶同時是 NetApp 支援網站帳戶，且 BlueXP  可以存取網際網路時，授權資訊會自動顯示在數位錢包中。如果您使用的 BlueXP  帳戶與您的 NSS 帳戶無關，則需要手動新增授權。
+
+您可以在 BlueXP  中新增授權，方法是輸入序號和相關的 NSS 帳戶，或上傳 NetApp 授權檔案（ NLF ）。如果 BlueXP  無法存取網際網路（私有模式安裝），您應該取得 NetApp 授權檔案來上傳。
+
+向 NetApp 銷售代表購買授權後， NetApp 會傳送電子郵件給您，附上序號和其他授權詳細資料。您需要該序號，才能在數位錢包中新增或更新個別授權。
+
+
+NOTE: 如果您要輸入序號、請先輸入 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["將NetApp 支援網站 您的不更新帳戶新增至藍圖XP"^]。這是獲授權可以存取序號的 NetApp 支援網站帳戶。
+
+.步驟
+. 從 BlueXP  功能表中，選取 * 治理 > 數位錢包 * ，然後選取 * 資料服務授權 * 索引標籤。
+. 選擇*新增授權*。
+. 在 _ 新增授權 _ 對話方塊中，輸入授權資訊，然後選取 * 新增授權 * ：
++
+** 如果您有序號且知道您的 NSS 帳戶，請選取 * 輸入序號 * ，然後輸入該資訊。
++
+如果您輸入了序號，您也需要選取獲授權存取該序號的 NetApp 支援網站帳戶。
+
++
+如果下拉式清單中沒有您的 NetApp 支援網站帳戶， https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["將新增至BlueXP的NSS帳戶"^]
+
+** 如果您有使用許可檔案（在私有模式中使用 BlueXP  時需要），請選取 * 上傳使用許可檔案 * 選項，然後依照提示附加檔案。
+
+
+

@@ -28,12 +28,12 @@ https://www.netapp.com/services/keystone/["深入瞭解 Keystone"^]
 
 .步驟
 . 從BlueXP導覽功能表中、選取*管理>數位錢包*。
-. 選取 * Keystone * 。
+. 選取 * 基礎概念訂閱 * 。
 . 如果您看到*歡迎使用NetApp Keystone S不到*頁面、請傳送電子郵件至頁面上所列的地址。
 +
 NetApp代表將授權您的使用者帳戶存取訂閱、以處理您的申請。
 
-. 返回 * Keystone Subscription* 檢視您的訂閱。
+. 返回「 * 基礎概念訂閱 * 」標籤以檢視您的訂閱。
 +
 image:screenshot-keystone-overview.png["顯示 Keystone 訂閱清單的螢幕擷取畫面。"]
 
@@ -47,7 +47,7 @@ NetApp 授權您的帳戶後、您可以連結 Keystone 訂閱以搭配 Cloud Vo
 
 .步驟
 . 從BlueXP導覽功能表中、選取*管理>數位錢包*。
-. 選取 * Keystone * 。
+. 選取 * 基礎概念訂閱 * 。
 . 如需您要連結的訂閱、請按一下 image:icon-action.png["這是三個並排點的圖示"] 然後選取*連結*。
 +
 image:screenshot-keystone-link.png["顯示訂閱連結選項的快照。"]
@@ -65,7 +65,7 @@ image:screenshot-keystone-link.png["顯示訂閱連結選項的快照。"]
 
 .步驟
 . 從BlueXP導覽功能表中、選取*管理>數位錢包*。
-. 選取 * Keystone * 。
+. 選取 * 基礎概念訂閱 * 。
 . 如需調整容量的訂閱、請按一下 image:icon-action.png["這是三個並排點的圖示"] 然後選取*檢視詳細資料並編輯*。
 . 輸入一或多個訂閱所需的已提交容量。
 +
@@ -89,7 +89,7 @@ https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.h
 
 == 取消訂閱連結
 
-如果您不想再使用 Keystone Subscription with BlueXP 、您可以取消訂閱連結。請注意、您只能取消連結未附加至現有Cloud Volumes ONTAP 的訂閱內容的訂閱。
+如果您不想再使用 Keystone 訂閱搭配 BlueXP  ，您可以取消訂閱連結。請注意、您只能取消連結未附加至現有Cloud Volumes ONTAP 的訂閱內容的訂閱。
 
 .步驟
 . 從BlueXP導覽功能表中、選取*管理>數位錢包*。

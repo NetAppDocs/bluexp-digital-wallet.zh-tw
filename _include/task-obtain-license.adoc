@@ -1,0 +1,41 @@
+= 
+:allow-uri-read: 
+
+
+如果 BlueXP  無法存取網際網路（私有模式安裝），您應該取得 NetApp 授權檔案來上傳。
+
+向 NetApp 銷售代表購買授權後， NetApp 會傳送電子郵件給您，附上序號和其他授權詳細資料。如果您沒有自動看到您的使用許可，則需要該序號才能取得個別的使用許可檔案。
+
+.步驟
+. 尋找您的 BlueXP  帳戶 ID ：
++
+.. 在 BlueXP  主控台右上角、選取 image:icon-settings-option.png["設定圖示會顯示在 BlueXP  網路主控台的右上角。"] > * 身分識別與存取管理 * 。
+.. 在「組織」頁面上、尋找您的帳戶 ID 並加以複製。
++
+如果沒有列出帳戶 ID 、而且您只有組織 ID 、則需要複製組織 ID 的前八個字元、並將其附加至 _account__
+
++
+例如、假設這是您的組織 ID ：
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+您的帳戶 ID 如下：
+
++
+account-ea10e1c6
+
+
+
+. 登入 https://mysupport.netapp.com["NetApp 支援網站"^] 然後選擇 * 系統 > 軟體授權 * 。
+. 輸入授權的序號。
++
+image:../media/screenshot_cloud_backup_license_step1.gif["顯示依序號搜尋後授權表格的快照。"]
+
+. 在 * 授權金鑰 * 欄中、選取 * 取得 NetApp 授權檔案 * 。
+. 輸入您的 BlueXP  帳戶 ID （在支援網站上稱為租戶 ID ）、然後選取 * 提交 * 以下載授權檔案。
++
+image:../media/screenshot_cloud_backup_license_step2.gif["螢幕擷取畫面會顯示「取得授權」對話方塊、您可以在其中輸入租戶 ID 、然後選取「提交」下載授權檔案。"]
+
+

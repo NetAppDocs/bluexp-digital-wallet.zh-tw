@@ -15,8 +15,12 @@ indexpage:
       url: task-manage-capacity-licenses.html
     - title: 管理 BlueXP 資料服務的授權
       url: task-manage-data-services-licenses.html
-    - title: 管理PAYGO訂閱與合約
+  - title: 管理您的訂閱
+    links:
+    - title: 管理 Marketplace 訂閱和合約
       url: task-manage-subscriptions.html
+    - title: 管理 Keystone 訂閱
+      url: task-manage-keystone.html
   - title: 部落格與社群
     links:
     - title: NetApp社群

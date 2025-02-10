@@ -1,0 +1,81 @@
+---
+sidebar: sidebar 
+permalink: task-homepage.html 
+keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
+summary: 在數位首頁上，取得貴組織所有訂閱與授權的概覽。 
+---
+= 使用儀表板總覽
+:allow-uri-read: 
+
+
+
+
+== 使用儀表板總覽
+
+[role="lead"]
+使用數位錢包中的 * 總覽 * 儀表板來監控授權與訂閱的健全狀況，確保您可以在訂閱到期日或容量限制到期時，管理成本並維持服務。
+
+您可以檢視每個資料服務（包括 Cloud Volumes ONTAP ）的特定授權和訂閱資訊，並深入瞭解每個服務的詳細資料。
+
+系統也會提醒您即將達到的容量限制或到期，並提示您採取行動。
+
+
+
+=== 檢視特定資料服務的詳細資料
+
+數位錢包 * 總覽 * 儀表板可讓您檢視下列資料服務的詳細資料：
+
+* Cloud Volumes ONTAP
+* 災難恢復
+* 勒索軟體保護
+* 備份與還原
+* 分層
+
+
+例如，負責管理 Cloud Volumes ONTAP 資源的管理員可以檢視每個授權或訂閱的目前容量，讓他們能夠在其權限內集中檢視資源。
+
+注意：雖然您可以從儀表板更新及移除授權，但無法新增授權或訂閱。
+
+link:task-manage-data-services-licenses.html["深入瞭解管理授權"^]。link:task-manage-subscriptions.html["深入瞭解如何管理訂閱"^]。
+
+.步驟
+. 從BlueXP導覽功能表中、選取*管理>數位錢包*。
+. 選擇*總覽*。
+. 選取 * 檢視 * 以取得相關的資料服務（包括 Cloud Volumes ONTAP ），以檢視詳細資料並管理授權與訂閱。
++
+每個方塊都會提供容量狀態的圖形概觀，而詳細資料頁面則可讓您查看及管理該容量的付款方法。
+
+. 選擇 * Licenses* 或 * Subscriptions * 標籤。
+. 選取要篩選的欄篩選器和值來篩選表格。例如，在 * 訂閱 * 索引標籤上，您可以依年度合約或訂閱來篩選類型欄。
++
+image:screenshot_digital_wallet_filter.png["訂閱表上的篩選動作"]
+
+. 自訂表格中顯示的欄。您可以選取欄圖示，指出要顯示或隱藏的欄，以新增和移除表格中的欄。下列螢幕擷取畫面僅指出「類型」，「結束日期」，「狀態」和「組態」欄。
++
+image:screenshot_digital_wallet_show_hide_columns.png["螢幕擷取畫面提供如何顯示或隱藏欄的範例"]
+
+. 展開任何一列，即可檢視訂閱或授權內容，購買容量及條款的詳細資料。
+. 使用「動作」功能表來管理特定授權或訂閱，例如更新授權或將訂閱與其他組織建立關聯。
++
+您無法從 * 概述 * 頁面新增特定服務的授權或訂閱，您只能分別從 * 資料服務授權 * 標籤或 * 市場訂閱 * 標籤新增授權或訂閱。
+
++
+link:task-data-services-licenses.html["深入瞭解管理授權。"] link:task-manage-subscriptions.html["深入瞭解如何管理訂閱。"]
+
+
+
+
+
+=== 解決授權或訂閱問題
+
+您可以檢視需要解決的授權和訂閱問題。問題包括即將到期或達到容量的授權與訂閱。
+
+. 從BlueXP導覽功能表中、選取*管理>數位錢包*。
+. 選擇*總覽*。
+. 選擇 * 「 * 需要行動 * 」方塊的 * 「解決 * 」，即可檢視需要調整的問題。如果 *Resolve * 未顯示，則目前沒有需要採取行動的問題。
+. 從 * 需要行動 * 頁面，選取 * 授權 * 標籤或 * 訂閱 * 標籤。
+. 使用動作功能表來解決問題。
++
+link:task-manage-data-services-licenses.html["深入瞭解管理授權"^]。link:task-manage-subscriptions.html["深入瞭解如何管理訂閱"^]。
+
+

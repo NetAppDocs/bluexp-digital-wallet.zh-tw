@@ -1,0 +1,26 @@
+= 
+:allow-uri-read: 
+
+
+如果您的授權期限即將到期，或是您的授權容量已達到上限，您將會收到 BlueXP  數位錢包的通知。您可以在授權到期前更新授權，以避免中斷您使用 BlueXP  資料服務或 Cloud Volumes ONTAP 的能力。
+
+當您向 NetApp 購買額外容量或延長授權期限後， BlueXP  會自動更新數位錢包中的授權，因為與授權相關的 BlueXP  帳戶也是 NetApp 支援網站帳戶，且 BlueXP  可以存取網際網路。
+
+如果您的 BlueXP  帳戶未與您的 NSS 帳戶建立關聯，則需要手動更新授權。
+
+您可以在 BlueXP  中手動更新授權，方法是輸入序號和相關的 NSS 帳戶，或是上傳 NetApp 授權檔案（如果您有 Cloud Volumes ONTAP HA 配對，則可以是 _FILES_ ）。如果 BlueXP  無法存取網際網路（私有模式安裝），您應該取得 NetApp 授權檔案來上傳。
+
+向 NetApp 銷售代表購買授權後， NetApp 會傳送電子郵件給您，附上序號和其他授權詳細資料。您需要該序號，才能在數位錢包中新增或更新個別授權。
+
+
+NOTE: 如果您要輸入序號、請先輸入 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["將NetApp 支援網站 您的不更新帳戶新增至藍圖XP"^]。這是獲授權可以存取序號的 NetApp 支援網站帳戶。
+
+.步驟
+. 請聯絡您的 NetApp 代表以購買新授權。
++
+在您支付授權費用並在 NetApp 支援網站上註冊之後， BlueXP  會自動更新 BlueXP  數位錢包中的授權，而「資料服務授權」頁面會在 5 到 10 分鐘內反映變更。
+
+. 如果 BlueXP  無法自動更新授權（例如，以私有模式使用 BlueXP  時），則您必須從支援部門取得 NetApp 授權檔案，然後手動上傳授權檔案。<<obtain-license,瞭解如何取得授權檔案。>>
+. 在 _ 資料服務授權 _ 標籤上，選取image:icon-action.png["更多圖示"]要更新的序號，然後選取 * 更新授權 * 。
+. 在 _Update license_ 頁面上傳授權檔案，然後選取 * 更新授權 * 。
+
