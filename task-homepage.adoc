@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-homepage.html 
-keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
+keywords: license, licensing, dashboard, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
 summary: 在數位首頁上，取得貴組織所有訂閱與授權的概覽。 
 ---
 = 使用儀表板總覽
@@ -43,14 +43,14 @@ link:task-manage-data-services-licenses.html["深入瞭解管理授權"^]。link
 . 選擇*總覽*。
 . 選取 * 檢視 * 以取得相關的資料服務（包括 Cloud Volumes ONTAP ），以檢視詳細資料並管理授權與訂閱。
 +
-每個方塊都會提供容量狀態的圖形概觀，而詳細資料頁面則可讓您查看及管理該容量的付款方法。
+每個方塊都提供容量的圖形化概觀。您可以檢視詳細資料頁面，查看及管理該容量的付款方法。
 
 . 選擇 * Licenses* 或 * Subscriptions * 標籤。
 . 選取要篩選的欄篩選器和值來篩選表格。例如，在 * 訂閱 * 索引標籤上，您可以依年度合約或訂閱來篩選類型欄。
 +
 image:screenshot_digital_wallet_filter.png["訂閱表上的篩選動作"]
 
-. 自訂表格中顯示的欄。您可以選取欄圖示，指出要顯示或隱藏的欄，以新增和移除表格中的欄。下列螢幕擷取畫面僅指出「類型」，「結束日期」，「狀態」和「組態」欄。
+. 自訂表格中顯示的欄。您可以選取 *column* 圖示來新增和移除表格中的欄，指出您要顯示或隱藏的欄。下列螢幕擷取畫面僅指出「類型」，「結束日期」，「狀態」和「組態」欄。
 +
 image:screenshot_digital_wallet_show_hide_columns.png["螢幕擷取畫面提供如何顯示或隱藏欄的範例"]
 

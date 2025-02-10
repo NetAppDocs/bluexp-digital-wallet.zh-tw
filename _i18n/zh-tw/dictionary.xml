@@ -601,12 +601,10 @@
   <block id="483b8e46eb21b512550083b13a6ba1de" category="paragraph"><block ref="f5d9875e96b8ed7153bab8f22c840330" category="inline-link-macro-rx"></block>。<block ref="f050330f0428b7d1c9a33b47b1e41be1" category="inline-link-macro-rx"></block>。</block>
   <block id="32790cf377a1a575eece70f624d64118" category="list-text">選擇*總覽*。</block>
   <block id="de9c819c70af50797f21116704502cee" category="list-text">選取 * 檢視 * 以取得相關的資料服務（包括 Cloud Volumes ONTAP ），以檢視詳細資料並管理授權與訂閱。</block>
-  <block id="f2900320586b6454b48843852d2c9cd6" category="paragraph">每個方塊都會提供容量狀態的圖形概觀，而詳細資料頁面則可讓您查看及管理該容量的付款方法。</block>
   <block id="d3a8f85cb0b390c3875d9014a9f0e6a1" category="list-text">選擇 * Licenses* 或 * Subscriptions * 標籤。</block>
   <block id="661d4023a402ca9354d866c7cb4a3bf7" category="list-text">選取要篩選的欄篩選器和值來篩選表格。例如，在 * 訂閱 * 索引標籤上，您可以依年度合約或訂閱來篩選類型欄。</block>
   <block id="e079053622b71496829bde7eae702aa6" category="inline-image-macro">訂閱表上的篩選動作</block>
   <block id="327b1c0b128564e29e2060bd2c4ca978" category="paragraph"><block ref="327b1c0b128564e29e2060bd2c4ca978" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="169b50970986d18dea7b02feeadb180d" category="list-text">自訂表格中顯示的欄。您可以選取欄圖示，指出要顯示或隱藏的欄，以新增和移除表格中的欄。下列螢幕擷取畫面僅指出「類型」，「結束日期」，「狀態」和「組態」欄。</block>
   <block id="cf44bd43ea5e0e4180c911de11e7fc50" category="inline-image-macro">螢幕擷取畫面提供如何顯示或隱藏欄的範例</block>
   <block id="b04f4a30838d70bc9423c5bcc2a9d78b" category="paragraph"><block ref="b04f4a30838d70bc9423c5bcc2a9d78b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="57cba9caf80ab7bb6590dd12a1c40e9a" category="list-text">展開任何一列，即可檢視訂閱或授權內容，購買容量及條款的詳細資料。</block>
@@ -723,4 +721,6 @@
   <block id="c7031958abe0c6bca3058548b703b37f" category="sidebar">Cloud Volumes ONTAP 容量型授權</block>
   <block id="f34953a70b4a66823b7c335bccdd1df4" category="sidebar">Cloud Volumes ONTAP 的節點型授權</block>
   <block id="b7dddfb63fd700204e12dba0c2972cb4" category="sidebar">管理 Marketplace 訂閱</block>
+  <block id="77f5141787aa2cd1e98caca9f5ff20ed" category="paragraph">每個方塊都提供容量的圖形化概觀。您可以檢視詳細資料頁面，查看及管理該容量的付款方法。</block>
+  <block id="8716d9652e3590060e2dac142eea7751" category="list-text">自訂表格中顯示的欄。您可以選取 *column* 圖示來新增和移除表格中的欄，指出您要顯示或隱藏的欄。下列螢幕擷取畫面僅指出「類型」，「結束日期」，「狀態」和「組態」欄。</block>
 </blocks>
