@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, digital wallet, bluexp digital wallet' 
+keywords: 'what"s new, features, release notes, enhancements, fixes, digital wallet, bluexp digital wallet, licenses' 
 summary: 瞭解 BlueXP 數位錢包的新功能。 
 ---
 = 新功能
@@ -15,6 +15,22 @@ summary: 瞭解 BlueXP 數位錢包的新功能。
 
 [role="lead"]
 瞭解 BlueXP 數位錢包的新功能。
+
+
+
+== 2025 年 3 月 10 日
+
+
+
+=== 能夠移除訂閱
+
+如果您已取消訂閱，現在可以從數位電子錢包中移除訂閱。
+
+
+
+=== 檢視 Marketplace 訂閱的使用容量
+
+檢視 PAYGO 訂閱時，您現在可以檢視訂閱的使用容量。
 
 
 

@@ -683,7 +683,6 @@
   <block id="56bba40e5f5cc68b12fbc07db999847e" category="paragraph">認證格式取決於您所使用的市場。例如， Azure 市場訂閱與 Azure 訂閱名稱相關聯，而 AWS 市場訂閱則使用 AWS 帳戶 ID 。您可以從「認證」頁面查看可用認證清單。</block>
   <block id="ccc5335acd730af69ab0b427088bef46" category="paragraph">如果您已取消訂閱，「設定」選項會變成灰色。</block>
   <block id="114bfa63105a2d23514e606861c49818" category="list-text">在您要設定的訂閱內容所對應的列中選取動作功能表，然後選擇 * 組態 * 。</block>
-  <block id="a02d5bdda2c413e728f48f77a424c9a4" category="list-text">在 _ 設定 _ 對話方塊中，選擇要設定訂閱的認證。您只能選擇與目前選取的連接器相關聯的認證。如果您沒有看到想要使用的認證，請嘗試切換至不同的連接器檢視。## 這是否正確描述？##</block>
   <block id="5a66070f9f0ecd83dd28335db5efc481" category="section-title">將訂閱與 BlueXP  組織建立關聯</block>
   <block id="8b0d95a41f38606f34e0ab449b5ee46d" category="paragraph">將訂閱與組織建立關聯可確保該組織的成員可以使用該訂閱進行收費。</block>
   <block id="9b5a99aec31dce1baddb14dc161239a5" category="paragraph">您可以將訂閱的使用限制在特定組織，或在多個組織之間共用訂閱。如果需要，您也可以更換現有組織的訂閱。</block>
@@ -694,7 +693,6 @@
   <block id="bf82031efce8f265bece8bef7a61504f" category="list-text">您也可以選擇使用滑桿來表示您要取代所選組織的現有訂閱。</block>
   <block id="e43ddb0fd3dbaee9a42e954a181ab141" category="list-text">選取 * 關聯 * 。</block>
   <block id="3b446cd4e304253a8a5be3d76f1f7d85" category="section-title">檢視與訂閱相關的認證</block>
-  <block id="f9a62957a3b5c40b90446ae870786bb9" category="paragraph">## 您可以從數位電子錢包的 * Marketplace Subscriptions * 頁面檢視特定訂閱的認證。這可讓您驗證訂閱的收費方式。由於認證也與您使用的連接器相關聯，因此您必須選取與您要查看的訂閱相關聯的連接器。 ##</block>
   <block id="c2c1fba9bd77826ae21ba53eaa6f5a8e" category="admonition">如有需要，請使用上方導覽列中的 Connector 下拉式選單來切換連接器。</block>
   <block id="45cdea95a34c9590c63f84497bc5f85c" category="list-text">在包含您要檢視其認證的訂閱資料列上，選取檢視。如果訂閱有多個相關認證，則可能不會顯示任何認證，並會指示您選取不同的連接器。</block>
   <block id="aea9c467234db8f0360906cb49a2233c" category="section-title">新增市場訂閱</block>
@@ -723,4 +721,17 @@
   <block id="b7dddfb63fd700204e12dba0c2972cb4" category="sidebar">管理 Marketplace 訂閱</block>
   <block id="77f5141787aa2cd1e98caca9f5ff20ed" category="paragraph">每個方塊都提供容量的圖形化概觀。您可以檢視詳細資料頁面，查看及管理該容量的付款方法。</block>
   <block id="8716d9652e3590060e2dac142eea7751" category="list-text">自訂表格中顯示的欄。您可以選取 *column* 圖示來新增和移除表格中的欄，指出您要顯示或隱藏的欄。下列螢幕擷取畫面僅指出「類型」，「結束日期」，「狀態」和「組態」欄。</block>
+  <block id="626a42c4b175379d9d0e723ada0cf740" category="doc">能夠移除訂閱</block>
+  <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">如果您已取消訂閱，現在可以從數位電子錢包中移除訂閱。</block>
+  <block id="86eb6e7f10c1d00078e563696c2882c7" category="section-title">檢視 Marketplace 訂閱的使用容量</block>
+  <block id="0a85a2f78dadf31d5b3bcc7353bae9d1" category="paragraph">檢視 PAYGO 訂閱時，您現在可以檢視訂閱的使用容量。</block>
+  <block id="88b1e2295dd3d145bab292b5d6b7a69d" category="list-text">在 _ 設定 _ 對話方塊中，選擇要設定訂閱的認證。您只能選擇與目前選取的連接器相關聯的認證。如果您沒有看到想要使用的認證，請嘗試切換至不同的連接器檢視。</block>
+  <block id="36faba60710a43a53c90eeea27395090" category="paragraph">您可以從數位電子錢包的 * Marketplace Subscriptions * 頁面檢視特定訂閱的認證。這可讓您驗證訂閱的收費方式。由於認證也與您使用的連接器相關聯，因此您必須選取與您要查看的訂閱相關聯的連接器。</block>
+  <block id="c9db549b3c47c258a77389c2a1310393" category="section-title">移除訂閱</block>
+  <block id="2cac1e5bd6e0f02534855a25f0ddf98b" category="paragraph">當您取消訂閱超大型顯示器（ AWS Google Cloud 或 Azure ）中的 BlueXP  訂閱時，數位電子錢包會將訂閱狀態顯示為 * Unsubscribed * 。</block>
+  <block id="6b083541bf531a238745c888c414e6af" category="paragraph">您可以移除數位電子錢包中的取消訂閱，使其不再顯示。</block>
+  <block id="ff0876f12c0b09da7a5bae608ec5986f" category="list-text">在與您要移除的訂閱相對應的列中選取動作功能表選擇 * 移除 * 。</block>
+  <block id="2b6dc47a20b39f901a45db5ed6695823" category="paragraph">您只能移除狀態為 * 取消訂閱 * 的訂閱。</block>
+  <block id="328bc94c6a18dd3a8b5eacb533435091" category="list-text">在 * 移除訂閱 * 對話方塊中，確認您要移除訂閱。</block>
+  <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025 年 3 月 10 日</block>
 </blocks>

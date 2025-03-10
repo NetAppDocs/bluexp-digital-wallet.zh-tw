@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-subscriptions.html 
-keywords: digital wallet, subscriptions, paygo subscriptions, contracts, annual contracts 
+keywords: digital wallet, subscriptions, paygo subscriptions, contracts, annual contracts, capacity 
 summary: 當您從雲端供應商的市場訂閱BlueXP時、系統會將您重新導向至BlueXP網站、您需要在其中儲存訂閱內容、並將其與特定帳戶建立關聯。訂閱後、每筆訂閱都可從 BlueXP 數位錢包進行管理。 
 ---
 = 管理PAYGO訂閱與合約
@@ -100,7 +100,7 @@ image:screenshot_rename_subscription.png["訂閱的重新命名選項螢幕擷�
 . 從BlueXP導覽功能表中、選取*管理>數位錢包*。
 . 選擇 * 市場訂閱 * 。
 . 在您要設定的訂閱內容所對應的列中選取動作功能表，然後選擇 * 組態 * 。
-. 在 _ 設定 _ 對話方塊中，選擇要設定訂閱的認證。您只能選擇與目前選取的連接器相關聯的認證。如果您沒有看到想要使用的認證，請嘗試切換至不同的連接器檢視。## 這是否正確描述？##
+. 在 _ 設定 _ 對話方塊中，選擇要設定訂閱的認證。您只能選擇與目前選取的連接器相關聯的認證。如果您沒有看到想要使用的認證，請嘗試切換至不同的連接器檢視。
 
 
 
@@ -129,7 +129,7 @@ NOTE: BlueXP  以標準模式支援身分識別與存取管理（ IAM ），使
 
 == 檢視與訂閱相關的認證
 
-## 您可以從數位電子錢包的 * Marketplace Subscriptions * 頁面檢視特定訂閱的認證。這可讓您驗證訂閱的收費方式。由於認證也與您使用的連接器相關聯，因此您必須選取與您要查看的訂閱相關聯的連接器。 ##
+您可以從數位電子錢包的 * Marketplace Subscriptions * 頁面檢視特定訂閱的認證。這可讓您驗證訂閱的收費方式。由於認證也與您使用的連接器相關聯，因此您必須選取與您要查看的訂閱相關聯的連接器。
 
 
 NOTE: 如有需要，請使用上方導覽列中的 Connector 下拉式選單來切換連接器。
@@ -181,4 +181,22 @@ video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
 
 . 選取 * 新增訂閱 * 以瀏覽至供應商的市場，並完成所提供的步驟。
 . 在雲端供應商市場結束後，請返回 BlueXP  完成程序。
+
+
+
+
+=== 移除訂閱
+
+當您取消訂閱超大型顯示器（ AWS Google Cloud 或 Azure ）中的 BlueXP  訂閱時，數位電子錢包會將訂閱狀態顯示為 * Unsubscribed * 。
+
+您可以移除數位電子錢包中的取消訂閱，使其不再顯示。
+
+.步驟
+. 從BlueXP導覽功能表中、選取*管理>數位錢包*。
+. 選擇 * 市場訂閱 * 。
+. 在與您要移除的訂閱相對應的列中選取動作功能表選擇 * 移除 * 。
++
+您只能移除狀態為 * 取消訂閱 * 的訂閱。
+
+. 在 * 移除訂閱 * 對話方塊中，確認您要移除訂閱。
 
