@@ -734,4 +734,5 @@
   <block id="2b6dc47a20b39f901a45db5ed6695823" category="paragraph">您只能移除狀態為 * 取消訂閱 * 的訂閱。</block>
   <block id="328bc94c6a18dd3a8b5eacb533435091" category="list-text">在 * 移除訂閱 * 對話方塊中，確認您要移除訂閱。</block>
   <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025 年 3 月 10 日</block>
+  <block id="341aea52571ed6aae4899a6ea183248a" category="admonition">您必須部署 Connector ，才能檢視數位錢包中的訂閱資訊。此外，還需要 Connector 來檢視 Cloud Volumes ONTAP 的節點授權。</block>
 </blocks>

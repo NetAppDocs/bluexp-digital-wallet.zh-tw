@@ -22,6 +22,9 @@ BlueXP  數位錢包可讓您管理及監控從 NetApp （ BYOL ）， BlueXP 
 
 當用於訂閱的 BlueXP  帳戶同時也是 NetApp 支援網站帳戶時，授權與訂閱都會自動顯示在數位錢包中。如果您使用的 BlueXP  帳戶未與 NetApp 支援網站（ NSS ）帳戶相關聯，則需要手動新增及更新授權，而不會看到使用量，容量及其他詳細資料變更。
 
+
+NOTE: 您必須部署 Connector ，才能檢視數位錢包中的訂閱資訊。此外，還需要 Connector 來檢視 Cloud Volumes ONTAP 的節點授權。
+
 在此期間、BlueXP會自動查詢NetApp的授權服務、以取得NetApp 支援網站 與您的帳戶相關之授權的詳細資料。如果沒有錯誤、 BlueXP 會自動將授權新增至數位錢包。
 
 如果 BlueXP  無法新增授權，您必須自行手動將其新增至數位錢包。例如，如果您的 BlueXP  使用者帳戶未與您的 NetApp 支援網站帳戶建立關聯，您就必須自行新增授權。
