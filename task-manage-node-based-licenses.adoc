@@ -82,8 +82,8 @@ BlueXP 將授權新增至數位錢包。授權將被識別為未指派、直到�
 
 交換授權會撤銷Cloud Volumes ONTAP 該服務的不含美元的授權、並為該服務建立相當於美元的授權：
 
-* 針對某個不符合需求的HA配對授權Cloud Volumes ONTAP 會轉換為51 TiB資料服務授權
-* 針對單一節點的授權Cloud Volumes ONTAP 會轉換為32 TiB資料服務授權
+* Cloud Volumes ONTAP HA 配對的授權會轉換為 51 TiB 直接授權
+* Cloud Volumes ONTAP 單一節點的授權會轉換成 32 TiB 直接授權
 
 
 轉換後的授權與 Cloud Volumes ONTAP 授權具有相同的到期日。

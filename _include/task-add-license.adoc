@@ -12,7 +12,7 @@
 NOTE: 如果您要輸入序號、請先輸入 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["將NetApp 支援網站 您的不更新帳戶新增至藍圖XP"^]。這是獲授權可以存取序號的 NetApp 支援網站帳戶。
 
 .步驟
-. 從 BlueXP  功能表中，選取 * 治理 > 數位錢包 * ，然後選取 * 資料服務授權 * 索引標籤。
+. 從 BlueXP  功能表中，選取 * 治理 > 數位錢包 * ，然後選取 * 直接授權 * 索引標籤。
 . 選擇*新增授權*。
 . 在 _ 新增授權 _ 對話方塊中，輸入授權資訊，然後選取 * 新增授權 * ：
 +

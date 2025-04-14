@@ -60,7 +60,7 @@ BlueXP  數位電子錢包現在可讓您設定訂閱供應商認證。一般�
 
 === 管理 Cloud Volume ONTAP 授權
 
-您現在可以透過首頁或 * 資料服務授權 * 標籤來管理 Cloud Volumes ONTAP 授權。使用 * Marketplace 訂閱 * 索引標籤檢視您的訂閱資訊。
+您現在可以透過首頁或「 * 直接授權 * 」標籤來管理 Cloud Volumes ONTAP 授權。使用 * Marketplace 訂閱 * 索引標籤檢視您的訂閱資訊。
 
 
 
