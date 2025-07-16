@@ -276,16 +276,6 @@
   <block id="9906134ee224bc081497b19c4269cc34" category="paragraph">如果額外的容量授權過期且不再使用、您可以隨時將其移除。</block>
   <block id="c320af21170d1ca43751b7580a1125f4" category="list-text">按一下容量授權旁的動作功能表、然後選取*移除授權*。</block>
   <block id="03b194a23dcb353466fbfb7acff64363" category="list-text">按一下「*移除*」。</block>
-  <block id="b38317f372e5ede5e8e7662a6abf56de" category="section-title">將試用版授權轉換為BYOL</block>
-  <block id="6f3e45030426e1b86c424d2780111d20" category="paragraph">試用版授權可提供30天的使用時間。您可以在就地升級的評估授權上套用新的BYOL授權。</block>
-  <block id="6e7fc6b7eae0415b78955003531a799e" category="paragraph">當您將試用版授權轉換為BYOL時、BlueXP會重新啟動Cloud Volumes ONTAP 該系統。</block>
-  <block id="9a640fdf29d0376d44625fbe7757592a" category="list-text">對於單節點系統、重新啟動會在重新開機程序期間導致I/O中斷。</block>
-  <block id="a1b2198d5e77e52b34a9567f6e8204f9" category="list-text">對於HA配對、重新啟動會啟動接管和恢復、以繼續為用戶端提供I/O服務。</block>
-  <block id="b7c7df7a1f738eeeb402c8feafc80dba" category="list-text">按一下* Eval*。</block>
-  <block id="fcb9420dfbbc4a57ba1b1a992a71d207" category="list-text">在表格中、按一下*「轉換成BYOL授權*」以取得Cloud Volumes ONTAP 一套系統。</block>
-  <block id="e539cbd6aefe9d1fb7bc951680944206" category="list-text">輸入序號或上傳授權檔案。</block>
-  <block id="b171537681ac6ab38d6353435252c4f1" category="list-text">按一下*「轉換授權*」。</block>
-  <block id="629b6ceff1a1b74de909c5f304f623b9" category="paragraph">BlueXP開始轉換程序。此程序會自動重新啟動。Cloud Volumes ONTAP備份時、授權資訊會反映出新的授權。</block>
   <block id="594cb44c6500d8855ad820b0653e02c7" category="section-title">在PAYGO和BYOL之間切換</block>
   <block id="a704128156d562fe5860508e9584ee34" category="paragraph">不支援將系統從PAYGO的節點授權轉換成BYOL的節點授權（反之亦然）。如果您想要在隨用隨付訂閱和BYOL訂閱之間切換、則必須部署新系統、並將資料從現有系統複寫到新系統。</block>
   <block id="7f7c7e70efe0e6e29f5d0b207145f30e" category="list-text">打造全新 Cloud Volumes ONTAP 的運作環境。</block>
@@ -618,7 +608,6 @@
   <block id="8ac1ecc7ceb7a49d071b4f1b71f0e176" category="section-title">檢視套件詳細資料</block>
   <block id="f88e8fee4b6b78cbc9779b73098653b5" category="paragraph">您可以在 Cloud Volumes ONTAP 頁面上切換至舊版模式，以檢視每個套件所使用容量的詳細資料。</block>
   <block id="4a95292c803539c8cf72591c54db0644" category="list-text">選取 * 檢視 * 以查看每個授權套件的已配置容量。</block>
-  <block id="28db6f5e86482ae58b9becef415d1abc" category="list-text">選取 * 切換至傳統檢視 * 。</block>
   <block id="13bb1907bdca20408e78b483332beab6" category="inline-image-macro">「切換至舊版檢視」按鈕的螢幕擷取畫面</block>
   <block id="ad8dd0162f38eb308d880b20d20ab47e" category="paragraph"><block ref="ad8dd0162f38eb308d880b20d20ab47e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="31ccaa5879eee7a69ef3c48f1004c59c" category="list-text">變更收費方式並不會影響您是透過從 NetApp （ BYOL ）購買的授權，還是從雲端供應商的市場隨用付費（ PAYGO ）訂閱中收取費用。</block>
@@ -744,4 +733,10 @@
   <block id="f718d4efc769e352af879333b97563c1" category="list-text">在您要移除的訂閱列中，開啟動作功能表，然後選取 * 移除 * 。</block>
   <block id="d945569d4f85da82c21c1eedda61f245" category="paragraph">您只能移除狀態為 * 未訂閱 * 和 * 未設定 * 的訂閱。</block>
   <block id="22a93e112ce29f0d1e8dfc0ede83e119" category="sidebar">管理直接授權</block>
+  <block id="40d1f3228e91a00383279859612f7ba5" category="list-text">選取 * 切換至進階檢視 * 。</block>
+  <block id="3df898a44cd4e747f0651fff3683bca8" category="inline-image-macro">切換至進階檢視按鈕的螢幕擷取畫面</block>
+  <block id="d4de4fdd26abe13af932d9682aa962d4" category="paragraph"><block ref="d4de4fdd26abe13af932d9682aa962d4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cf5e0e2d5e3b97433dcea18ed2c97b91" category="list-text">檢視您要查看的套件詳細資料。</block>
+  <block id="f651647ac9ca970bf81f92917731dcbb" category="inline-image-macro">切換至標準檢視按鈕的螢幕擷取畫面</block>
+  <block id="20dbfe4510a959e2d164802031656e83" category="paragraph"><block ref="20dbfe4510a959e2d164802031656e83" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

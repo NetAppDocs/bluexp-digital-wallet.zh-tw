@@ -82,9 +82,13 @@ image:screenshot-subscriptions-expand.png["數位電子錢包中「訂閱」索�
 . 從BlueXP導覽功能表中、選取*管理>數位錢包*。
 . 在 * 總覽 * 索引標籤上， Cloud Volumes ONTAP 方塊會顯示您帳戶目前的資源配置。
 . 選取 * 檢視 * 以查看每個授權套件的已配置容量。
-. 選取 * 切換至傳統檢視 * 。
+. 選取 * 切換至進階檢視 * 。
 +
-image:screenshot_digital_wallet_legacy_view.png["「切換至舊版檢視」按鈕的螢幕擷取畫面"]
+image:screenshot_digital_wallet_legacy_view.png["切換至進階檢視按鈕的螢幕擷取畫面"]
+
+. 檢視您要查看的套件詳細資料。
++
+image:screenshot_digital_wallet_standard_view.png["切換至標準檢視按鈕的螢幕擷取畫面"]
 
 
 
@@ -108,7 +112,7 @@ BlueXP 一律會先嘗試根據授權收費。如果沒有可用的授權、就�
 . 從BlueXP導覽功能表中、選取*管理>數位錢包*。
 . 選擇* Overview（概述）*選項卡。
 . 在 Cloud Volumes ONTAP 方塊中，選取 * 檢視 * 。
-. 選取 * 切換至傳統檢視 * 。
+. 選取 * 切換至進階檢視 * 。
 +
 image:screenshot_digital_wallet_legacy_view.png["「切換至舊版檢視」按鈕的螢幕擷取畫面"]
 
