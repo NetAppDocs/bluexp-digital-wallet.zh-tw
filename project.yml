@@ -33,6 +33,24 @@ sidebar:
           url: "/task-manage-capacity-licenses.html"
         - title: Cloud Volumes ONTAP 的節點型授權
           url: "/task-manage-node-based-licenses.html"
+    - title: 管理專屬優惠
+      entries:
+      - title: 管理 AWS 專屬優惠
+        entries:
+        - title: 管理BlueXP的 AWS 專屬優惠
+          url: "/task-manage-private-aws.html"
+        - title: 管理Data Infrastructure Insights的 AWS 專屬優惠
+          url: "/task-manage-private-aws-cloud-insights.html"
+      - title: 管理 Azure 專屬優惠
+        entries:
+        - title: 管理BlueXP的 Azure 專屬優惠
+          url: "/task-manage-private-azure.html"
+        - title: 管理NetApp Cloud Insights的 Azure 專屬優惠
+          url: "/task-manage-private-azure-data.html"
+      - title: 管理 Google Cloud 私人優惠
+        entries:
+        - title: 管理NetApp BlueXP的 Google Cloud 專屬優惠
+          url: "/task-manage-private-google-cloud.html"
     - title: 管理 Marketplace 訂閱
       url: "/task-manage-subscriptions.html"
     - title: 管理 Keystone 訂閱

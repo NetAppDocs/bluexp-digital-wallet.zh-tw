@@ -1,0 +1,113 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-azure-data.html 
+keywords: activate,license, licensing, install, request capacity, link subscription, digital wallet, keystone flex, digital wallet, bluexp digital wallet 
+summary: 管理您的通用和超大規模特定、端到端私人優惠流程以及適用於 AWS、Azure 和 Google Cloud 的NetApp智慧服務接受和啟用指南。 
+---
+= 接受並啟動NetApp Data Infrastructure Insights的 Azure 專屬優惠
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在 Azure 入口網站中接受並訂閱NetApp Data Infrastructure Insights的 Marketplace 專屬優惠。在NetApp Data Infrastructure Insights中確認並啟用訂閱。
+
+.開始之前
+* 與NetApp銷售人員合作為您的 Azure 帳單 ID 建立私人優惠。
+* 收集以下與專屬優惠相關的資料項目：
++
+** Data Infrastructure Insights工作環境的 URL
+** 訂閱結束日期
+** 管理單位數量
+
+
+* 確保您具有在 Azure 市場中接受私人優惠所需的權限：
++
+** 企業協議 (EA)：*企業管理員*
+** Microsoft 客戶協議 (MCA)：*帳單帳戶所有者* 或 *帳單帳戶參與者*
+
+
+* 確保您擁有購買私人優惠和建立訂閱所需的權限：
++
+** 正在使用的 Azure 訂閱的 *訂閱擁有者* 或 *訂閱參與者*
+
+
+* 如果擁有所需的權限，一個人就可以接受並購買私人優惠。
+* 確定要與Data Infrastructure Insights關聯的 Azure 訂閱和資源群組。
+
+
+
+
+== 在 Azure 入口網站中接受並訂閱專屬優惠
+
+[IMPORTANT]
+====
+完成所有步驟以接受並啟動您的私人優惠。跳過這些步驟可能會導致啟動問題或雙重收費。
+
+如果報價條款、定價或詳細資訊不正確，或者您不確定要接受哪個報價，請不要接受該報價。聯絡您的NetApp銷售團隊。
+
+====
+.步驟
+. 點擊NetApp銷售團隊提供的私人優惠連結並登入。如果沒有可用的鏈接，請直接登入 Azure 門戶。
+. 從 Azure 服務中搜尋或選擇*Marketplace*。
+. 在 Marketplace 頁面上，按一下 *管理* 部分下的 *私人優惠管理*。
+. 點擊「查看 + 接受」以查看私人優惠的詳細資訊。
++
+.. 驗證每種產品的*數量*、*期限*和*定價*。
+.. 如果詳細資訊不正確，請不要訂閱。聯絡您的NetApp銷售團隊以更正報價。
+
+
+. 確認並點選*接受私人優惠*。
+. 點擊“*購買*”以完成購買過程。
++
+[NOTE]
+====
+如果「購買」按鈕不可用，請確認您具有所需的購買權限。如果沒有，請複製購買視窗連結並與您組織中授權的人員共用。
+
+====
+. 在採購工作流程中：
++
+.. 選擇“Azure 訂閱”。
+.. 選擇*資源組*。
+.. 為新訂閱輸入“名稱”。
++
+[NOTE]
+====
+資源組中未配置任何資源。
+
+====
+
+
+. 或者，設定*標籤*，例如產品、網站位置、工作負載定義或命名約定。
+. 點擊“查看並訂閱”以驗證詳細信息，然後點擊“訂閱”。
+. 訂閱建立完成後，點選*立即配置帳戶*。您將被重新導向至NetAppData Infrastructure Insights。
+
+
+[NOTE]
+====
+Azure 自動化通常在 30 秒到 5 分鐘內完成，然後才會出現 *立即設定帳戶* 按鈕。
+
+如果在選擇「立即設定帳戶」之前頁面關閉，請返回 Azure 入口網站中的服務。訂閱狀態顯示為*待配置*。選擇它繼續配置。
+
+====
+
+
+== 確認並啟用訂閱
+
+.步驟
+. 在瀏覽器中，前往 https://cloud-insights-portal.azurewebsites.net/[]並登入。
+. 確認訂閱詳情以確保私人優惠已正確建立：
++
+.. 輸入Data Infrastructure Insights工作環境的 *URL*。
+.. 輸入*訂閱結束日期*。
+.. 輸入*管理單位數量*。
+
+
+. 點擊*訂閱*。訂閱進入*PendingActivation*狀態。
+. 激活將在 48-72 小時內完成。在此期間，工作環境以免費試用模式運行，可無限制使用。將 URL 新增至書籤以追蹤啟動進度。
+. 啟動完成後，Data Infrastructure Insights控制台將顯示訂閱詳細資訊。具有*管理員*或更高權限的使用者可以透過導航至*管理員→訂閱*來查看它們。
+

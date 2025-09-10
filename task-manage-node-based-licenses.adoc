@@ -52,6 +52,9 @@ image:screenshot_paygo_licenses.png["此螢幕擷取畫面顯示 BlueXP 數位�
 透過新增及移除系統授權與額外容量授權、來管理您直接向NetApp購買的授權。
 
 
+NOTE: 已限制 BYOL 授權的購買、延期和續約。有關更多信息，請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#restricted-availability-of-byol-licensing-for-cloud-volumes-ontap["Cloud Volumes ONTAP的 BYOL 授權可用性受限"^] 。
+
+
 
 === 新增未指派的授權
 
@@ -130,9 +133,7 @@ image:screenshot-license-generator.png["螢幕擷取畫面：顯示NetApp授權�
 
 === 更新系統授權
 
-當您透過聯絡NetApp代表續約BYOL訂閱時、BlueXP會自動從NetApp取得新授權、並將其安裝在Cloud Volumes ONTAP 該系統上。
-
-如果BlueXP無法透過安全的網際網路連線存取授權檔案、您可以自行取得檔案、然後手動將檔案上傳至BluXP。
+當您聯絡NetApp代表續訂 BYOL 訂閱時， BlueXP會自動從NetApp取得新的許可證，並將其安裝在Cloud Volumes ONTAP系統上。如果BlueXP無法透過安全的網路連線存取許可證文件，您可以自行取得該文件，然後手動上傳到BlueXP。
 
 .步驟
 . 從BlueXP導覽功能表中、選取*管理>數位錢包*。

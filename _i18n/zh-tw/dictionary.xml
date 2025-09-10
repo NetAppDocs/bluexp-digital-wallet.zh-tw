@@ -25,7 +25,6 @@
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX for ONTAP Sf</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支援登錄總覽</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">有兩種登錄形式可啟動支援服務權利：</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">這是您在BlueXP內任何服務的單一支援訂閱ID。每個BlueXP帳戶層級的支援訂閱都必須註冊。</block>
@@ -66,7 +65,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此過程中、NetApp應與您聯絡。這是新使用者的一次性就職練習。</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp以多種方式提供對BlueXP的支援。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">取得協助</block>
-  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp以多種方式支援BlueXP及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自我支援選項</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項可供免費使用、一天24小時、一週7天：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
@@ -255,8 +253,6 @@
   <block id="c7db6ec8c72cc25c90f19ebafe2ddfbd" category="paragraph"><block ref="c7db6ec8c72cc25c90f19ebafe2ddfbd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="74fd2dac6a51b8a94f6612bae65dcbdf" category="list-text">選擇您要透過電子郵件或直接下載來接收 serialNumber.NLF Json 檔案。</block>
   <block id="58f676020d30c00d4b3fb18fc835e7ca" category="section-title">更新系統授權</block>
-  <block id="34a3a4e91ba83bf9b417b1453a1dbdc6" category="paragraph">當您透過聯絡NetApp代表續約BYOL訂閱時、BlueXP會自動從NetApp取得新授權、並將其安裝在Cloud Volumes ONTAP 該系統上。</block>
-  <block id="579ed3178fe639cd20c8874360f7ff2f" category="paragraph">如果BlueXP無法透過安全的網際網路連線存取授權檔案、您可以自行取得檔案、然後手動將檔案上傳至BluXP。</block>
   <block id="eda4b0f5ee71694deda064c01799f329" category="list-text">在「* BYOL*」標籤中、展開Cloud Volumes ONTAP 關於某個系統的詳細資料。</block>
   <block id="d91a847294f18b5d31d438a059c2532d" category="list-text">按一下系統授權旁的動作功能表、然後選取*更新授權*。</block>
   <block id="98022931ad96bfc8db710666a48e0416" category="list-text">上傳授權檔案（若您有HA配對、則為檔案）。</block>
@@ -380,7 +376,6 @@
   <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">這是系統產生的ID、會對應至您的電子郵件。在「* nssn*管理*」頁面上、您可以從顯示電子郵件 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
   <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要重新整理登入認證憑證權杖、也可以在中使用*更新認證*選項 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
@@ -404,8 +399,6 @@
   <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">此錯誤可能表示、與該帳戶相關聯的NSS帳戶及記錄公司與BlueXP帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以使用下列其中一個選項尋求協助：</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">註冊這兩種類型的序號、即可開啟支援服務單和自動建立個案。如下列所述、將 NetApp 支援網站 （ NSS ）帳戶新增至 BlueXP 即可完成登錄。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">選取 * 新增 NSS 認證 * 、然後遵循 NetApp 支援網站 （ NSS ）驗證提示。</block>
-  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">螢幕擷取畫面會顯示帳戶序號和綠色核取方塊、以及註冊支援的文字。</block>
-  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">如果您是現有的 NetApp 客戶、擁有現有的授權和序號、但沒有 NSS_ 帳戶、則需要建立一個 NSS 帳戶、並將其與您的 BlueXP 登入建立關聯。</block>
   <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">完成下的步驟、將新的 NSS 帳戶與 BlueXP 登入建立關聯 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">擁有 NetApp 支援網站 帳戶後、請完成下的步驟、將帳戶與 BlueXP 登入建立關聯 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
@@ -614,7 +607,6 @@
   <block id="2daabc6822724771970f17e8ae6a4cee" category="list-text">選擇* Overview（概述）*選項卡。</block>
   <block id="5b37c7034b369fcc6d9b931180eef46f" category="list-text">在 Cloud Volumes ONTAP 方塊中，選取 * 檢視 * 。</block>
   <block id="a9bcc09a5114887c29b3f365ee72e9e5" category="list-text">* 高階使用率 * ：本報告包含下列資訊：</block>
-  <block id="4600869c8040d8603fe9dbe6d56a2b2a" category="list-text">* Cloud Volumes ONTAP 套件使用 * ：此報告包含每個套件的下列資訊，但最佳化 I/O 套件除外：</block>
   <block id="a65d4ec7ff2941ad2ea2bc688a6dbbb3" category="list-text">* 儲存虛擬機器使用率 * ：此報告顯示如何在 Cloud Volumes ONTAP 系統和儲存虛擬機器（ SVM ）之間分解已計費的容量。此資訊僅在報告中提供。其中包含下列資訊：</block>
   <block id="b2b74732b80350970fadfac4db3ba17e" category="list-text">在 * 總覽 * 標籤上，從 Cloud Volumes ONTAP 方塊中選取 * 檢視 * 。</block>
   <block id="f4c2ce2a853a74c3742ccc54482c074e" category="list-text">選取 * 使用報告 * 。</block>
@@ -739,4 +731,238 @@
   <block id="cf5e0e2d5e3b97433dcea18ed2c97b91" category="list-text">檢視您要查看的套件詳細資料。</block>
   <block id="f651647ac9ca970bf81f92917731dcbb" category="inline-image-macro">切換至標準檢視按鈕的螢幕擷取畫面</block>
   <block id="20dbfe4510a959e2d164802031656e83" category="paragraph"><block ref="20dbfe4510a959e2d164802031656e83" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="486c0e58304417d548694e3073643b23" category="summary">管理您的通用和超大規模特定、端到端私人優惠流程以及適用於 AWS、Azure 和 Google Cloud 的NetApp智慧服務接受和啟用指南。</block>
+  <block id="287a1dce8b83044abd5ba4b137cc9356" category="doc">接受並配置NetApp Cloud Insights的 AWS Marketplace 專屬優惠</block>
+  <block id="560fba0230ed4fcc4aa5b550943e5c6e" category="paragraph">在 AWS 控制台中接受NetApp Cloud Insights的 Marketplace 專屬優惠。將 AWS 訂閱連接到Cloud Insights工作環境。</block>
+  <block id="e38cc8289ffa475f2f52eb3626b0751a" category="list-text">與NetApp銷售人員合作創建私人優惠並獲取優惠連結。</block>
+  <block id="a7ff81dfc486abee13341131466e6038" category="list-text">與NetApp銷售人員合作建立Cloud Insights工作環境並新增具有 *所有者* 角色的電子郵件。</block>
+  <block id="7bdb1970dfaaab5dac12a9d4105e0f76" category="inline-link-macro">AWS Marketplace 權限</block>
+  <block id="5291ea6312230025a44105528f9ae707" category="list-text">確保您擁有所需的<block ref="263b0644c4910f8bdcb4766350c819a3" category="inline-link-macro-rx"></block></block>
+  <block id="09d9df0afa016eba24d822b0fab07ad9" category="section-title">在 AWS 主控台中接受私人優惠</block>
+  <block id="b92d9c0960b55910e18fa0cba585a0e6" category="paragraph">您必須完成所有步驟才能啟動您的私人優惠。跳過這些步驟可能會導致啟動問題或計費錯誤，包括重複收費。</block>
+  <block id="82c11d575f59d1f0633f2ab1f72cf2fb" category="list-text">點擊NetApp銷售團隊提供的私人優惠啟動連結。該連結應類似於以下內容：<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
+  <block id="76c2641fba3d253c350ef7435f955f42" category="paragraph">如果您沒有收到啟動鏈接，您可以在 AWS 控制台中查看所有私人優惠。</block>
+  <block id="ab6a2a55861781608c66e0b9965983e1" category="list-text">所需的託管策略：*AWSMarketplaceRead-only*、*AWSMarketplaceManageSubscriptions* 或 *AWSMarketplaceFullAccess*</block>
+  <block id="c8a06e7e3b12ddb42900b632a628af3c" category="list-text">如果使用自訂 IAM 策略：<block ref="ff04429efaed7625c69c6d08008313b5" prefix=" " category="inline-code"></block>和<block ref="326720e7bae8966d6ca9815f71034380" prefix=" " category="inline-code"></block></block>
+  <block id="272f877168d816197d5b7d7249493794" category="list-text">您將被重定向到 AWS Marketplace 來查看並接受私人優惠。</block>
+  <block id="ed531c62409749839128abc4ac3024b2" category="paragraph">私人報價是在公開清單的基礎上建立的。使用「*優惠選擇*」下拉式選單在公開優惠和私人優惠之間切換。</block>
+  <block id="0b94c882930f40c2c741363078d2ee74" category="list-text">查看私人優惠詳情並驗證其是否符合您的協議。</block>
+  <block id="ade95ed1635e6e04c5fc70243e91b88b" category="list-text">如果資訊不正確，則不接受。聯絡您的NetApp銷售團隊修改報價。</block>
+  <block id="dbfca4d00890fc1d9a6c8223fb50f6c2" category="list-text">一旦您選擇*訂閱*，計費就開始了。</block>
+  <block id="1aa0cd62a671b8f1ba9f6e1bbdcfaba3" category="paragraph">AWS 中存在兩種私人優惠類型：</block>
+  <block id="b1f68330f38d69d3686f740e31c6d5b1" category="list-text">*按需使用*</block>
+  <block id="989c9d336b48f059c4d11f6a24942a33" category="list-text">定價訊息</block>
+  <block id="b0f259fa317864ce24dbbe5ad867e3a4" category="list-text">法律條款</block>
+  <block id="38051ece51b996f233648f7f33667245" category="list-text">*合約*</block>
+  <block id="9a827e338cd6868f9e816f40ee21a2ad" category="list-text">持續時間和日期</block>
+  <block id="877816703aaff9a793d10b57c4f3d74b" category="list-text">續訂設定</block>
+  <block id="3c2829dbb4c3ce0e6c77b1ca57204aac" category="list-text">合約選項</block>
+  <block id="dde6c83692973edca761850557257be5" category="list-text">合約總價</block>
+  <block id="194070daee8c3e04c357ae6e369b3441" category="paragraph">對於合約要約，請輸入商定的管理單位數量。</block>
+  <block id="ad4d2096632e8dd41126e7bbcc740197" category="list-text">接受私人優惠：</block>
+  <block id="6e0d4ea20631710cd0475440fa61cba7" category="list-text">如需隨選使用，請點選*訂閱*。</block>
+  <block id="2328a0802fe5ec750c1ee07b93108711" category="list-text">對於合約要約，請輸入每項服務的管理單位數量，然後按一下「建立合約」。</block>
+  <block id="5f1a0798d0df80b1a31e0c8e4d4fd174" category="list-text">接受後，橫幅會確認您已成功訂閱並提供後續步驟。</block>
+  <block id="dabae0fd96038da09b825a44b9cb885a" category="list-text">點擊“設定您的帳戶”。這會將您重新導向至NetApp Cloud Insights來設定您的 Marketplace 訂閱。</block>
+  <block id="5ba471c397a6aa5cb7905734ced8cba5" category="paragraph">如果報價被接受但註冊未完成，請返回產品頁面。系統將提示您完成註冊。</block>
+  <block id="4dfcec3f4a2c5d3ce1a39ed9226340a3" category="paragraph">對於合約優惠，請點擊「查看購買選項」以查看私人優惠，然後選擇「設定您的帳戶」。</block>
+  <block id="c820d1cfe9ec14fd8a9ec4a3bf722904" category="section-title">將訂閱連接到Cloud Insights</block>
+  <block id="c2be9474300ae59f234b8d4b65edc5c6" category="list-text">您將被重新導向至<block ref="e5bb5326e5083abca13227bdaf5c074f" category="inline-link-rx"></block>並提示您使用BlueXP帳號登入。</block>
+  <block id="e74dac098e1e1a1653bb3c6ae20e4373" category="list-text">使用具有 *所有者* 角色的帳戶登入。該訂閱與您的Cloud Insights工作環境相關聯。</block>
+  <block id="2bf4dc14f7dcacd1058fd0fdf204e2ec" category="paragraph">每次訂閱僅需執行此步驟一次。續訂和附加元件將自動套用。</block>
+  <block id="8d39edd9872c95cf6228e7cdd1548d9c" category="list-text">訂閱現已連線。</block>
+  <block id="4344fe263afb8c66660fa11af0b31a35" category="doc">接受並配置適用於NetApp BlueXP的 AWS Marketplace 專屬優惠</block>
+  <block id="7a119be870b49688f8c438b7a7119786" category="paragraph">在 AWS 控制台中接受NetApp BlueXP的 Marketplace 私人優惠，並在NetApp BlueXP中配置 AWS 憑證。</block>
+  <block id="e42fe00103b11c26a130efa909bb5a84" category="list-text">與NetApp銷售人員合作創建私人優惠並取得啟動連結。</block>
+  <block id="514210ca19d963f85ab4ed1d6e72df32" category="list-text">確保您擁有所需的 AWS Marketplace 權限：</block>
+  <block id="9b0cad6850cfb6b3550c8a17e7be435b" category="inline-link-macro">查看並訂閱專屬優惠</block>
+  <block id="c3f1185d398ba0919b1e1de888c27261" category="list-text"><block ref="c3f1185d398ba0919b1e1de888c27261" category="inline-link-macro-rx"></block></block>
+  <block id="eddabc606d42f919a6957cf8c062b45b" category="inline-link-macro">買家權限驗證</block>
+  <block id="5669e814cce268752252c43ffbb097b9" category="list-text"><block ref="5669e814cce268752252c43ffbb097b9" category="inline-link-macro-rx"></block></block>
+  <block id="e6b00c26f9031fc70d0668c4aaca18c9" category="paragraph">需要在數位錢包中完成訂閱任務才能啟動購買並享受折扣價。</block>
+  <block id="5277c9848e0bbe319cb5f8129fe4c77b" category="paragraph">您必須完成所有步驟才能啟動您的私人優惠。跳過步驟可能會導致計費錯誤。多次接受並啟動該優惠將導致雙重收費。</block>
+  <block id="69ab7cbfb20290fc5a153bd4d1e77e2d" category="list-text">點擊NetApp銷售團隊提供的私人優惠啟動連結。該連結應類似於以下內容：<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
+  <block id="3aa206f6a7574e314eb4973a2b96b331" category="list-text">使用 AWS 託管策略：*AWSMarketplaceRead-only*、*AWSMarketplaceManageSubscriptions* 或 *AWSMarketplaceFullAccess*</block>
+  <block id="bc5572c241330df8ef51ced4284b0bdf" category="list-text">使用自訂 IAM 策略：<block ref="ff04429efaed7625c69c6d08008313b5" prefix=" " category="inline-code"></block>和<block ref="326720e7bae8966d6ca9815f71034380" prefix=" " category="inline-code"></block></block>
+  <block id="e0d6be37107f0e0cac8ae690935c3953" category="list-text">您將被重定向到 AWS Marketplace 來查看專屬優惠。</block>
+  <block id="1052057eae38b60ef2718c5db26314fd" category="list-text">查看私人優惠詳情並確認其符合您的協議。如果不正確，請不要接受。聯絡您的NetApp客戶團隊。</block>
+  <block id="137e4e5a2d3b2312abe2fdc399f7a015" category="paragraph">私人優惠有兩種類型：</block>
+  <block id="b43c2b4893351e438e51acfa55e878f2" category="paragraph">對於合約報價，請輸入約定的單位數。對於Cloud Volumes ONTAP，請確保在訂閱之前選擇正確的授權。</block>
+  <block id="260570d179a259556c7bafc6eb55af17" category="list-text">若要接受私人優惠，請執行以下操作：</block>
+  <block id="2120ac26a0fb66eb1e68af4f82592f26" category="list-text">對於合約要約，請輸入每項服務的單位數，然後按一下*建立合約*。</block>
+  <block id="20d4f676d944ace93b6fd5ea20a1cd60" category="list-text">接受後，橫幅會確認訂閱並提供註冊說明。</block>
+  <block id="67453003d932a1508a60d62c5c6dea95" category="list-text">點擊“設定您的帳戶”。這將重定向到NetApp BlueXP來配置訂閱。</block>
+  <block id="45a07e7bbaedb6a22c302c7002488d2a" category="paragraph">如果您接受了報價但未完成註冊，請返回產品頁面。對於合約列表，按一下「查看購買選項」以顯示報價，然後選擇「設定您的帳戶」。</block>
+  <block id="a951786ed9d0f6fd98f01bf32ebd8871" category="list-text">Sign in<block ref="30942e7e22a1858175e4b73944183c47" category="inline-link-rx"></block>使用您的BlueXP帳戶。</block>
+  <block id="912c9ce3dfaa0efa9e23628863505fff" category="list-text">登入後，導航至<block ref="e8caae0a1896f407154116371a0c7398" category="inline-link-rx"></block>。系統將提示您：</block>
+  <block id="e6927100ca6999c8078a1524ea9d9039" category="list-text">輸入 Marketplace 訂閱的「顯示名稱」。</block>
+  <block id="3dc57008557a43222c3c1dcf3b13dbe9" category="list-text">選擇具有訂閱存取權限的BlueXP *帳戶*。</block>
+  <block id="0d44bad6f11273328ea95f1f049c4238" category="list-text">[可選] 啟用「替換現有訂閱」以覆蓋一個帳戶的現有訂閱。</block>
+  <block id="70d0125e4b5d4e703f8eb90a5ddf8be8" category="list-text">更換僅適用於一個BlueXP帳戶。</block>
+  <block id="3de849c536c7d2a1b083f7cc3a929f1e" category="list-text">若要將多個帳戶與相同訂閱關聯，請手動設定其他帳戶。</block>
+  <block id="ac15313b1dc2741a5095bcc225efa2d9" category="list-text">如果憑證從未與訂閱關聯，請按下一節所述手動關聯它們。</block>
+  <block id="db4240b8b0057b7e98188fd2b9da80e5" category="list-text">按一下“*關聯*”，然後按一下“*完成*”。</block>
+  <block id="5daea3d2e0e3dd56df84d4371b0c0b76" category="paragraph">必須在數位錢包中完成訂閱任務才能享受折扣價格。</block>
+  <block id="c0c0e5a70f02630ad210596fabf7c505" category="section-title">使用 AWS 憑證配置訂閱</block>
+  <block id="1b43003a854c9949a3a41b3ba9597d6f" category="list-text">在BlueXP中，前往 *數位錢包* 並選擇 *市場訂閱* 選項卡。</block>
+  <block id="c2253c97c00d425ebdbe6658a33a6113" category="list-text">找到之前建立的訂閱。展開該行以確認它與您的BlueXP帳戶相關聯。</block>
+  <block id="31755614a692882f0fd1545120b934e4" category="paragraph">由於 AWS Marketplace 的限制，一些私人優惠的詳細資訊不會在 AWS 主控台之外公開。如果欄位顯示<block ref="382b0f5185773fa0f67a8ed8056c7759" prefix=" " category="inline-code"></block>，直接在AWS控制台中查看資訊。</block>
+  <block id="2cf5224bbe9daa91b23d4edc583a8e45" category="list-text">點擊訂閱旁邊的三點選單並選擇*配置*。</block>
+  <block id="8a8c90cee4f37eb6a5c4592bc73448b8" category="list-text">選擇適當的*AWS 帳戶憑證*並點選*配置*。</block>
+  <block id="231e32eb4ed511a6945d523370b753b4" category="paragraph">這些憑證的市場費用是使用市場訂閱來計費的。對於年度合同，成本將計入合約使用情況。</block>
+  <block id="85841ffd20a8dfe9a6978cf27c2ad33d" category="paragraph">對BlueXP帳戶中想要與訂閱關聯的每個 AWS 憑證重複步驟 1-4。</block>
+  <block id="fcdb0510c0e23de827a7074ed7ceaa90" category="list-text">對於其他BlueXP組織中的憑證，請使用 *組織* 下拉式選單並重複這些步驟。</block>
+  <block id="6f3f33b919af1c15d87b3f21753e2272" category="list-text">對於其他連接器中的憑證，請使用*連接器*下拉式功能表並重複這些步驟。</block>
+  <block id="50259c64a2dc79da38b2b415dbbad7be" category="doc">接受並啟動NetApp Data Infrastructure Insights的 Azure 專屬優惠</block>
+  <block id="450b4f59b19609737d7bfc1db7f11ca1" category="paragraph">在 Azure 入口網站中接受並訂閱NetApp Data Infrastructure Insights的 Marketplace 專屬優惠。在NetApp Data Infrastructure Insights中確認並啟用訂閱。</block>
+  <block id="dc4e613e69e859f3be40de01f63ef1a2" category="list-text">與NetApp銷售人員合作為您的 Azure 帳單 ID 建立私人優惠。</block>
+  <block id="46908715e6c72aa83ba1a214711dd030" category="list-text">收集以下與專屬優惠相關的資料項目：</block>
+  <block id="813a98fb6452445b3dd35ef4d8f2d6a6" category="list-text">Data Infrastructure Insights工作環境的 URL</block>
+  <block id="4c266a14f4d9617d47d5c0f25edecc1d" category="list-text">訂閱結束日期</block>
+  <block id="79a1f74f1e44398b25596c7b7d699067" category="list-text">管理單位數量</block>
+  <block id="9615d8a100d02f0179c42f9b4c94a270" category="list-text">確保您具有在 Azure 市場中接受私人優惠所需的權限：</block>
+  <block id="3882306bc383e0907d92c44200b57542" category="list-text">企業協議 (EA)：*企業管理員*</block>
+  <block id="5a17015c1797f9b3611d0d9767abd522" category="list-text">Microsoft 客戶協議 (MCA)：*帳單帳戶所有者* 或 *帳單帳戶參與者*</block>
+  <block id="43b7088a3a1fc3292522fbdaf96e9f4e" category="list-text">確保您擁有購買私人優惠和建立訂閱所需的權限：</block>
+  <block id="0df5d9a9ae7c8623fef019f860f731c5" category="list-text">正在使用的 Azure 訂閱的 *訂閱擁有者* 或 *訂閱參與者*</block>
+  <block id="28be4e001e5c461eec635e9e5e19df22" category="list-text">如果擁有所需的權限，一個人就可以接受並購買私人優惠。</block>
+  <block id="29f4b900ac582f230f1238611aed3ed9" category="list-text">確定要與Data Infrastructure Insights關聯的 Azure 訂閱和資源群組。</block>
+  <block id="cf76a106489c34d8d815ce8e836402f9" category="section-title">在 Azure 入口網站中接受並訂閱專屬優惠</block>
+  <block id="1bb8b9fb4e56cd56effe50f633dc7e38" category="paragraph">完成所有步驟以接受並啟動您的私人優惠。跳過這些步驟可能會導致啟動問題或雙重收費。</block>
+  <block id="946d050e9f40044e84f413c93083535a" category="paragraph">如果報價條款、定價或詳細資訊不正確，或者您不確定要接受哪個報價，請不要接受該報價。聯絡您的NetApp銷售團隊。</block>
+  <block id="80fe6f318fd4a7ea6ad9a4a59226a8d4" category="list-text">點擊NetApp銷售團隊提供的私人優惠連結並登入。如果沒有可用的鏈接，請直接登入 Azure 門戶。</block>
+  <block id="b8d22f94e23c3841d89314fa73eee281" category="list-text">從 Azure 服務中搜尋或選擇*Marketplace*。</block>
+  <block id="01d52254404cff7607242f7525a5d9b5" category="list-text">在 Marketplace 頁面上，按一下 *管理* 部分下的 *私人優惠管理*。</block>
+  <block id="0a0f4af873ce479f6cd264bdbc69c46a" category="list-text">點擊「查看 + 接受」以查看私人優惠的詳細資訊。</block>
+  <block id="cfd7239b76f04504bfbeaddc348bd9df" category="list-text">驗證每種產品的*數量*、*期限*和*定價*。</block>
+  <block id="2e875515d0c4ffc7b932a081dce75482" category="list-text">如果詳細資訊不正確，請不要訂閱。聯絡您的NetApp銷售團隊以更正報價。</block>
+  <block id="75d15cf3a199a24423c04db8c6229fa7" category="list-text">確認並點選*接受私人優惠*。</block>
+  <block id="ff840a8e44a1e10e7d8f108f33d39971" category="list-text">點擊“*購買*”以完成購買過程。</block>
+  <block id="c835e219d7545abd5344ea09fe7ba5b9" category="paragraph">如果「購買」按鈕不可用，請確認您具有所需的購買權限。如果沒有，請複製購買視窗連結並與您組織中授權的人員共用。</block>
+  <block id="f5e55f8f93d46fa2e348730347e0114b" category="list-text">在採購工作流程中：</block>
+  <block id="2534cb5d04f0975d7a2199aeca4e7fec" category="list-text">選擇“Azure 訂閱”。</block>
+  <block id="5e540e21ae1ed6c4166772948acb8d11" category="list-text">選擇*資源組*。</block>
+  <block id="8eca803eab6a65681b87d1ee4e176522" category="list-text">為新訂閱輸入“名稱”。</block>
+  <block id="92e9f0cb05397641fd4fb0798dac4eda" category="paragraph">資源組中未配置任何資源。</block>
+  <block id="98043c1f703c2f986cde43a8e2cf3cac" category="list-text">或者，設定*標籤*，例如產品、網站位置、工作負載定義或命名約定。</block>
+  <block id="22dd7877c016465cdacc0c970aa7698d" category="list-text">點擊“查看並訂閱”以驗證詳細信息，然後點擊“訂閱”。</block>
+  <block id="789e7c93c25cf7213f70e16d5ec2eb04" category="list-text">訂閱建立完成後，點選*立即配置帳戶*。您將被重新導向至NetAppData Infrastructure Insights。</block>
+  <block id="f3c77038c5ead385a99bbc3f196ce6a5" category="paragraph">Azure 自動化通常在 30 秒到 5 分鐘內完成，然後才會出現 *立即設定帳戶* 按鈕。</block>
+  <block id="c6f949a50757107a7ca75c36e85bfc75" category="paragraph">如果在選擇「立即設定帳戶」之前頁面關閉，請返回 Azure 入口網站中的服務。訂閱狀態顯示為*待配置*。選擇它繼續配置。</block>
+  <block id="afb84665c596089b8d7a846d62094bbc" category="section-title">確認並啟用訂閱</block>
+  <block id="9b528122e788a2e6253ea9451515cbc4" category="list-text">在瀏覽器中，前往<block ref="4c59e7a78057b1d504f34c67a32c35c2" category="inline-link-rx"></block>並登入。</block>
+  <block id="deb78dc4aa83fba162fc8876739e7a34" category="list-text">確認訂閱詳情以確保私人優惠已正確建立：</block>
+  <block id="d8a45ceedf176912d68a6fd3b5d30a83" category="list-text">輸入Data Infrastructure Insights工作環境的 *URL*。</block>
+  <block id="02ce808f389f62265b0474bfe68bc528" category="list-text">輸入*訂閱結束日期*。</block>
+  <block id="cc30addda753d570e5770821e25de437" category="list-text">輸入*管理單位數量*。</block>
+  <block id="2fbcdf3770da0b17fe911c3329e93c04" category="list-text">點擊*訂閱*。訂閱進入*PendingActivation*狀態。</block>
+  <block id="4e0ebdac68ae7876633d2603862f3292" category="list-text">激活將在 48-72 小時內完成。在此期間，工作環境以免費試用模式運行，可無限制使用。將 URL 新增至書籤以追蹤啟動進度。</block>
+  <block id="ea02fb706fda43ba24f6c042066421ef" category="list-text">啟動完成後，Data Infrastructure Insights控制台將顯示訂閱詳細資訊。具有*管理員*或更高權限的使用者可以透過導航至*管理員→訂閱*來查看它們。</block>
+  <block id="3a3e1c0d4efcb724ad48529ca01a3651" category="doc">接受並啟動適用於NetApp BlueXP的 Azure 專屬優惠</block>
+  <block id="f120df1a72a76ef0828242b3b86201f7" category="paragraph">在 Azure 入口網站中接受並訂閱NetApp BlueXP的 Marketplace 專屬優惠。在NetApp BlueXP中設定 Azure 憑證。</block>
+  <block id="cbd25df866b9c26c2205191e25632c69" category="list-text">您具有在 Azure 市場中接受私人優惠所需的權限：</block>
+  <block id="b7ecccb6d9814347f79dd394e0ce015d" category="list-text">您必須具有在 Azure 市場中購買私人優惠並建立訂閱所需的權限：</block>
+  <block id="2e4c4ee48a5f2caac03de8943a1fdc43" category="list-text">如果擁有必要的權限，個人可以接受並購買私人優惠。</block>
+  <block id="c98f183131eb496e36a008b2c291279c" category="paragraph">一個 Azure 訂閱只能與一個 Marketplace 訂閱關聯。如果您想要對相同 Azure 訂閱中的工作負載使用兩個不同的 Marketplace 訂閱，則必須建立兩個單獨的NetApp BlueXP帳戶 - 每個訂閱一個。如果您有多個Cloud Volumes ONTAP實例並希望在不同的訂閱之間拆分帳單，請為每個訂閱建立單獨的BlueXP帳戶。</block>
+  <block id="47f26de5d5f809041d484473468f9e1e" category="paragraph">您必須完成所有步驟才能接受並啟動您的私人優惠。跳過這些步驟可能會導致啟動問題或雙重充電。</block>
+  <block id="5b91f544615def8157e9739a509448c2" category="paragraph">如果您發現報價條款、定價或細節有差異，或者您不確定要接受哪個報價，請不要接受該報價。聯絡您的NetApp銷售團隊。</block>
+  <block id="8894c60d409fc720e1cb540f53b239d5" category="paragraph">多次接受並啟動該優惠將導致雙重收費。</block>
+  <block id="d6d5f4c87a78b99fabcaa4703996f9f1" category="list-text">驗證*計劃詳情*、*條款*和*定價*是否正確。</block>
+  <block id="f6c5449120372658cd480801157add92" category="list-text">點擊*購買*以完成購買過程。</block>
+  <block id="91a14b2790c4789bde6375a6c412e970" category="list-text">選擇要使用的 *Azure 訂閱*。</block>
+  <block id="aa41804b7f278699a1900d8c288a14a3" category="list-text">選擇將建立訂閱的「資源組」。</block>
+  <block id="3460a7ac34077d5cddfc99b0f205478c" category="list-text">或者，設定*標籤*（用於產品、網站位置、工作負載定義或命名約定）。</block>
+  <block id="1a3a645cf42eafbdd06b4843afc9596f" category="list-text">點擊“查看並訂閱”，驗證詳細信息，然後點擊“訂閱”。</block>
+  <block id="251fd5e4f0a34d89a1fc017802dac4a5" category="list-text">訂閱建立成功後，點選*立即配置帳戶*。這會將您重新導向到NetApp BlueXP以完成設定。</block>
+  <block id="9a563c483cf139d09ed5790b6644bd40" category="paragraph">Azure 端自動化可能需要 30 秒到 5 分鐘才能完成。如果在按一下「立即設定帳戶」之前頁面已關閉，請返回 Azure 入口網站中的服務。訂閱顯示為*待定配置*。選擇它繼續配置。</block>
+  <block id="0a32b305ac01f900505c561727f28bea" category="list-text">您將被重新導向至<block ref="30942e7e22a1858175e4b73944183c47" category="inline-link-rx"></block>並提示登入。</block>
+  <block id="a8630a25fb4ef5912c2dea5b6c59ab2d" category="list-text">登入後，您將被重新導向至<block ref="e8caae0a1896f407154116371a0c7398" category="inline-link-rx"></block>。系統將提示您：</block>
+  <block id="39adb4da3012b43be809229537dd4480" category="list-text">輸入市場訂閱的*顯示名稱*。</block>
+  <block id="6364661fafbe6588db006a076d8190fa" category="list-text">選擇應該有權存取此訂閱的NetApp BlueXP *帳戶*。</block>
+  <block id="9c3c7d3274a11a5a4894522adc628e75" category="list-text">或者，您可以啟用「取代現有訂閱」以自動取代一個NetApp BlueXP帳戶中的現有 Marketplace 訂閱。</block>
+  <block id="cf1cb8e8b8f821c8136103fb7cf2ba5f" category="list-text">此替換選項僅限於單一NetApp BlueXP帳戶。</block>
+  <block id="52a5719315feeb9c3efcc19c90c838d5" category="list-text">若要將多個BlueXP帳戶與同一個 Marketplace 訂閱關聯，請手動設定其他帳戶。</block>
+  <block id="69151c9dd8707f2cba6598ff83dc176b" category="paragraph">必須在*數位錢包*中完成訂閱任務才能啟動購買並享受折扣價。</block>
+  <block id="901d81e7a9533af8349427e17f415710" category="section-title">使用 Azure 憑證設定訂閱</block>
+  <block id="b341a3d298535291adc28f4788d6bda4" category="list-text">驗證訂閱詳細資訊：</block>
+  <block id="83c3810644be0d2dacba1e7e4c54862d" category="list-text">尋找您建立的 Marketplace 訂閱。</block>
+  <block id="74e521a71f2e4891625df2e7de44dadd" category="list-text">展開該行以查看詳細資訊並確認訂閱與您的BlueXP帳戶相關聯。</block>
+  <block id="ae1a47c80571694a1b615759eb3b5cd8" category="list-text">點擊訂閱旁邊的*三點選單*並選擇*配置*。</block>
+  <block id="ac76c135e0b2e37bb199dfccf3e593e0" category="list-text">選擇適當的 *Azure 訂閱* 並點擊 *配置*。</block>
+  <block id="af4e61dcda0487052f8f263523f3b339" category="paragraph">此 Azure 憑證的市場費用現在透過市場訂閱來計費。對於年度合同，此憑證的使用將計入年度合約。</block>
+  <block id="700150f977a574c978f873c86f512046" category="paragraph">對要與訂閱關聯的BlueXP帳戶中的每個 Azure 憑證重複步驟 1-4。</block>
+  <block id="9d4e2368126567c9681abe7d7f0e3d0f" category="list-text">若要關聯來自另一個BlueXP組織的憑證，請使用 *組織* 下拉式功能表切換組織並重複這些步驟。</block>
+  <block id="58fe11e521ef08e7b807c78a9c84d14a" category="list-text">若要關聯來自另一個連接器的憑證，請使用*連接器*下拉式功能表切換並重複這些步驟。</block>
+  <block id="c965ce960bbd02234da5f37006d6d52f" category="doc">接受並配置適用於NetApp BlueXP 的Google Cloud 專屬優惠</block>
+  <block id="09b00d23dd469b00a74ba4c34958316a" category="paragraph">接受 Google Cloud 控制台中NetApp BlueXP清單的 Marketplace 私人優惠。在NetApp BlueXP中設定 Google Cloud 憑證。</block>
+  <block id="51f02975d44e73cb2d235f25a2f0cef5" category="list-text">與NetApp銷售人員合作創建私人優惠。您的銷售團隊必須向您提供優惠連結。</block>
+  <block id="feeb32431af9e3e0a47bfb99af23c132" category="list-text">您的結算帳戶不得處於免費試用狀態。免費試用帳戶不能接受私人優惠。如果您嘗試使用試用計費帳戶，您將收到錯誤訊息並需要NetApp雲端團隊的協助。</block>
+  <block id="60f5daee3203a778fb9602ff72136dca" category="list-text">接受該優惠需要以下 Google Cloud 權限：</block>
+  <block id="1e0f04e311f715ce8ea177fbb1e72905" category="list-text"><block ref="31e027d96bb2f1edadd2510bb8aef75e" prefix="" category="inline-code"></block>針對目標 Cloud Billing 帳號或 Google Cloud 組織</block>
+  <block id="dd254233486ecf83785247cac06950fc" category="list-text"><block ref="9aaa5b08341c4d5f1dd465ffcfa419fd" prefix="" category="inline-code"></block>對於計入 Cloud Billing 帳戶的項目</block>
+  <block id="311615f7a28830db91d86814354b2ebc" category="section-title">接受 Google Cloud 中的私人優惠</block>
+  <block id="a88c50d1b6d348c293c6e20b094bc542" category="paragraph">一個 Google Cloud 專案只能與一個 Marketplace 訂閱關聯。如果您想要對同一個 Google Cloud 專案中的工作負載使用兩個不同的訂閱，則必須建立兩個單獨的NetApp BlueXP帳戶 - 每個訂閱一個。</block>
+  <block id="54ea7f5728b4fe3047e1bed3564400bf" category="paragraph">您必須完成所有步驟才能啟動您的私人優惠。跳過這些步驟可能會導致諸如重複充電等問題。</block>
+  <block id="0f42a5bd113a6793bdfb54ff1c208d97" category="paragraph">如果您發現報價條款、定價或詳細資訊有差異，或者您不確定要接受哪個報價，請不要接受該報價。請聯絡您的NetApp客戶團隊以取得說明。</block>
+  <block id="a1b6e6321b135eb6a5c905e52b3ce76b" category="paragraph">如果您已經擁有有效的 PAYGO 訂閱或修改過的私人優惠，則只需執行接受步驟。在這些情況下，市場會在同一列表中更新計劃並保留相同的訂閱 ID，因此BlueXP中的訂閱關聯保持不變。</block>
+  <block id="290bbb83a89ab08e84b67b872e1882b9" category="list-text">點擊NetApp銷售團隊提供的私人優惠啟動連結。該連結應類似於以下內容：<block ref="7d9578c0f61bb46b3c15bbcf093caa47" prefix=" " category="inline-code"></block></block>
+  <block id="c06f390cc77930ad800760399f795901" category="list-text">您將被重定向到 Google Cloud Marketplace，您可以在其中查看優惠詳情：</block>
+  <block id="6c3d8751216e46ce88977f0a36da3bcd" category="list-text">**結算帳戶**</block>
+  <block id="1883f05e8045c14172513d205624ed7d" category="list-text">**產品**： NetApp BlueXP</block>
+  <block id="a370fb40448c1a9cfd60035cbf486153" category="list-text">**優惠詳情**</block>
+  <block id="d187556677277eb1fac2454e9173b115" category="list-text">**定價**</block>
+  <block id="dbafd25ecc4a1bd157a51b6df56ad0c4" category="paragraph">仔細檢查計劃細節、期限和定價。如果有任何不正確的地方，請不要接受該提議。請聯絡您的NetApp客戶團隊以取得修改。</block>
+  <block id="c5cd3c98a99c425040223e4b93fa3292" category="list-text">確認資訊準確，接受條款，然後按一下**接受**。</block>
+  <block id="85d9763d3791c88a822fb6f9a7689d51" category="list-text">建立訂閱時會出現一個載入圖示。</block>
+  <block id="bd57a36b79c39cc2107f5d54656ea4e2" category="list-text">成功建立訂閱後，會彈出視窗顯示：*您的訂單要求已傳送至NetApp, Inc.*</block>
+  <block id="8b5b044f5a256217102b408c14b635e6" category="list-text">按一下**向 NETAPP, Inc. 註冊**。您將被重定向到NetApp BlueXP以完成訂閱配置。如果您組織中的另一個人接受了專屬優惠：</block>
+  <block id="4eb83948e70f96f003401374e672121a" category="list-text">在 Google Cloud Marketplace 中，前往**訂單**。</block>
+  <block id="988a06cb0560fd8ac30cad8db115da85" category="list-text">找到狀態為**待定**的報價。</block>
+  <block id="0418114406a14ea85606e27fbe1ee330" category="list-text">點擊三點選單並選擇**向NetApp, Inc. 註冊**</block>
+  <block id="382a2b9ff54c608829ee5bb84b9c1f75" category="list-text">您將被重新導向至<block ref="43e196fd7d1a86adce26084a27e3d664" prefix=" " category="inline-code"></block>並提示登入。</block>
+  <block id="a19087b422996ed382ea9248b23f3389" category="list-text">登入後，您將被重新導向至<block ref="d4df7b36ea1f36e5edded4e6414f05be" prefix=" " category="inline-code"></block>。將顯示一個彈出窗口，您必須執行以下操作：</block>
+  <block id="109deb83c524752969863db2154396e3" category="list-text">輸入「SaaS 市場訂閱」的顯示名稱。</block>
+  <block id="aa3283a28b29d18b697a59a9e81521d1" category="list-text">選擇應該有權存取訂閱的NetApp BlueXP **帳戶**。</block>
+  <block id="c2db462dc9ebdd4a86083e4f526c170c" category="list-text">或者，如果您想在一個NetApp BlueXP帳戶中自動替換現有的 Marketplace 訂閱，您可以啟用**替換現有訂閱**。</block>
+  <block id="f4f26ce82d96f80b854ceefb28464c61" category="list-text">如果您需要將多個NetApp BlueXP帳戶與同一個 Marketplace 訂閱關聯，則必須手動設定其他帳戶。</block>
+  <block id="5d80793259e7331456ddff3f91a5456b" category="list-text">按一下**關聯**，然後按一下**完成**。</block>
+  <block id="a378083fbc7ec3f353dbe9d5b064d0f6" category="section-title">將訂閱與 Google Cloud 憑證關聯</block>
+  <block id="ad2e06ffa1c65465cf053aff5fca1fe9" category="list-text">在BlueXP中，前往 **數位錢包** 並選擇 **市場訂閱** 選項卡。</block>
+  <block id="8fbe217ff0b9b7194904a0d5b0c3cb0d" category="list-text">找到在接受過程中建立的訂閱。</block>
+  <block id="099fe4ce960f301e1509b85f07456fec" category="list-text">驗證顯示的計劃是否正確。</block>
+  <block id="a7dd4d4083c70bf36edc2215bcf1d392" category="list-text">展開該行以確認私人優惠關聯。</block>
+  <block id="df5938543de3aeab258d6bb444cb19bb" category="paragraph">由於 Google Cloud Marketplace 的限制，某些欄位可能會顯示<block ref="382b0f5185773fa0f67a8ed8056c7759" prefix=" " category="inline-code"></block>。此資訊僅在 Google Cloud 控制台中提供。</block>
+  <block id="95672b9c651ec0ed6ec25a849f943b6d" category="list-text">[可選] 重新命名訂閱：</block>
+  <block id="102533fc3349affbde8eed3f0119055a" category="list-text">點選訂閱旁的**三點選單**。</block>
+  <block id="bb9d726ae34d1dd317cb722b46752963" category="list-text">選擇**重命名訂閱**。</block>
+  <block id="14652e6a008507211ad2e3f7ec7082c0" category="list-text">再次點選**三點選單**並選擇**配置**。</block>
+  <block id="a2716289bc8357bf8ed654777881b95b" category="list-text">選擇適當的 Google Cloud 帳號**憑證**，然後點選**設定**。</block>
+  <block id="84656ffcb4b3afd9fc277e779c534a20" category="paragraph">此 Google Cloud 憑證的 Marketplace 費用現在透過 Marketplace 訂閱來計費。對於年度合同，此憑證的使用將計入年度合約。</block>
+  <block id="0e10f57d49dfeee371cbc646a960b99b" category="paragraph">對您想要與 Marketplace 訂閱關聯的BlueXP帳戶中的每個 Google Cloud 憑證重複步驟 1-5。</block>
+  <block id="5103b8202b72216b1b1df4cd78b87166" category="list-text">若要關聯來自另一個BlueXP帳戶的憑證，請使用**帳戶**下拉式功能表切換帳戶並重複這些步驟。</block>
+  <block id="9f60377ef9a5e22e0bdc821d995c2574" category="list-text">若要關聯另一個連接器的憑證，請使用**連接器**下拉式功能表並重複這些步驟。</block>
+  <block id="390eba2474f396f3e3c52f5eda09bd78" category="section-title">查看 Google Cloud 使用情況</block>
+  <block id="b22fe978436068666bd5697ee5f14cf8" category="paragraph">若要查看 Google Cloud 信用狀態和使用情況：</block>
+  <block id="1afb41bd6758d43e8e21093a19c57c09" category="list-text">在 Google Cloud 控制台中，前往 **Cloud Marketplace**。</block>
+  <block id="4ff28d68fee060aaa1dc530e74b6dfd5" category="list-text">點選**您的訂單**。</block>
+  <block id="9bf1f05e9fbef21e2ad4a15f4f8f4069" category="list-text">從**選擇帳單帳戶**下拉式選單中，選擇與您的私人優惠相關的帳單帳戶。</block>
+  <block id="c33037b135d0f0c2a1ec0f24e1d17c91" category="list-text">在表格中找到您的私人優惠，點擊**三點菜單**，然後選擇**查看信用**。</block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp以多種方式為BlueXP及其雲端服務提供支援。我們提供全天候 (24/7) 的大量免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。</block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="219fa750a13ad456df1d25524d9f6ad9" category="list-text">* Cloud Volumes ONTAP軟體包使用情況*：此報告包含每個軟體包的以下資訊：</block>
+  <block id="6bcfb67e751fc7a3d8dba22f37cbb570" category="inline-link">Cloud Volumes ONTAP的 BYOL 授權可用性受限</block>
+  <block id="ceb2294714463ec73c3bb76a991ef103" category="admonition">已限制 BYOL 授權的購買、延期和續約。有關更多信息，請參閱<block ref="73dc1b5468c2405a47da63a28335f079" category="inline-link-rx"></block> 。</block>
+  <block id="1001b88d8ff7d289c57c8816aa6ffa49" category="paragraph">當您聯絡NetApp代表續訂 BYOL 訂閱時， BlueXP會自動從NetApp取得新的許可證，並將其安裝在Cloud Volumes ONTAP系統上。如果BlueXP無法透過安全的網路連線存取許可證文件，您可以自行取得該文件，然後手動上傳到BlueXP。</block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">螢幕截圖顯示了帳戶序號、綠色複選框和文字「已註冊支援」。</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="03d8ffc661918290fbea573239c62f5a" category="sidebar">管理專屬優惠</block>
+  <block id="4efe0192c79df441a41da0744ecf3669" category="sidebar">管理 AWS 專屬優惠</block>
+  <block id="c5a7b3a0d72357f8021b9c0a87292b7d" category="sidebar">管理BlueXP的 AWS 專屬優惠</block>
+  <block id="9656eeeb9e937eb67d609df0258423fe" category="sidebar">管理Data Infrastructure Insights的 AWS 專屬優惠</block>
+  <block id="aea29cc4f3c81c7813c16f88bb99f5f7" category="sidebar">管理 Azure 專屬優惠</block>
+  <block id="4b1ed9ce2942ec5116672ef19503654f" category="sidebar">管理BlueXP的 Azure 專屬優惠</block>
+  <block id="a75875639ba528f8850019947118007c" category="sidebar">管理NetApp Cloud Insights的 Azure 專屬優惠</block>
+  <block id="d442ea41bda9b1d8784f8a8d8bae7bb4" category="sidebar">管理 Google Cloud 私人優惠</block>
+  <block id="051806976137f9456e5cc2d7cd30bd63" category="sidebar">管理NetApp BlueXP的 Google Cloud 專屬優惠</block>
 </blocks>
