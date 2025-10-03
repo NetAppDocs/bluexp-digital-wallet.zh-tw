@@ -21,7 +21,7 @@ NOTE: 「 * 直接授權 * 」頁面會列出所有授權。如果您需要特�
 
 本頁上的指示提供適用於每項服務的資訊。如需這些服務授權的詳細資訊、請參閱下列頁面：
 
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-licensing-cloud-backup.html["設定 BlueXP 備份與還原的授權"^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-licensing.html["設定 BlueXP 備份與還原的授權"^]
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["設定 BlueXP 災難恢復的授權"^]
 * https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["設定 BlueXP 勒索軟體保護授權"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["設定 BlueXP 分層授權"^]
